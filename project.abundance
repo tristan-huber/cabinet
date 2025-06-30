@@ -7,7 +7,135 @@
     "ioValues": [],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
     "topLevel": true,
-    "allAtoms": [],
+    "allAtoms": [
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": "f63cede1-fd7f-4d54-a176-3180cdd72624",
+            "ioValues": [],
+            "description": "Connect geometry here to make it available in the next level up. "
+        },
+        {
+            "atomType": "Molecule",
+            "name": "drawer",
+            "x": 0.162109375,
+            "y": 0.3511904761904762,
+            "uniqueID": "3707da93-fa19-430b-824e-0f517859f9c0",
+            "ioValues": [
+                {
+                    "name": "width",
+                    "ioValue": 10
+                },
+                {
+                    "name": "height",
+                    "ioValue": 4
+                },
+                {
+                    "name": "depth",
+                    "ioValue": 14
+                },
+                {
+                    "name": "material_thickness",
+                    "ioValue": 0.5
+                }
+            ],
+            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": "7e8c4276-6cb5-494e-95ae-fc9d6f4c8468",
+                    "ioValues": [],
+                    "description": "Connect geometry here to make it available in the next level up. "
+                },
+                {
+                    "atomType": "Input",
+                    "name": "width",
+                    "x": 0.025384615384615384,
+                    "y": 0.2708333333333333,
+                    "uniqueID": "b3762981-c611-4781-8060-16e8dcb4f86f",
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                    "type": "number"
+                },
+                {
+                    "atomType": "Input",
+                    "name": "height",
+                    "x": 0.025384615384615384,
+                    "y": 0.4107142857142857,
+                    "uniqueID": "54a194f5-6ea6-4d93-bb99-1cfe48a96261",
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                    "type": "number"
+                },
+                {
+                    "atomType": "Input",
+                    "name": "depth",
+                    "x": 0.025384615384615384,
+                    "y": 0.5386904761904762,
+                    "uniqueID": "e66a09e0-b5f3-4113-a52f-8e770ba684e2",
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                    "type": "number"
+                },
+                {
+                    "atomType": "Input",
+                    "name": "material_thickness",
+                    "x": 0.025384615384615384,
+                    "y": 0.6994047619047619,
+                    "uniqueID": "903aa976-3032-4f8d-9273-915bf759e95f",
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                    "type": "number"
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.3671875,
+                    "y": 0.4166666666666667,
+                    "uniqueID": "9dd13e00-013c-4371-8c0d-ada5cde3d8d1",
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 10
+                        }
+                    ],
+                    "description": "Creates a new rectangle."
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "x - y",
+                    "x": 0.20182291666666666,
+                    "y": 0.28869047619047616,
+                    "uniqueID": "23efa882-9d16-4304-b626-3d5336c18829",
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 1
+                        },
+                        {
+                            "name": "y",
+                            "ioValue": 1
+                        }
+                    ],
+                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+                    "currentEquation": "x - y"
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1,
+            "compiledBom": {}
+        }
+    ],
     "allConnectors": [],
     "unitsKey": "Inches",
     "fileTypeVersion": 1,
