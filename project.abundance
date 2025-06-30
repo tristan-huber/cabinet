@@ -445,17 +445,17 @@
                 {
                     "atomType": "Molecule",
                     "name": "base",
-                    "x": 0.6569010416666666,
-                    "y": 0.8422619047619048,
+                    "x": 0.6490885416666667,
+                    "y": 0.8273809523809523,
                     "uniqueID": "91220f2d-a93a-4903-8394-2104cf83573a",
                     "ioValues": [
                         {
                             "name": "width",
-                            "ioValue": 20
+                            "ioValue": 14
                         },
                         {
                             "name": "depth",
-                            "ioValue": 14
+                            "ioValue": 20
                         },
                         {
                             "name": "material_thickness",
@@ -508,7 +508,7 @@
                             "ioValues": [
                                 {
                                     "name": "w",
-                                    "ioValue": 20
+                                    "ioValue": 14
                                 },
                                 {
                                     "name": "t",
@@ -531,7 +531,7 @@
                                 },
                                 {
                                     "name": "d",
-                                    "ioValue": 14
+                                    "ioValue": 20
                                 }
                             ],
                             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -546,7 +546,7 @@
                             "ioValues": [
                                 {
                                     "name": "d",
-                                    "ioValue": 14
+                                    "ioValue": 20
                                 },
                                 {
                                     "name": "t",
@@ -565,7 +565,7 @@
                             "ioValues": [
                                 {
                                     "name": "w",
-                                    "ioValue": 20
+                                    "ioValue": 14
                                 },
                                 {
                                     "name": "t",
@@ -599,11 +599,11 @@
                             "ioValues": [
                                 {
                                     "name": "x length",
-                                    "ioValue": 19.5
+                                    "ioValue": 13.5
                                 },
                                 {
                                     "name": "y length",
-                                    "ioValue": 13.5
+                                    "ioValue": 19.5
                                 }
                             ],
                             "description": "Creates a new rectangle."
@@ -627,11 +627,11 @@
                             "ioValues": [
                                 {
                                     "name": "x length",
-                                    "ioValue": 19
+                                    "ioValue": 13
                                 },
                                 {
                                     "name": "y length",
-                                    "ioValue": 13
+                                    "ioValue": 19
                                 }
                             ],
                             "description": "Creates a new rectangle."
@@ -875,7 +875,7 @@
                         }
                     ],
                     "fileTypeVersion": 1,
-                    "compiledBom": {}
+                    "compiledBom": []
                 }
             ],
             "allConnectors": [
@@ -902,6 +902,13 @@
                 },
                 {
                     "ap1Name": "number or geometry",
+                    "ap2Name": "depth",
+                    "ap2Primary": false,
+                    "ap1ID": "b3762981-c611-4781-8060-16e8dcb4f86f",
+                    "ap2ID": "91220f2d-a93a-4903-8394-2104cf83573a"
+                },
+                {
+                    "ap1Name": "number or geometry",
                     "ap2Name": "height",
                     "ap2Primary": false,
                     "ap1ID": "54a194f5-6ea6-4d93-bb99-1cfe48a96261",
@@ -920,6 +927,13 @@
                     "ap2Primary": false,
                     "ap1ID": "e66a09e0-b5f3-4113-a52f-8e770ba684e2",
                     "ap2ID": "d0d6c996-e1b3-4f5e-955b-4801a78df9d3"
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "width",
+                    "ap2Primary": false,
+                    "ap1ID": "e66a09e0-b5f3-4113-a52f-8e770ba684e2",
+                    "ap2ID": "91220f2d-a93a-4903-8394-2104cf83573a"
                 },
                 {
                     "ap1Name": "number or geometry",
@@ -976,6 +990,13 @@
                     "ap2Primary": false,
                     "ap1ID": "903aa976-3032-4f8d-9273-915bf759e95f",
                     "ap2ID": "a1921fb9-e9f8-463a-b672-257954044570"
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "material_thickness",
+                    "ap2Primary": false,
+                    "ap1ID": "903aa976-3032-4f8d-9273-915bf759e95f",
+                    "ap2ID": "91220f2d-a93a-4903-8394-2104cf83573a"
                 },
                 {
                     "ap1Name": "geometry",
