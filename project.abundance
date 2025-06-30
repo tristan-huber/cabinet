@@ -445,17 +445,17 @@
                 {
                     "atomType": "Molecule",
                     "name": "base",
-                    "x": 0.6490885416666667,
-                    "y": 0.8273809523809523,
+                    "x": 0.69921875,
+                    "y": 0.8363095238095238,
                     "uniqueID": "91220f2d-a93a-4903-8394-2104cf83573a",
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 14
+                            "ioValue": 13.5
                         },
                         {
                             "name": "y",
-                            "ioValue": 20
+                            "ioValue": 10
                         },
                         {
                             "name": "material_thickness",
@@ -508,7 +508,7 @@
                             "ioValues": [
                                 {
                                     "name": "w",
-                                    "ioValue": 14
+                                    "ioValue": 13.5
                                 },
                                 {
                                     "name": "t",
@@ -531,7 +531,7 @@
                                 },
                                 {
                                     "name": "d",
-                                    "ioValue": 20
+                                    "ioValue": 10
                                 }
                             ],
                             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -546,7 +546,7 @@
                             "ioValues": [
                                 {
                                     "name": "d",
-                                    "ioValue": 20
+                                    "ioValue": 10
                                 },
                                 {
                                     "name": "t",
@@ -565,7 +565,7 @@
                             "ioValues": [
                                 {
                                     "name": "w",
-                                    "ioValue": 14
+                                    "ioValue": 13.5
                                 },
                                 {
                                     "name": "t",
@@ -599,11 +599,11 @@
                             "ioValues": [
                                 {
                                     "name": "x length",
-                                    "ioValue": 13.5
+                                    "ioValue": 13
                                 },
                                 {
                                     "name": "y length",
-                                    "ioValue": 19.5
+                                    "ioValue": 9.5
                                 }
                             ],
                             "description": "Creates a new rectangle."
@@ -627,11 +627,11 @@
                             "ioValues": [
                                 {
                                     "name": "x length",
-                                    "ioValue": 13
+                                    "ioValue": 12.5
                                 },
                                 {
                                     "name": "y length",
-                                    "ioValue": 19
+                                    "ioValue": 9
                                 }
                             ],
                             "description": "Creates a new rectangle."
@@ -880,8 +880,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.7389322916666667,
-                    "y": 0.7857142857142857,
+                    "x": 0.8242187499999999,
+                    "y": 0.75,
                     "uniqueID": "4b776dc0-47fb-47a0-89a7-1b7898fbb9ea",
                     "ioValues": [
                         {
@@ -902,6 +902,25 @@
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "x + y",
+                    "x": 0.6276041666666667,
+                    "y": 0.7470238095238095,
+                    "uniqueID": "ad549f9f-c7d8-41bb-8785-745673c9398e",
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 1
+                        },
+                        {
+                            "name": "y",
+                            "ioValue": 1
+                        }
+                    ],
+                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+                    "currentEquation": "x + y"
                 }
             ],
             "allConnectors": [
@@ -928,13 +947,6 @@
                 },
                 {
                     "ap1Name": "number or geometry",
-                    "ap2Name": "y",
-                    "ap2Primary": false,
-                    "ap1ID": "b3762981-c611-4781-8060-16e8dcb4f86f",
-                    "ap2ID": "91220f2d-a93a-4903-8394-2104cf83573a"
-                },
-                {
-                    "ap1Name": "number or geometry",
                     "ap2Name": "height",
                     "ap2Primary": false,
                     "ap1ID": "54a194f5-6ea6-4d93-bb99-1cfe48a96261",
@@ -953,13 +965,6 @@
                     "ap2Primary": false,
                     "ap1ID": "e66a09e0-b5f3-4113-a52f-8e770ba684e2",
                     "ap2ID": "d0d6c996-e1b3-4f5e-955b-4801a78df9d3"
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "x",
-                    "ap2Primary": false,
-                    "ap1ID": "e66a09e0-b5f3-4113-a52f-8e770ba684e2",
-                    "ap2ID": "91220f2d-a93a-4903-8394-2104cf83573a"
                 },
                 {
                     "ap1Name": "number or geometry",
@@ -1058,6 +1063,13 @@
                     "ap2Primary": false,
                     "ap1ID": "23efa882-9d16-4304-b626-3d5336c18829",
                     "ap2ID": "a68b7280-f656-4300-b693-e1bdb96262d8"
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "x",
+                    "ap2Primary": false,
+                    "ap1ID": "23efa882-9d16-4304-b626-3d5336c18829",
+                    "ap2ID": "91220f2d-a93a-4903-8394-2104cf83573a"
                 },
                 {
                     "ap1Name": "geometry",
