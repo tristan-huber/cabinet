@@ -4,7 +4,16 @@
     "x": 0,
     "y": 0,
     "uniqueID": "4ec35f67-479c-40d7-ba20-bd50117e3f17",
-    "ioValues": [],
+    "ioValues": [
+        {
+            "name": "height",
+            "ioValue": 10
+        },
+        {
+            "name": "depth",
+            "ioValue": 10
+        }
+    ],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
     "topLevel": true,
     "allAtoms": [
@@ -20,7 +29,7 @@
         {
             "atomType": "Molecule",
             "name": "drawer",
-            "x": 0.162109375,
+            "x": 0.52734375,
             "y": 0.3511904761904762,
             "uniqueID": "3707da93-fa19-430b-824e-0f517859f9c0",
             "ioValues": [
@@ -531,12 +540,12 @@
                             "uniqueID": "7071e44e-8575-4b40-a390-efb1720529f2",
                             "ioValues": [
                                 {
-                                    "name": "t",
-                                    "ioValue": 0.5
-                                },
-                                {
                                     "name": "d",
                                     "ioValue": 19
+                                },
+                                {
+                                    "name": "t",
+                                    "ioValue": 0.5
                                 }
                             ],
                             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -1278,10 +1287,116 @@
                 }
             ],
             "fileTypeVersion": 1,
-            "compiledBom": {}
+            "compiledBom": []
+        },
+        {
+            "atomType": "CutLayout",
+            "name": "Cut Layout",
+            "x": 0.8691406249999999,
+            "y": 0.375,
+            "uniqueID": "21ffcb1b-9559-4348-baa1-4fd6b8a0e8e2",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "3707da93-fa19-430b-824e-0f517859f9c0"
+                },
+                {
+                    "name": "Sheet Width",
+                    "ioValue": 48
+                },
+                {
+                    "name": "Sheet Height",
+                    "ioValue": 96
+                },
+                {
+                    "name": "Part Padding",
+                    "ioValue": 0.25
+                }
+            ],
+            "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut.",
+            "placements": [
+                [
+                    {
+                        "id": 4,
+                        "rotate": 210,
+                        "translate": {
+                            "x": 5.241454738121156,
+                            "y": 8.901708620529298
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "rotate": 150,
+                        "translate": {
+                            "x": 5.046499545945393,
+                            "y": 30.0073639610491
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "rotate": 180,
+                        "translate": {
+                            "x": 13.521353851533945,
+                            "y": 19.6716153
+                        }
+                    },
+                    {
+                        "id": 1,
+                        "rotate": 60,
+                        "translate": {
+                            "x": 3.616454768273769,
+                            "y": 36.43045354278729
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "rotate": 180,
+                        "translate": {
+                            "x": 6.724999951533943,
+                            "y": 33.430282399999996
+                        }
+                    },
+                    {
+                        "id": 0,
+                        "rotate": 180,
+                        "translate": {
+                            "x": 6.974999951533946,
+                            "y": 65.4997376
+                        }
+                    }
+                ]
+            ]
+        },
+        {
+            "atomType": "Input",
+            "name": "height",
+            "x": 0.025384615384615384,
+            "y": 0.28273809523809523,
+            "uniqueID": "26063e68-f8ae-4efa-b1c9-716d6733e4de",
+            "ioValues": [],
+            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+            "type": "number"
+        },
+        {
+            "atomType": "Input",
+            "name": "depth",
+            "x": 0.025384615384615384,
+            "y": 0.4255952380952381,
+            "uniqueID": "e719e574-b3f7-401b-877b-33955450a934",
+            "ioValues": [],
+            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+            "type": "number"
         }
     ],
-    "allConnectors": [],
+    "allConnectors": [
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": "3707da93-fa19-430b-824e-0f517859f9c0",
+            "ap2ID": "21ffcb1b-9559-4348-baa1-4fd6b8a0e8e2"
+        }
+    ],
     "unitsKey": "Inches",
     "fileTypeVersion": 1,
     "compiledBom": {},
