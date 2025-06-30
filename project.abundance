@@ -450,11 +450,11 @@
                     "uniqueID": "91220f2d-a93a-4903-8394-2104cf83573a",
                     "ioValues": [
                         {
-                            "name": "width",
+                            "name": "x",
                             "ioValue": 14
                         },
                         {
-                            "name": "depth",
+                            "name": "y",
                             "ioValue": 20
                         },
                         {
@@ -481,7 +481,7 @@
                         },
                         {
                             "atomType": "Input",
-                            "name": "width",
+                            "name": "x",
                             "x": 0.025384615384615384,
                             "y": 0.4553571428571428,
                             "uniqueID": "41e51a0d-3f47-438f-b273-daffa4f86c41",
@@ -491,7 +491,7 @@
                         },
                         {
                             "atomType": "Input",
-                            "name": "depth",
+                            "name": "y",
                             "x": 0.025384615384615384,
                             "y": 0.6130952380952381,
                             "uniqueID": "7e07dc12-b51b-4f13-8548-528bbe1ea06a",
@@ -876,6 +876,32 @@
                     ],
                     "fileTypeVersion": 1,
                     "compiledBom": []
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.7389322916666667,
+                    "y": 0.7857142857142857,
+                    "uniqueID": "4b776dc0-47fb-47a0-89a7-1b7898fbb9ea",
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "91220f2d-a93a-4903-8394-2104cf83573a"
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 9.25
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
                 }
             ],
             "allConnectors": [
@@ -902,7 +928,7 @@
                 },
                 {
                     "ap1Name": "number or geometry",
-                    "ap2Name": "depth",
+                    "ap2Name": "y",
                     "ap2Primary": false,
                     "ap1ID": "b3762981-c611-4781-8060-16e8dcb4f86f",
                     "ap2ID": "91220f2d-a93a-4903-8394-2104cf83573a"
@@ -930,7 +956,7 @@
                 },
                 {
                     "ap1Name": "number or geometry",
-                    "ap2Name": "width",
+                    "ap2Name": "x",
                     "ap2Primary": false,
                     "ap1ID": "e66a09e0-b5f3-4113-a52f-8e770ba684e2",
                     "ap2ID": "91220f2d-a93a-4903-8394-2104cf83573a"
@@ -1158,6 +1184,20 @@
                     "ap2Primary": false,
                     "ap1ID": "a1921fb9-e9f8-463a-b672-257954044570",
                     "ap2ID": "d8c32828-26f5-4523-9280-96ac2b7c57fa"
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "yDist",
+                    "ap2Primary": false,
+                    "ap1ID": "a1921fb9-e9f8-463a-b672-257954044570",
+                    "ap2ID": "4b776dc0-47fb-47a0-89a7-1b7898fbb9ea"
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": "91220f2d-a93a-4903-8394-2104cf83573a",
+                    "ap2ID": "4b776dc0-47fb-47a0-89a7-1b7898fbb9ea"
                 }
             ],
             "fileTypeVersion": 1,
