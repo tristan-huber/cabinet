@@ -96,42 +96,126 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 0.3671875,
-                    "y": 0.4166666666666667,
+                    "x": 0.3333333333333333,
+                    "y": 0.22023809523809526,
                     "uniqueID": "9dd13e00-013c-4371-8c0d-ada5cde3d8d1",
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 10
+                            "ioValue": 13.5
                         },
                         {
                             "name": "y length",
-                            "ioValue": 10
+                            "ioValue": 0.5
                         }
                     ],
                     "description": "Creates a new rectangle."
                 },
                 {
                     "atomType": "Equation",
-                    "name": "x - y",
+                    "name": "d - t",
                     "x": 0.20182291666666666,
                     "y": 0.28869047619047616,
                     "uniqueID": "23efa882-9d16-4304-b626-3d5336c18829",
                     "ioValues": [
                         {
-                            "name": "x",
-                            "ioValue": 1
+                            "name": "d",
+                            "ioValue": 14
                         },
                         {
-                            "name": "y",
+                            "name": "t",
+                            "ioValue": 0.5
+                        }
+                    ],
+                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+                    "currentEquation": "d - t"
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.5598958333333334,
+                    "y": 0.21428571428571427,
+                    "uniqueID": "b9714091-0cf1-4cdd-a038-e877b46ba699",
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": 10
+                        }
+                    ],
+                    "description": "Extrudes a 2D shape. Input can be negitive. "
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.31640625,
+                    "y": 0.6101190476190477,
+                    "uniqueID": "f3812527-28bf-4ac2-8ef6-31226f53bf7b",
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 13.5
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 0.5
+                        }
+                    ],
+                    "description": "Creates a new rectangle."
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "w - t",
+                    "x": 0.197265625,
+                    "y": 0.6726190476190476,
+                    "uniqueID": "bf5087ad-dbad-4b8a-a87d-d4b62d9bf802",
+                    "ioValues": [
+                        {
+                            "name": "t",
+                            "ioValue": 0.5
+                        },
+                        {
+                            "name": "w",
                             "ioValue": 1
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
-                    "currentEquation": "x - y"
+                    "currentEquation": "w - t"
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "d",
+                    "ap2Primary": false,
+                    "ap1ID": "e66a09e0-b5f3-4113-a52f-8e770ba684e2",
+                    "ap2ID": "23efa882-9d16-4304-b626-3d5336c18829"
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "t",
+                    "ap2Primary": false,
+                    "ap1ID": "903aa976-3032-4f8d-9273-915bf759e95f",
+                    "ap2ID": "23efa882-9d16-4304-b626-3d5336c18829"
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "y length",
+                    "ap2Primary": false,
+                    "ap1ID": "903aa976-3032-4f8d-9273-915bf759e95f",
+                    "ap2ID": "9dd13e00-013c-4371-8c0d-ada5cde3d8d1"
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "x length",
+                    "ap2Primary": false,
+                    "ap1ID": "23efa882-9d16-4304-b626-3d5336c18829",
+                    "ap2ID": "9dd13e00-013c-4371-8c0d-ada5cde3d8d1"
+                }
+            ],
             "fileTypeVersion": 1,
             "compiledBom": {}
         }
