@@ -1646,7 +1646,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 4.5
                         },
                         {
                             "name": "yDist",
@@ -1658,6 +1658,21 @@
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "m / 2",
+                    "x": 0.427734375,
+                    "y": 0.6279761904761905,
+                    "uniqueID": "f5f40778-aac4-4bef-bec3-c9f949e4c540",
+                    "ioValues": [
+                        {
+                            "name": "m",
+                            "ioValue": 9
+                        }
+                    ],
+                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+                    "currentEquation": "m / 2"
                 }
             ],
             "allConnectors": [
@@ -1781,10 +1796,24 @@
                     "ap2ID": "45331758-fa54-4d3b-b78c-560cd8a4db46"
                 },
                 {
+                    "ap1Name": "result",
+                    "ap2Name": "m",
+                    "ap2Primary": false,
+                    "ap1ID": "20c4638f-7804-4b06-a50b-a9a91e102658",
+                    "ap2ID": "f5f40778-aac4-4bef-bec3-c9f949e4c540"
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": "3a7da490-a546-43d2-a063-278d71d0b49b",
+                    "ap2ID": "b83fbd7a-fbc6-4d7e-8220-2436380278ca"
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "xDist",
+                    "ap2Primary": false,
+                    "ap1ID": "f5f40778-aac4-4bef-bec3-c9f949e4c540",
                     "ap2ID": "b83fbd7a-fbc6-4d7e-8220-2436380278ca"
                 }
             ],
