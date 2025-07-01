@@ -1416,7 +1416,12 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": "88055a84-ad54-47a2-81e1-c718775aae97",
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": "d8c34338-12a3-4bea-9f26-34a13dd23d12"
+                        }
+                    ],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -1433,7 +1438,7 @@
                     "atomType": "Input",
                     "name": "y",
                     "x": 0.025384615384615384,
-                    "y": 0.7023809523809524,
+                    "y": 0.8690476190476191,
                     "uniqueID": "ad2006ce-a907-4cbd-9b76-55d53cc367cf",
                     "ioValues": [],
                     "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
@@ -1484,7 +1489,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 20
+                            "ioValue": 19
                         },
                         {
                             "name": "zDist",
@@ -1555,8 +1560,8 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 0.19140625000000003,
-                    "y": 0.886904761904762,
+                    "x": 0.25390625,
+                    "y": 0.863095238095238,
                     "uniqueID": "4d46bc6f-8325-4a7d-809c-377e0fa145f2",
                     "ioValues": [
                         {
@@ -1565,7 +1570,7 @@
                         },
                         {
                             "name": "y length",
-                            "ioValue": 20
+                            "ioValue": 19
                         }
                     ],
                     "description": "Creates a new rectangle."
@@ -1573,8 +1578,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.291015625,
-                    "y": 0.7559523809523809,
+                    "x": 0.314453125,
+                    "y": 0.6845238095238095,
                     "uniqueID": "45331758-fa54-4d3b-b78c-560cd8a4db46",
                     "ioValues": [
                         {
@@ -1599,8 +1604,8 @@
                 {
                     "atomType": "Equation",
                     "name": "x - m",
-                    "x": 0.19466145833333331,
-                    "y": 0.6964285714285714,
+                    "x": 0.19401041666666669,
+                    "y": 0.5446428571428571,
                     "uniqueID": "20c4638f-7804-4b06-a50b-a9a91e102658",
                     "ioValues": [
                         {
@@ -1618,8 +1623,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.38216145833333337,
-                    "y": 0.8214285714285714,
+                    "x": 0.38346354166666663,
+                    "y": 0.8125,
                     "uniqueID": "3a7da490-a546-43d2-a063-278d71d0b49b",
                     "ioValues": [
                         {
@@ -1646,11 +1651,11 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 4.5
+                            "ioValue": -4.5
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": 10
                         },
                         {
                             "name": "zDist",
@@ -1661,9 +1666,9 @@
                 },
                 {
                     "atomType": "Equation",
-                    "name": "m / 2",
-                    "x": 0.427734375,
-                    "y": 0.6279761904761905,
+                    "name": "m / -2",
+                    "x": 0.421875,
+                    "y": 0.5654761904761905,
                     "uniqueID": "f5f40778-aac4-4bef-bec3-c9f949e4c540",
                     "ioValues": [
                         {
@@ -1672,7 +1677,59 @@
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
-                    "currentEquation": "m / 2"
+                    "currentEquation": "m / -2"
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 0.6627604166666666,
+                    "y": 0.5178571428571428,
+                    "uniqueID": "d8c34338-12a3-4bea-9f26-34a13dd23d12",
+                    "ioValues": [
+                        {
+                            "name": "Shape 1",
+                            "ioValue": "26ea705b-f7d7-43f3-992d-4674ab2e98a5"
+                        },
+                        {
+                            "name": "Shape 2",
+                            "ioValue": "b83fbd7a-fbc6-4d7e-8220-2436380278ca"
+                        }
+                    ],
+                    "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "y - m",
+                    "x": 0.13151041666666669,
+                    "y": 0.7857142857142857,
+                    "uniqueID": "0739424d-7de7-48ca-99c6-0d46c15fae6b",
+                    "ioValues": [
+                        {
+                            "name": "m",
+                            "ioValue": 1
+                        },
+                        {
+                            "name": "y",
+                            "ioValue": 20
+                        }
+                    ],
+                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+                    "currentEquation": "y - m"
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "y / 2",
+                    "x": 0.40950520833333337,
+                    "y": 0.9613095238095238,
+                    "uniqueID": "cb4313e1-7732-4194-9bd8-c63f3a7b395f",
+                    "ioValues": [
+                        {
+                            "name": "y",
+                            "ioValue": 20
+                        }
+                    ],
+                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+                    "currentEquation": "y / 2"
                 }
             ],
             "allConnectors": [
@@ -1692,17 +1749,17 @@
                 },
                 {
                     "ap1Name": "number or geometry",
-                    "ap2Name": "yDist",
+                    "ap2Name": "y",
                     "ap2Primary": false,
                     "ap1ID": "ad2006ce-a907-4cbd-9b76-55d53cc367cf",
-                    "ap2ID": "60b08034-faec-4d80-9b81-18524188b0b2"
+                    "ap2ID": "0739424d-7de7-48ca-99c6-0d46c15fae6b"
                 },
                 {
                     "ap1Name": "number or geometry",
-                    "ap2Name": "y length",
+                    "ap2Name": "y",
                     "ap2Primary": false,
                     "ap1ID": "ad2006ce-a907-4cbd-9b76-55d53cc367cf",
-                    "ap2ID": "4d46bc6f-8325-4a7d-809c-377e0fa145f2"
+                    "ap2ID": "cb4313e1-7732-4194-9bd8-c63f3a7b395f"
                 },
                 {
                     "ap1Name": "number or geometry",
@@ -1733,6 +1790,13 @@
                     "ap2ID": "20c4638f-7804-4b06-a50b-a9a91e102658"
                 },
                 {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "m",
+                    "ap2Primary": false,
+                    "ap1ID": "3ab92f84-a498-4288-a51b-07da83d3e872",
+                    "ap2ID": "0739424d-7de7-48ca-99c6-0d46c15fae6b"
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
@@ -1759,6 +1823,13 @@
                     "ap2Primary": false,
                     "ap1ID": "398e4a57-af4d-42d9-8528-fc870c50888d",
                     "ap2ID": "26ea705b-f7d7-43f3-992d-4674ab2e98a5"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 1",
+                    "ap2Primary": false,
+                    "ap1ID": "26ea705b-f7d7-43f3-992d-4674ab2e98a5",
+                    "ap2ID": "d8c34338-12a3-4bea-9f26-34a13dd23d12"
                 },
                 {
                     "ap1Name": "geometry",
@@ -1810,10 +1881,45 @@
                     "ap2ID": "b83fbd7a-fbc6-4d7e-8220-2436380278ca"
                 },
                 {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 2",
+                    "ap2Primary": false,
+                    "ap1ID": "b83fbd7a-fbc6-4d7e-8220-2436380278ca",
+                    "ap2ID": "d8c34338-12a3-4bea-9f26-34a13dd23d12"
+                },
+                {
                     "ap1Name": "result",
                     "ap2Name": "xDist",
                     "ap2Primary": false,
                     "ap1ID": "f5f40778-aac4-4bef-bec3-c9f949e4c540",
+                    "ap2ID": "b83fbd7a-fbc6-4d7e-8220-2436380278ca"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": "d8c34338-12a3-4bea-9f26-34a13dd23d12",
+                    "ap2ID": "88055a84-ad54-47a2-81e1-c718775aae97"
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "yDist",
+                    "ap2Primary": false,
+                    "ap1ID": "0739424d-7de7-48ca-99c6-0d46c15fae6b",
+                    "ap2ID": "60b08034-faec-4d80-9b81-18524188b0b2"
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "y length",
+                    "ap2Primary": false,
+                    "ap1ID": "0739424d-7de7-48ca-99c6-0d46c15fae6b",
+                    "ap2ID": "4d46bc6f-8325-4a7d-809c-377e0fa145f2"
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "yDist",
+                    "ap2Primary": false,
+                    "ap1ID": "cb4313e1-7732-4194-9bd8-c63f3a7b395f",
                     "ap2ID": "b83fbd7a-fbc6-4d7e-8220-2436380278ca"
                 }
             ],
