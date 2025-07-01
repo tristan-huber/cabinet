@@ -2708,6 +2708,65 @@
             ],
             "fileTypeVersion": 1,
             "compiledBom": []
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Molecule",
+            "x": 0.310546875,
+            "y": 0.4542857142857143,
+            "uniqueID": "544cbafd-f427-431e-871a-8d599804c541",
+            "ioValues": [
+                {
+                    "name": "x",
+                    "ioValue": 10
+                }
+            ],
+            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": "72d73fcf-e8a0-406b-b3c4-15fb1c198401",
+                    "ioValues": [],
+                    "description": "Connect geometry here to make it available in the next level up. "
+                },
+                {
+                    "atomType": "Input",
+                    "name": "x",
+                    "x": 0.025384615384615384,
+                    "y": 0.4,
+                    "uniqueID": "14bf893b-5e8a-44e4-8763-bc4959af69db",
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                    "type": "number"
+                },
+                {
+                    "atomType": "Input",
+                    "name": "y",
+                    "x": 0.025384615384615384,
+                    "y": 0.52,
+                    "uniqueID": "48e34aa9-37e7-4bd3-a787-a8688d89c7ba",
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                    "type": "number"
+                },
+                {
+                    "atomType": "Input",
+                    "name": "thickness",
+                    "x": 0.025384615384615384,
+                    "y": 0.6314285714285715,
+                    "uniqueID": "9910160f-6014-46c1-beb4-ac6bc0d9949a",
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                    "type": "number"
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1,
+            "compiledBom": {}
         }
     ],
     "allConnectors": [
