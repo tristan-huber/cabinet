@@ -35,7 +35,7 @@
             "ioValues": [
                 {
                     "name": "width",
-                    "ioValue": 10
+                    "ioValue": 20
                 },
                 {
                     "name": "height",
@@ -59,7 +59,12 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": "7e8c4276-6cb5-494e-95ae-fc9d6f4c8468",
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": "70b85d8d-c2dd-4d95-b454-57c4c46bb430"
+                        }
+                    ],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -170,7 +175,7 @@
                         },
                         {
                             "name": "y length",
-                            "ioValue": 8.5
+                            "ioValue": 18.5
                         }
                     ],
                     "description": "Creates a new rectangle."
@@ -184,7 +189,7 @@
                     "ioValues": [
                         {
                             "name": "w",
-                            "ioValue": 10
+                            "ioValue": 20
                         },
                         {
                             "name": "s",
@@ -225,7 +230,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 4.25
+                            "ioValue": 9.25
                         },
                         {
                             "name": "zDist",
@@ -243,7 +248,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 8.5
+                            "ioValue": 18.5
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -360,7 +365,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 8.5
+                            "ioValue": 18.5
                         },
                         {
                             "name": "zDist",
@@ -382,7 +387,7 @@
                         },
                         {
                             "name": "y length",
-                            "ioValue": 10
+                            "ioValue": 20
                         }
                     ],
                     "description": "Creates a new rectangle."
@@ -404,7 +409,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 4.25
+                            "ioValue": 9.25
                         },
                         {
                             "name": "zDist",
@@ -437,7 +442,7 @@
                     "ioValues": [
                         {
                             "name": "w",
-                            "ioValue": 10
+                            "ioValue": 20
                         },
                         {
                             "name": "t",
@@ -464,7 +469,7 @@
                         },
                         {
                             "name": "y",
-                            "ioValue": 9
+                            "ioValue": 19
                         },
                         {
                             "name": "material_thickness",
@@ -480,7 +485,12 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": "8ab7e5ba-6eaa-48b1-8a69-bebe741cc63e",
-                            "ioValues": [],
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": "fd0816c4-03b9-4a2a-8fda-170a81d1306f"
+                                }
+                            ],
                             "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
@@ -531,7 +541,7 @@
                             "ioValues": [
                                 {
                                     "name": "d",
-                                    "ioValue": 9
+                                    "ioValue": 19
                                 },
                                 {
                                     "name": "t",
@@ -550,7 +560,7 @@
                             "ioValues": [
                                 {
                                     "name": "d",
-                                    "ioValue": 9
+                                    "ioValue": 19
                                 },
                                 {
                                     "name": "t",
@@ -607,7 +617,7 @@
                                 },
                                 {
                                     "name": "y length",
-                                    "ioValue": 8.5
+                                    "ioValue": 18.5
                                 }
                             ],
                             "description": "Creates a new rectangle."
@@ -635,7 +645,7 @@
                                 },
                                 {
                                     "name": "y length",
-                                    "ioValue": 8
+                                    "ioValue": 18
                                 }
                             ],
                             "description": "Creates a new rectangle."
@@ -898,7 +908,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 4.25
+                            "ioValue": 9.25
                         },
                         {
                             "name": "zDist",
@@ -916,7 +926,7 @@
                     "ioValues": [
                         {
                             "name": "w",
-                            "ioValue": 10
+                            "ioValue": 20
                         },
                         {
                             "name": "s",
@@ -1406,7 +1416,12 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": "88055a84-ad54-47a2-81e1-c718775aae97",
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": "d8c34338-12a3-4bea-9f26-34a13dd23d12"
+                        }
+                    ],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -1948,7 +1963,12 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": "d3ef9302-fae2-47aa-9c21-545a7a56b927",
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": "fef8d88a-9aa5-457c-8b18-07bef39ef6b2"
+                        }
+                    ],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -2106,7 +2126,12 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": "8ab7e5ba-6eaa-48b1-8a69-bebe741cc63e",
-                            "ioValues": [],
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": "fd0816c4-03b9-4a2a-8fda-170a81d1306f"
+                                }
+                            ],
                             "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
@@ -2784,7 +2809,12 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": "97c29385-de43-4341-9923-074be9903fb5",
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": "74d69605-e47d-437e-a5cb-10a8e6c1c841"
+                        }
+                    ],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -3205,7 +3235,12 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": "8ab7e5ba-6eaa-48b1-8a69-bebe741cc63e",
-                            "ioValues": [],
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": "fd0816c4-03b9-4a2a-8fda-170a81d1306f"
+                                }
+                            ],
                             "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
