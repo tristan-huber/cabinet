@@ -59,12 +59,7 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": "7e8c4276-6cb5-494e-95ae-fc9d6f4c8468",
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": "70b85d8d-c2dd-4d95-b454-57c4c46bb430"
-                        }
-                    ],
+                    "ioValues": [],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -1963,12 +1958,7 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": "d3ef9302-fae2-47aa-9c21-545a7a56b927",
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": "fef8d88a-9aa5-457c-8b18-07bef39ef6b2"
-                        }
-                    ],
+                    "ioValues": [],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -2809,12 +2799,7 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": "97c29385-de43-4341-9923-074be9903fb5",
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": "74d69605-e47d-437e-a5cb-10a8e6c1c841"
-                        }
-                    ],
+                    "ioValues": [],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
