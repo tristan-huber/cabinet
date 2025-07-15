@@ -480,12 +480,7 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": "8ab7e5ba-6eaa-48b1-8a69-bebe741cc63e",
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": "fd0816c4-03b9-4a2a-8fda-170a81d1306f"
-                                }
-                            ],
+                            "ioValues": [],
                             "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
@@ -1411,12 +1406,7 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": "88055a84-ad54-47a2-81e1-c718775aae97",
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": "d8c34338-12a3-4bea-9f26-34a13dd23d12"
-                        }
-                    ],
+                    "ioValues": [],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -2116,12 +2106,7 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": "8ab7e5ba-6eaa-48b1-8a69-bebe741cc63e",
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": "fd0816c4-03b9-4a2a-8fda-170a81d1306f"
-                                }
-                            ],
+                            "ioValues": [],
                             "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
@@ -3220,12 +3205,7 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": "8ab7e5ba-6eaa-48b1-8a69-bebe741cc63e",
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": "fd0816c4-03b9-4a2a-8fda-170a81d1306f"
-                                }
-                            ],
+                            "ioValues": [],
                             "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
