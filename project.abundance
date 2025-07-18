@@ -4038,6 +4038,20 @@
             ],
             "fileTypeVersion": 1,
             "compiledBom": []
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.44986979166666663,
+            "y": 0.7232142857142858,
+            "uniqueID": "662e2a29-ce8a-46eb-ad69-99280dba313d",
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10
+                }
+            ],
+            "description": "Creates a new circle."
         }
     ],
     "allConnectors": [
