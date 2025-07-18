@@ -4052,6 +4052,123 @@
                 }
             ],
             "description": "Creates a new circle."
+        },
+        {
+            "atomType": "GitHubMolecule",
+            "name": "Scale",
+            "x": 0.4602864583333333,
+            "y": 0.2648809523809524,
+            "uniqueID": "1e844612-1098-47c9-b8a9-3300bf209b8d",
+            "ioValues": [
+                {
+                    "name": "Geometry",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Scale Factor",
+                    "ioValue": 10
+                }
+            ],
+            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": "e8943b89-0c7d-475a-b5e6-62a2056e1478",
+                    "ioValues": [],
+                    "description": "Connect geometry here to make it available in the next level up. "
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Geometry",
+                    "x": 0.025384615384615384,
+                    "y": 0.4692737430167598,
+                    "uniqueID": "efc16c5c-7097-4b2d-962e-c6c2235a819d",
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                    "type": "number"
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Scale Factor",
+                    "x": 0.025384615384615384,
+                    "y": 0.6508379888268156,
+                    "uniqueID": "54b7376e-abbd-4c4e-9b46-2555af32ba0b",
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                    "type": "number"
+                },
+                {
+                    "atomType": "Code",
+                    "name": "Code",
+                    "x": 0.4226190476190476,
+                    "y": 0.25139664804469275,
+                    "uniqueID": "a94f5ae3-72dc-4010-a7d1-8873365f1f3f",
+                    "ioValues": [
+                        {
+                            "name": "inputShape",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "scaleFactor",
+                            "ioValue": 10
+                        }
+                    ],
+                    "description": "Defines a Replicad code block.",
+                    "codeVersion": 1,
+                    "code": " \n      //Inputs:[inputShape, scaleFactor]\n      //This defines the molecules inputs and creates variables with the same names which can be referenced in the code\n      \n      //Takes the address and gets the shape from the library\n      let importedShape = library[inputShape]\n\n      let scaledShape = await Scale(inputShape, scaleFactor);\n      \n      \n      //Shapes stored in the library have tags, a color, a plane, and a bill of materials like this. We don't modify them here\n      let shape1 = {\n        geometry: [scaledShape],\n        tags: importedShape.tags,\n        color: importedShape.color,\n        plane: importedShape.plane,\n        bom: importedShape.bom\n      }\n      \n      return shape1\n      \n      \n      \n          /**\n          To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n          If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n          Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n          https://replicad.xyz/docs/introapp/UserGuide.html \n          Return a replicad object that includes geometry, color, tags and plane. \n      \n      \n          Example Code Atom:\n      \n            Inputs:[shape, x];\n      \n            let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n      \n            return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n      \n            - See more examples at _______ \n      \n      \n          */\n      "
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "inputShape",
+                    "ap2Primary": false,
+                    "ap1ID": "efc16c5c-7097-4b2d-962e-c6c2235a819d",
+                    "ap2ID": "a94f5ae3-72dc-4010-a7d1-8873365f1f3f"
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "scaleFactor",
+                    "ap2Primary": false,
+                    "ap1ID": "54b7376e-abbd-4c4e-9b46-2555af32ba0b",
+                    "ap2ID": "a94f5ae3-72dc-4010-a7d1-8873365f1f3f"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": "a94f5ae3-72dc-4010-a7d1-8873365f1f3f",
+                    "ap2ID": "e8943b89-0c7d-475a-b5e6-62a2056e1478"
+                }
+            ],
+            "parentRepo": {
+                "privateRepo": false,
+                "repoName": "Scale",
+                "dateCreated": "2025-06-26T17:06:11Z",
+                "readMe": "https://raw.githubusercontent.com/BarbourSmith/Scale/master/README.md?sanitize=true",
+                "yyyy": 2025,
+                "topMoleculeID": "4b6bc40a-44a9-438a-9ed9-ba4910815d8d",
+                "githubMoleculesUsed": [],
+                "html_url": "https://github.com/BarbourSmith/Scale",
+                "topics": [],
+                "parentRepo": null,
+                "forks": 0,
+                "dateModified": "739428",
+                "ranking": 0,
+                "searchField": "scale barboursmith scales the input 2d or 3d geometry by the scale factor ",
+                "owner": "BarbourSmith",
+                "description": "Scales the input 2D or 3D geometry by the scale factor",
+                "contentURL": "https://raw.githubusercontent.com/BarbourSmith/Scale/master/project.abundance?sanitize=true",
+                "svgURL": "https://raw.githubusercontent.com/BarbourSmith/Scale/master/project.svg?sanitize=true",
+                "isLocal": false
+            },
+            "unitsKey": "Unitless",
+            "fileTypeVersion": 1,
+            "compiledBom": {}
         }
     ],
     "allConnectors": [
