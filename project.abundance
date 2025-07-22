@@ -26,7 +26,7 @@
             "ioValues": [
                 {
                     "name": "number or geometry",
-                    "ioValue": ""
+                    "ioValue": "21ffcb1b-9559-4348-baa1-4fd6b8a0e8e2"
                 }
             ],
             "description": "Connect geometry here to make it available in the next level up. "
@@ -944,8 +944,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.9075520833333334,
-                    "y": 0.6488095238095237,
+                    "x": 0.908203125,
+                    "y": 0.6607142857142857,
                     "uniqueID": "70b85d8d-c2dd-4d95-b454-57c4c46bb430",
                     "ioValues": [
                         {
@@ -1322,51 +1322,51 @@
             "placements": [
                 [
                     {
-                        "id": 2,
-                        "rotate": 270,
+                        "id": 3,
+                        "rotate": 180,
                         "translate": {
-                            "x": 4.575000000000003,
-                            "y": 12.325
+                            "x": -7.674999999999998,
+                            "y": 9.575000000000003
                         }
                     },
                     {
                         "id": 0,
-                        "rotate": 90,
+                        "rotate": 270,
                         "translate": {
-                            "x": 12.324999992228744,
-                            "y": 11.725000000000003
-                        }
-                    },
-                    {
-                        "id": 3,
-                        "rotate": 180,
-                        "translate": {
-                            "x": -3.0250000077712578,
-                            "y": 9.225000000000001
+                            "x": -3.024999999999996,
+                            "y": 7.075000000000002
                         }
                     },
                     {
                         "id": 1,
-                        "rotate": 60,
-                        "translate": {
-                            "x": 3.616454768273769,
-                            "y": 36.43045354278729
-                        }
-                    },
-                    {
-                        "id": 5,
                         "rotate": 90,
                         "translate": {
-                            "x": -3.9250000077712563,
-                            "y": 34.775000000000006
+                            "x": -3.024999999999997,
+                            "y": 21.225
                         }
                     },
                     {
                         "id": 4,
-                        "rotate": 150,
+                        "rotate": 180,
                         "translate": {
-                            "x": -4.079435158633876,
-                            "y": 52.27889489626797
+                            "x": 1.625000000000007,
+                            "y": 10.324999992228747
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "rotate": 180,
+                        "translate": {
+                            "x": 6.824999999999997,
+                            "y": 19.375
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "rotate": 330,
+                        "translate": {
+                            "x": -1.3829122872160435,
+                            "y": 62.06547316539168
                         }
                     }
                 ]
@@ -4194,6 +4194,6 @@
     ],
     "unitsKey": "Inches",
     "fileTypeVersion": 1,
-    "compiledBom": {},
+    "compiledBom": [],
     "filetypeVersion": 1
 }
