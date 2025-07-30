@@ -1297,8 +1297,8 @@
         {
             "atomType": "CutLayout",
             "name": "Cut Layout",
-            "x": 0.8691406249999999,
-            "y": 0.375,
+            "x": 0.73828125,
+            "y": 0.6339285714285715,
             "uniqueID": "21ffcb1b-9559-4348-baa1-4fd6b8a0e8e2",
             "ioValues": [
                 {
@@ -4174,6 +4174,32 @@
             "unitsKey": "Unitless",
             "fileTypeVersion": 1,
             "compiledBom": {}
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.8424479166666667,
+            "y": 0.3333333333333333,
+            "uniqueID": "64365141-8a46-4d55-b041-10eba7e5c372",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "21ffcb1b-9559-4348-baa1-4fd6b8a0e8e2"
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0
+                }
+            ],
+            "description": "Moves a shape laterally in X, Y, Z."
         }
     ],
     "allConnectors": [
@@ -4190,6 +4216,13 @@
             "ap2Primary": false,
             "ap1ID": "21ffcb1b-9559-4348-baa1-4fd6b8a0e8e2",
             "ap2ID": "f63cede1-fd7f-4d54-a176-3180cdd72624"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": "21ffcb1b-9559-4348-baa1-4fd6b8a0e8e2",
+            "ap2ID": "64365141-8a46-4d55-b041-10eba7e5c372"
         }
     ],
     "unitsKey": "Inches",
