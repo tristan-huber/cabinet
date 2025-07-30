@@ -48,7 +48,7 @@
                 },
                 {
                     "name": "depth",
-                    "ioValue": 12
+                    "ioValue": 14
                 },
                 {
                     "name": "material_thickness",
@@ -121,7 +121,7 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 11.5
+                            "ioValue": 13.5
                         },
                         {
                             "name": "y length",
@@ -139,7 +139,7 @@
                     "ioValues": [
                         {
                             "name": "d",
-                            "ioValue": 12
+                            "ioValue": 14
                         },
                         {
                             "name": "t",
@@ -231,7 +231,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": -5.5
+                            "ioValue": -6.5
                         },
                         {
                             "name": "yDist",
@@ -268,7 +268,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 11.5
+                            "ioValue": 13.5
                         },
                         {
                             "name": "t",
@@ -321,7 +321,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 11
+                            "ioValue": 13
                         },
                         {
                             "name": "yDist",
@@ -343,7 +343,7 @@
                     "ioValues": [
                         {
                             "name": "d",
-                            "ioValue": 11.5
+                            "ioValue": 13.5
                         },
                         {
                             "name": "t",
@@ -410,7 +410,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 6
+                            "ioValue": 7
                         },
                         {
                             "name": "yDist",
@@ -432,7 +432,7 @@
                     "ioValues": [
                         {
                             "name": "d",
-                            "ioValue": 12
+                            "ioValue": 14
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -470,7 +470,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 11.5
+                            "ioValue": 13.5
                         },
                         {
                             "name": "y",
@@ -527,7 +527,7 @@
                             "ioValues": [
                                 {
                                     "name": "w",
-                                    "ioValue": 11.5
+                                    "ioValue": 13.5
                                 },
                                 {
                                     "name": "t",
@@ -584,7 +584,7 @@
                             "ioValues": [
                                 {
                                     "name": "w",
-                                    "ioValue": 11.5
+                                    "ioValue": 13.5
                                 },
                                 {
                                     "name": "t",
@@ -618,7 +618,7 @@
                             "ioValues": [
                                 {
                                     "name": "x length",
-                                    "ioValue": 11
+                                    "ioValue": 13
                                 },
                                 {
                                     "name": "y length",
@@ -646,7 +646,7 @@
                             "ioValues": [
                                 {
                                     "name": "x length",
-                                    "ioValue": 10.5
+                                    "ioValue": 12.5
                                 },
                                 {
                                     "name": "y length",
@@ -1333,8 +1333,8 @@
                         "id": 0,
                         "rotate": 270,
                         "translate": {
-                            "x": 6.975000000000005,
-                            "y": 6.075
+                            "x": 6.975000000000003,
+                            "y": 7.075
                         }
                     },
                     {
@@ -1342,14 +1342,14 @@
                         "rotate": 90,
                         "translate": {
                             "x": 6.975000000000003,
-                            "y": 18.225
+                            "y": 21.225
                         }
                     },
                     {
                         "id": 4,
                         "rotate": 180,
                         "translate": {
-                            "x": 11.625000000000009,
+                            "x": 11.625000000000007,
                             "y": 10.324999992228744
                         }
                     },
@@ -1357,8 +1357,8 @@
                         "id": 5,
                         "rotate": 180,
                         "translate": {
-                            "x": 5.824999999999999,
-                            "y": 33.87500000000001
+                            "x": 6.824999999999999,
+                            "y": 37.875
                         }
                     },
                     {
@@ -1366,7 +1366,7 @@
                         "rotate": 330,
                         "translate": {
                             "x": 6.705818776225736,
-                            "y": 52.809502796291426
+                            "y": 56.809502796291426
                         }
                     }
                 ]
