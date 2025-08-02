@@ -2717,13 +2717,13 @@
         {
             "atomType": "Molecule",
             "name": "Molecule",
-            "x": 0.310546875,
-            "y": 0.4542857142857143,
+            "x": 0.30267379679144385,
+            "y": 0.3720238095238095,
             "uniqueID": "544cbafd-f427-431e-871a-8d599804c541",
             "ioValues": [
                 {
                     "name": "x",
-                    "ioValue": 10
+                    "ioValue": 19
                 },
                 {
                     "name": "y",
@@ -4200,6 +4200,30 @@
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Molecule",
+            "x": 0.3219251336898396,
+            "y": 0.8095238095238095,
+            "uniqueID": "046ee6a6-1eef-455d-bae5-8af1184438c3",
+            "ioValues": [],
+            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": "08d57717-a104-42f3-a825-6de7bf4d3a01",
+                    "ioValues": [],
+                    "description": "Connect geometry here to make it available in the next level up. "
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1,
+            "compiledBom": {}
         }
     ],
     "allConnectors": [
@@ -4223,6 +4247,13 @@
             "ap2Primary": true,
             "ap1ID": "21ffcb1b-9559-4348-baa1-4fd6b8a0e8e2",
             "ap2ID": "64365141-8a46-4d55-b041-10eba7e5c372"
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "x",
+            "ap2Primary": false,
+            "ap1ID": "26063e68-f8ae-4efa-b1c9-716d6733e4de",
+            "ap2ID": "544cbafd-f427-431e-871a-8d599804c541"
         }
     ],
     "unitsKey": "Inches",
