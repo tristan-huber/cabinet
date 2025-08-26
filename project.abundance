@@ -7,11 +7,13 @@
     "ioValues": [
         {
             "name": "height",
-            "ioValue": 19
+            "ioValue": 19,
+            "currentEquation": "19"
         },
         {
             "name": "depth",
-            "ioValue": 10
+            "ioValue": 10,
+            "currentEquation": "10"
         }
     ],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -26,7 +28,8 @@
             "ioValues": [
                 {
                     "name": "number or geometry",
-                    "ioValue": "21ffcb1b-9559-4348-baa1-4fd6b8a0e8e2"
+                    "ioValue": "21ffcb1b-9559-4348-baa1-4fd6b8a0e8e2",
+                    "currentEquation": null
                 }
             ],
             "description": "Connect geometry here to make it available in the next level up. "
@@ -40,19 +43,23 @@
             "ioValues": [
                 {
                     "name": "width",
-                    "ioValue": 20
+                    "ioValue": 20,
+                    "currentEquation": "20"
                 },
                 {
                     "name": "height",
-                    "ioValue": 4
+                    "ioValue": 9,
+                    "currentEquation": "9"
                 },
                 {
                     "name": "depth",
-                    "ioValue": 14
+                    "ioValue": 14,
+                    "currentEquation": "14"
                 },
                 {
                     "name": "material_thickness",
-                    "ioValue": 0.5
+                    "ioValue": 0.5,
+                    "currentEquation": "0.5"
                 }
             ],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -67,7 +74,8 @@
                     "ioValues": [
                         {
                             "name": "number or geometry",
-                            "ioValue": "70b85d8d-c2dd-4d95-b454-57c4c46bb430"
+                            "ioValue": "70b85d8d-c2dd-4d95-b454-57c4c46bb430",
+                            "currentEquation": null
                         }
                     ],
                     "description": "Connect geometry here to make it available in the next level up. "
@@ -121,11 +129,13 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 13.5
+                            "ioValue": 13.5,
+                            "currentEquation": null
                         },
                         {
                             "name": "y length",
-                            "ioValue": 0.5
+                            "ioValue": 0.5,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Creates a new rectangle."
@@ -139,11 +149,13 @@
                     "ioValues": [
                         {
                             "name": "d",
-                            "ioValue": 14
+                            "ioValue": 14,
+                            "currentEquation": null
                         },
                         {
                             "name": "t",
-                            "ioValue": 0.5
+                            "ioValue": 0.5,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -158,11 +170,13 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "d5dde68d-ca63-4299-b667-e57151897e8b"
+                            "ioValue": "d5dde68d-ca63-4299-b667-e57151897e8b",
+                            "currentEquation": null
                         },
                         {
                             "name": "height",
-                            "ioValue": 4
+                            "ioValue": 9,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -176,11 +190,13 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 0.5
+                            "ioValue": 0.5,
+                            "currentEquation": null
                         },
                         {
                             "name": "y length",
-                            "ioValue": 18.5
+                            "ioValue": 18.5,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Creates a new rectangle."
@@ -194,15 +210,18 @@
                     "ioValues": [
                         {
                             "name": "w",
-                            "ioValue": 20
+                            "ioValue": 20,
+                            "currentEquation": null
                         },
                         {
                             "name": "s",
-                            "ioValue": 0.5
+                            "ioValue": 0.5,
+                            "currentEquation": null
                         },
                         {
                             "name": "t",
-                            "ioValue": 0.5
+                            "ioValue": 0.5,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -227,19 +246,23 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "f3812527-28bf-4ac2-8ef6-31226f53bf7b"
+                            "ioValue": "f3812527-28bf-4ac2-8ef6-31226f53bf7b",
+                            "currentEquation": null
                         },
                         {
                             "name": "xDist",
-                            "ioValue": -6.5
+                            "ioValue": -6.5,
+                            "currentEquation": null
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 9.25
+                            "ioValue": 9.25,
+                            "currentEquation": null
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 0,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -253,7 +276,8 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 18.5
+                            "ioValue": 18.5,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -268,11 +292,13 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 13.5
+                            "ioValue": 13.5,
+                            "currentEquation": null
                         },
                         {
                             "name": "t",
-                            "ioValue": 0.5
+                            "ioValue": 0.5,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -317,19 +343,23 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "487b3c37-e783-4d81-a0f6-82a1bb7941ec"
+                            "ioValue": "487b3c37-e783-4d81-a0f6-82a1bb7941ec",
+                            "currentEquation": null
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 13
+                            "ioValue": 13,
+                            "currentEquation": null
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": 0,
+                            "currentEquation": null
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 0,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -343,11 +373,13 @@
                     "ioValues": [
                         {
                             "name": "d",
-                            "ioValue": 13.5
+                            "ioValue": 13.5,
+                            "currentEquation": null
                         },
                         {
                             "name": "t",
-                            "ioValue": 0.5
+                            "ioValue": 0.5,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -362,19 +394,23 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "9dd13e00-013c-4371-8c0d-ada5cde3d8d1"
+                            "ioValue": "9dd13e00-013c-4371-8c0d-ada5cde3d8d1",
+                            "currentEquation": null
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 0,
+                            "currentEquation": null
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 18.5
+                            "ioValue": 18.5,
+                            "currentEquation": null
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 0,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -388,11 +424,13 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 0.5
+                            "ioValue": 0.5,
+                            "currentEquation": null
                         },
                         {
                             "name": "y length",
-                            "ioValue": 20
+                            "ioValue": 20,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Creates a new rectangle."
@@ -406,19 +444,23 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "194a83a8-8664-4aa4-b146-8980c2235bed"
+                            "ioValue": "194a83a8-8664-4aa4-b146-8980c2235bed",
+                            "currentEquation": null
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 7
+                            "ioValue": 7,
+                            "currentEquation": null
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 9.25
+                            "ioValue": 9.25,
+                            "currentEquation": null
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 0,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -432,7 +474,8 @@
                     "ioValues": [
                         {
                             "name": "d",
-                            "ioValue": 14
+                            "ioValue": 14,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -447,15 +490,18 @@
                     "ioValues": [
                         {
                             "name": "w",
-                            "ioValue": 20
+                            "ioValue": 20,
+                            "currentEquation": null
                         },
                         {
                             "name": "t",
-                            "ioValue": 0.5
+                            "ioValue": 0.5,
+                            "currentEquation": null
                         },
                         {
                             "name": "s",
-                            "ioValue": 0.5
+                            "ioValue": 0.5,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -470,15 +516,18 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 13.5
+                            "ioValue": 13.5,
+                            "currentEquation": null
                         },
                         {
                             "name": "y",
-                            "ioValue": 19
+                            "ioValue": 19,
+                            "currentEquation": null
                         },
                         {
                             "name": "material_thickness",
-                            "ioValue": 0.5
+                            "ioValue": 0.5,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -493,7 +542,8 @@
                             "ioValues": [
                                 {
                                     "name": "number or geometry",
-                                    "ioValue": "fd0816c4-03b9-4a2a-8fda-170a81d1306f"
+                                    "ioValue": "fd0816c4-03b9-4a2a-8fda-170a81d1306f",
+                                    "currentEquation": null
                                 }
                             ],
                             "description": "Connect geometry here to make it available in the next level up. "
@@ -527,11 +577,13 @@
                             "ioValues": [
                                 {
                                     "name": "w",
-                                    "ioValue": 13.5
+                                    "ioValue": 13.5,
+                                    "currentEquation": null
                                 },
                                 {
                                     "name": "t",
-                                    "ioValue": 0.5
+                                    "ioValue": 0.5,
+                                    "currentEquation": null
                                 }
                             ],
                             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -546,11 +598,13 @@
                             "ioValues": [
                                 {
                                     "name": "d",
-                                    "ioValue": 19
+                                    "ioValue": 19,
+                                    "currentEquation": null
                                 },
                                 {
                                     "name": "t",
-                                    "ioValue": 0.5
+                                    "ioValue": 0.5,
+                                    "currentEquation": null
                                 }
                             ],
                             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -565,11 +619,13 @@
                             "ioValues": [
                                 {
                                     "name": "d",
-                                    "ioValue": 19
+                                    "ioValue": 19,
+                                    "currentEquation": null
                                 },
                                 {
                                     "name": "t",
-                                    "ioValue": 0.5
+                                    "ioValue": 0.5,
+                                    "currentEquation": null
                                 }
                             ],
                             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -584,11 +640,13 @@
                             "ioValues": [
                                 {
                                     "name": "w",
-                                    "ioValue": 13.5
+                                    "ioValue": 13.5,
+                                    "currentEquation": null
                                 },
                                 {
                                     "name": "t",
-                                    "ioValue": 0.5
+                                    "ioValue": 0.5,
+                                    "currentEquation": null
                                 }
                             ],
                             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -603,7 +661,8 @@
                             "ioValues": [
                                 {
                                     "name": "t",
-                                    "ioValue": 0.5
+                                    "ioValue": 0.5,
+                                    "currentEquation": null
                                 }
                             ],
                             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -618,11 +677,13 @@
                             "ioValues": [
                                 {
                                     "name": "x length",
-                                    "ioValue": 13
+                                    "ioValue": 13,
+                                    "currentEquation": null
                                 },
                                 {
                                     "name": "y length",
-                                    "ioValue": 18.5
+                                    "ioValue": 18.5,
+                                    "currentEquation": null
                                 }
                             ],
                             "description": "Creates a new rectangle."
@@ -646,11 +707,13 @@
                             "ioValues": [
                                 {
                                     "name": "x length",
-                                    "ioValue": 12.5
+                                    "ioValue": 12.5,
+                                    "currentEquation": null
                                 },
                                 {
                                     "name": "y length",
-                                    "ioValue": 18
+                                    "ioValue": 18,
+                                    "currentEquation": null
                                 }
                             ],
                             "description": "Creates a new rectangle."
@@ -664,19 +727,23 @@
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": "fbfcda0e-6be1-45b2-b299-3628f2724e46"
+                                    "ioValue": "fbfcda0e-6be1-45b2-b299-3628f2724e46",
+                                    "currentEquation": null
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 0
+                                    "ioValue": 0,
+                                    "currentEquation": null
                                 },
                                 {
                                     "name": "yDist",
-                                    "ioValue": 0
+                                    "ioValue": 0,
+                                    "currentEquation": null
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 0.25
+                                    "ioValue": 0.25,
+                                    "currentEquation": null
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -690,11 +757,13 @@
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": "44df1ed9-1cfc-48d0-ba98-f5c679589ae9"
+                                    "ioValue": "44df1ed9-1cfc-48d0-ba98-f5c679589ae9",
+                                    "currentEquation": null
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 0.25
+                                    "ioValue": 0.25,
+                                    "currentEquation": null
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -708,11 +777,13 @@
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": "a1b12076-6a36-4af3-8a88-e2584778ee3f"
+                                    "ioValue": "a1b12076-6a36-4af3-8a88-e2584778ee3f",
+                                    "currentEquation": null
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 0.25
+                                    "ioValue": 0.25,
+                                    "currentEquation": null
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -741,154 +812,132 @@
                         {
                             "ap1Name": "number or geometry",
                             "ap2Name": "w",
-                            "ap2Primary": false,
                             "ap1ID": "41e51a0d-3f47-438f-b273-daffa4f86c41",
                             "ap2ID": "080410d1-2df9-4433-abc5-948efb61eb81"
                         },
                         {
                             "ap1Name": "number or geometry",
                             "ap2Name": "w",
-                            "ap2Primary": false,
                             "ap1ID": "41e51a0d-3f47-438f-b273-daffa4f86c41",
                             "ap2ID": "b07d5d4d-c24a-4858-becf-885477c47d3c"
                         },
                         {
                             "ap1Name": "number or geometry",
                             "ap2Name": "d",
-                            "ap2Primary": false,
                             "ap1ID": "7e07dc12-b51b-4f13-8548-528bbe1ea06a",
                             "ap2ID": "7071e44e-8575-4b40-a390-efb1720529f2"
                         },
                         {
                             "ap1Name": "number or geometry",
                             "ap2Name": "d",
-                            "ap2Primary": false,
                             "ap1ID": "7e07dc12-b51b-4f13-8548-528bbe1ea06a",
                             "ap2ID": "59834478-8351-4a31-abaa-2472bd80a19d"
                         },
                         {
                             "ap1Name": "result",
                             "ap2Name": "x length",
-                            "ap2Primary": false,
                             "ap1ID": "080410d1-2df9-4433-abc5-948efb61eb81",
                             "ap2ID": "fbfcda0e-6be1-45b2-b299-3628f2724e46"
                         },
                         {
                             "ap1Name": "result",
                             "ap2Name": "y length",
-                            "ap2Primary": false,
                             "ap1ID": "7071e44e-8575-4b40-a390-efb1720529f2",
                             "ap2ID": "fbfcda0e-6be1-45b2-b299-3628f2724e46"
                         },
                         {
                             "ap1Name": "result",
                             "ap2Name": "y length",
-                            "ap2Primary": false,
                             "ap1ID": "59834478-8351-4a31-abaa-2472bd80a19d",
                             "ap2ID": "a1b12076-6a36-4af3-8a88-e2584778ee3f"
                         },
                         {
                             "ap1Name": "result",
                             "ap2Name": "x length",
-                            "ap2Primary": false,
                             "ap1ID": "b07d5d4d-c24a-4858-becf-885477c47d3c",
                             "ap2ID": "a1b12076-6a36-4af3-8a88-e2584778ee3f"
                         },
                         {
                             "ap1Name": "result",
                             "ap2Name": "zDist",
-                            "ap2Primary": false,
                             "ap1ID": "37a04088-7e07-46cb-aef9-7dedd294238d",
                             "ap2ID": "44df1ed9-1cfc-48d0-ba98-f5c679589ae9"
                         },
                         {
                             "ap1Name": "result",
                             "ap2Name": "height",
-                            "ap2Primary": false,
                             "ap1ID": "37a04088-7e07-46cb-aef9-7dedd294238d",
                             "ap2ID": "45ac6826-0ced-466e-945d-3df18cbf6aa7"
                         },
                         {
                             "ap1Name": "result",
                             "ap2Name": "height",
-                            "ap2Primary": false,
                             "ap1ID": "37a04088-7e07-46cb-aef9-7dedd294238d",
                             "ap2ID": "a74dde8f-0edc-4a09-846d-f3584507e30e"
                         },
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "geometry",
-                            "ap2Primary": true,
                             "ap1ID": "fbfcda0e-6be1-45b2-b299-3628f2724e46",
                             "ap2ID": "44df1ed9-1cfc-48d0-ba98-f5c679589ae9"
                         },
                         {
                             "ap1Name": "number or geometry",
                             "ap2Name": "t",
-                            "ap2Primary": false,
                             "ap1ID": "475ea748-58bd-4f8d-879d-4e8bc8760280",
                             "ap2ID": "37a04088-7e07-46cb-aef9-7dedd294238d"
                         },
                         {
                             "ap1Name": "number or geometry",
                             "ap2Name": "t",
-                            "ap2Primary": false,
                             "ap1ID": "475ea748-58bd-4f8d-879d-4e8bc8760280",
                             "ap2ID": "7071e44e-8575-4b40-a390-efb1720529f2"
                         },
                         {
                             "ap1Name": "number or geometry",
                             "ap2Name": "t",
-                            "ap2Primary": false,
                             "ap1ID": "475ea748-58bd-4f8d-879d-4e8bc8760280",
                             "ap2ID": "59834478-8351-4a31-abaa-2472bd80a19d"
                         },
                         {
                             "ap1Name": "number or geometry",
                             "ap2Name": "t",
-                            "ap2Primary": false,
                             "ap1ID": "475ea748-58bd-4f8d-879d-4e8bc8760280",
                             "ap2ID": "b07d5d4d-c24a-4858-becf-885477c47d3c"
                         },
                         {
                             "ap1Name": "number or geometry",
                             "ap2Name": "t",
-                            "ap2Primary": false,
                             "ap1ID": "475ea748-58bd-4f8d-879d-4e8bc8760280",
                             "ap2ID": "080410d1-2df9-4433-abc5-948efb61eb81"
                         },
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "geometry",
-                            "ap2Primary": true,
                             "ap1ID": "a1b12076-6a36-4af3-8a88-e2584778ee3f",
                             "ap2ID": "a74dde8f-0edc-4a09-846d-f3584507e30e"
                         },
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "geometry",
-                            "ap2Primary": true,
                             "ap1ID": "44df1ed9-1cfc-48d0-ba98-f5c679589ae9",
                             "ap2ID": "45ac6826-0ced-466e-945d-3df18cbf6aa7"
                         },
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "Shape 1",
-                            "ap2Primary": false,
                             "ap1ID": "45ac6826-0ced-466e-945d-3df18cbf6aa7",
                             "ap2ID": "fd0816c4-03b9-4a2a-8fda-170a81d1306f"
                         },
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "Shape 2",
-                            "ap2Primary": false,
                             "ap1ID": "a74dde8f-0edc-4a09-846d-f3584507e30e",
                             "ap2ID": "fd0816c4-03b9-4a2a-8fda-170a81d1306f"
                         },
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "number or geometry",
-                            "ap2Primary": false,
                             "ap1ID": "fd0816c4-03b9-4a2a-8fda-170a81d1306f",
                             "ap2ID": "8ab7e5ba-6eaa-48b1-8a69-bebe741cc63e"
                         }
@@ -905,19 +954,23 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "91220f2d-a93a-4903-8394-2104cf83573a"
+                            "ioValue": "91220f2d-a93a-4903-8394-2104cf83573a",
+                            "currentEquation": null
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 0,
+                            "currentEquation": null
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 9.25
+                            "ioValue": 9.25,
+                            "currentEquation": null
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 0,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -931,11 +984,13 @@
                     "ioValues": [
                         {
                             "name": "w",
-                            "ioValue": 20
+                            "ioValue": 20,
+                            "currentEquation": null
                         },
                         {
                             "name": "s",
-                            "ioValue": 0.5
+                            "ioValue": 0.5,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -964,329 +1019,282 @@
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "w",
-                    "ap2Primary": false,
                     "ap1ID": "b3762981-c611-4781-8060-16e8dcb4f86f",
                     "ap2ID": "bf5087ad-dbad-4b8a-a87d-d4b62d9bf802"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "y length",
-                    "ap2Primary": false,
                     "ap1ID": "b3762981-c611-4781-8060-16e8dcb4f86f",
                     "ap2ID": "194a83a8-8664-4aa4-b146-8980c2235bed"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "w",
-                    "ap2Primary": false,
                     "ap1ID": "b3762981-c611-4781-8060-16e8dcb4f86f",
                     "ap2ID": "a1921fb9-e9f8-463a-b672-257954044570"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "w",
-                    "ap2Primary": false,
                     "ap1ID": "b3762981-c611-4781-8060-16e8dcb4f86f",
                     "ap2ID": "ad549f9f-c7d8-41bb-8785-745673c9398e"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "height",
-                    "ap2Primary": false,
                     "ap1ID": "54a194f5-6ea6-4d93-bb99-1cfe48a96261",
                     "ap2ID": "b9714091-0cf1-4cdd-a038-e877b46ba699"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "d",
-                    "ap2Primary": false,
                     "ap1ID": "e66a09e0-b5f3-4113-a52f-8e770ba684e2",
                     "ap2ID": "23efa882-9d16-4304-b626-3d5336c18829"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "d",
-                    "ap2Primary": false,
                     "ap1ID": "e66a09e0-b5f3-4113-a52f-8e770ba684e2",
                     "ap2ID": "d0d6c996-e1b3-4f5e-955b-4801a78df9d3"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "t",
-                    "ap2Primary": false,
                     "ap1ID": "903aa976-3032-4f8d-9273-915bf759e95f",
                     "ap2ID": "23efa882-9d16-4304-b626-3d5336c18829"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "y length",
-                    "ap2Primary": false,
                     "ap1ID": "903aa976-3032-4f8d-9273-915bf759e95f",
                     "ap2ID": "9dd13e00-013c-4371-8c0d-ada5cde3d8d1"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "t",
-                    "ap2Primary": false,
                     "ap1ID": "903aa976-3032-4f8d-9273-915bf759e95f",
                     "ap2ID": "bf5087ad-dbad-4b8a-a87d-d4b62d9bf802"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "x length",
-                    "ap2Primary": false,
                     "ap1ID": "903aa976-3032-4f8d-9273-915bf759e95f",
                     "ap2ID": "f3812527-28bf-4ac2-8ef6-31226f53bf7b"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "t",
-                    "ap2Primary": false,
                     "ap1ID": "903aa976-3032-4f8d-9273-915bf759e95f",
                     "ap2ID": "5926da63-c132-4f39-aa5c-625ea7a535aa"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "t",
-                    "ap2Primary": false,
                     "ap1ID": "903aa976-3032-4f8d-9273-915bf759e95f",
                     "ap2ID": "a68b7280-f656-4300-b693-e1bdb96262d8"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "x length",
-                    "ap2Primary": false,
                     "ap1ID": "903aa976-3032-4f8d-9273-915bf759e95f",
                     "ap2ID": "194a83a8-8664-4aa4-b146-8980c2235bed"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "t",
-                    "ap2Primary": false,
                     "ap1ID": "903aa976-3032-4f8d-9273-915bf759e95f",
                     "ap2ID": "a1921fb9-e9f8-463a-b672-257954044570"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "material_thickness",
-                    "ap2Primary": false,
                     "ap1ID": "903aa976-3032-4f8d-9273-915bf759e95f",
                     "ap2ID": "91220f2d-a93a-4903-8394-2104cf83573a"
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
-                    "ap2Primary": true,
                     "ap1ID": "9dd13e00-013c-4371-8c0d-ada5cde3d8d1",
                     "ap2ID": "e62567f4-2a94-44d8-a17f-17126d765653"
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "Shape 5",
-                    "ap2Primary": false,
                     "ap1ID": "9dd13e00-013c-4371-8c0d-ada5cde3d8d1",
                     "ap2ID": "d5dde68d-ca63-4299-b667-e57151897e8b"
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "x length",
-                    "ap2Primary": false,
                     "ap1ID": "23efa882-9d16-4304-b626-3d5336c18829",
                     "ap2ID": "9dd13e00-013c-4371-8c0d-ada5cde3d8d1"
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "x",
-                    "ap2Primary": false,
                     "ap1ID": "23efa882-9d16-4304-b626-3d5336c18829",
                     "ap2ID": "5926da63-c132-4f39-aa5c-625ea7a535aa"
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "d",
-                    "ap2Primary": false,
                     "ap1ID": "23efa882-9d16-4304-b626-3d5336c18829",
                     "ap2ID": "a68b7280-f656-4300-b693-e1bdb96262d8"
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "x",
-                    "ap2Primary": false,
                     "ap1ID": "23efa882-9d16-4304-b626-3d5336c18829",
                     "ap2ID": "91220f2d-a93a-4903-8394-2104cf83573a"
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "Shape 1",
-                    "ap2Primary": false,
                     "ap1ID": "b9714091-0cf1-4cdd-a038-e877b46ba699",
                     "ap2ID": "70b85d8d-c2dd-4d95-b454-57c4c46bb430"
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
-                    "ap2Primary": true,
                     "ap1ID": "f3812527-28bf-4ac2-8ef6-31226f53bf7b",
                     "ap2ID": "487b3c37-e783-4d81-a0f6-82a1bb7941ec"
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "y length",
-                    "ap2Primary": false,
                     "ap1ID": "bf5087ad-dbad-4b8a-a87d-d4b62d9bf802",
                     "ap2ID": "f3812527-28bf-4ac2-8ef6-31226f53bf7b"
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "x",
-                    "ap2Primary": false,
                     "ap1ID": "bf5087ad-dbad-4b8a-a87d-d4b62d9bf802",
                     "ap2ID": "873c9824-4565-4cc6-b535-b0202f63758e"
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "yDist",
-                    "ap2Primary": false,
                     "ap1ID": "bf5087ad-dbad-4b8a-a87d-d4b62d9bf802",
                     "ap2ID": "e62567f4-2a94-44d8-a17f-17126d765653"
                 },
                 {
                     "ap1Name": "number",
                     "ap2Name": "s",
-                    "ap2Primary": false,
                     "ap1ID": "62b61011-62e0-4fa9-b386-e80c352aa7c8",
                     "ap2ID": "bf5087ad-dbad-4b8a-a87d-d4b62d9bf802"
                 },
                 {
                     "ap1Name": "number",
                     "ap2Name": "s",
-                    "ap2Primary": false,
                     "ap1ID": "62b61011-62e0-4fa9-b386-e80c352aa7c8",
                     "ap2ID": "a1921fb9-e9f8-463a-b672-257954044570"
                 },
                 {
                     "ap1Name": "number",
                     "ap2Name": "s",
-                    "ap2Primary": false,
                     "ap1ID": "62b61011-62e0-4fa9-b386-e80c352aa7c8",
                     "ap2ID": "ad549f9f-c7d8-41bb-8785-745673c9398e"
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
-                    "ap2Primary": true,
                     "ap1ID": "487b3c37-e783-4d81-a0f6-82a1bb7941ec",
                     "ap2ID": "4b2de2b8-4da0-40aa-81c1-b800261a76a4"
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "Shape 7",
-                    "ap2Primary": false,
                     "ap1ID": "487b3c37-e783-4d81-a0f6-82a1bb7941ec",
                     "ap2ID": "d5dde68d-ca63-4299-b667-e57151897e8b"
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "yDist",
-                    "ap2Primary": false,
                     "ap1ID": "873c9824-4565-4cc6-b535-b0202f63758e",
                     "ap2ID": "487b3c37-e783-4d81-a0f6-82a1bb7941ec"
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "xDist",
-                    "ap2Primary": false,
                     "ap1ID": "5926da63-c132-4f39-aa5c-625ea7a535aa",
                     "ap2ID": "487b3c37-e783-4d81-a0f6-82a1bb7941ec"
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
-                    "ap2Primary": true,
                     "ap1ID": "d5dde68d-ca63-4299-b667-e57151897e8b",
                     "ap2ID": "b9714091-0cf1-4cdd-a038-e877b46ba699"
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "Shape 8",
-                    "ap2Primary": false,
                     "ap1ID": "4b2de2b8-4da0-40aa-81c1-b800261a76a4",
                     "ap2ID": "d5dde68d-ca63-4299-b667-e57151897e8b"
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "xDist",
-                    "ap2Primary": false,
                     "ap1ID": "a68b7280-f656-4300-b693-e1bdb96262d8",
                     "ap2ID": "4b2de2b8-4da0-40aa-81c1-b800261a76a4"
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "Shape 6",
-                    "ap2Primary": false,
                     "ap1ID": "e62567f4-2a94-44d8-a17f-17126d765653",
                     "ap2ID": "d5dde68d-ca63-4299-b667-e57151897e8b"
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
-                    "ap2Primary": true,
                     "ap1ID": "194a83a8-8664-4aa4-b146-8980c2235bed",
                     "ap2ID": "d8c32828-26f5-4523-9280-96ac2b7c57fa"
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "Shape 9",
-                    "ap2Primary": false,
                     "ap1ID": "d8c32828-26f5-4523-9280-96ac2b7c57fa",
                     "ap2ID": "d5dde68d-ca63-4299-b667-e57151897e8b"
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "xDist",
-                    "ap2Primary": false,
                     "ap1ID": "d0d6c996-e1b3-4f5e-955b-4801a78df9d3",
                     "ap2ID": "d8c32828-26f5-4523-9280-96ac2b7c57fa"
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "yDist",
-                    "ap2Primary": false,
                     "ap1ID": "a1921fb9-e9f8-463a-b672-257954044570",
                     "ap2ID": "d8c32828-26f5-4523-9280-96ac2b7c57fa"
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "yDist",
-                    "ap2Primary": false,
                     "ap1ID": "a1921fb9-e9f8-463a-b672-257954044570",
                     "ap2ID": "4b776dc0-47fb-47a0-89a7-1b7898fbb9ea"
                 },
                 {
-                    "ap1Name": "Geometry",
+                    "ap1Name": "geometry or number",
                     "ap2Name": "geometry",
-                    "ap2Primary": true,
                     "ap1ID": "91220f2d-a93a-4903-8394-2104cf83573a",
                     "ap2ID": "4b776dc0-47fb-47a0-89a7-1b7898fbb9ea"
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "Shape 2",
-                    "ap2Primary": false,
                     "ap1ID": "4b776dc0-47fb-47a0-89a7-1b7898fbb9ea",
                     "ap2ID": "70b85d8d-c2dd-4d95-b454-57c4c46bb430"
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "y",
-                    "ap2Primary": false,
                     "ap1ID": "ad549f9f-c7d8-41bb-8785-745673c9398e",
                     "ap2ID": "91220f2d-a93a-4903-8394-2104cf83573a"
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
-                    "ap2Primary": false,
                     "ap1ID": "70b85d8d-c2dd-4d95-b454-57c4c46bb430",
                     "ap2ID": "7e8c4276-6cb5-494e-95ae-fc9d6f4c8468"
                 }
@@ -1303,19 +1311,23 @@
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": "3707da93-fa19-430b-824e-0f517859f9c0"
+                    "ioValue": "3707da93-fa19-430b-824e-0f517859f9c0",
+                    "currentEquation": null
                 },
                 {
                     "name": "Sheet Width",
-                    "ioValue": 48
+                    "ioValue": 48,
+                    "currentEquation": "48"
                 },
                 {
                     "name": "Sheet Height",
-                    "ioValue": 96
+                    "ioValue": 96,
+                    "currentEquation": "96"
                 },
                 {
                     "name": "Part Padding",
-                    "ioValue": 0.25
+                    "ioValue": 0.25,
+                    "currentEquation": "0.25"
                 }
             ],
             "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut.",
@@ -1323,34 +1335,18 @@
                 [
                     {
                         "id": 3,
-                        "rotate": 180,
-                        "translate": {
-                            "x": 2.325000000000001,
-                            "y": 9.575
-                        }
-                    },
-                    {
-                        "id": 0,
                         "rotate": 270,
                         "translate": {
-                            "x": 6.975000000000003,
-                            "y": 7.075
+                            "x": 9.575000000000001,
+                            "y": 4.825000000000002
                         }
                     },
                     {
                         "id": 1,
-                        "rotate": 90,
-                        "translate": {
-                            "x": 6.975000000000003,
-                            "y": 21.225
-                        }
-                    },
-                    {
-                        "id": 4,
                         "rotate": 180,
                         "translate": {
-                            "x": 11.625000000000007,
-                            "y": 10.324999992228744
+                            "x": 7.074999999999999,
+                            "y": 14.475000000000001
                         }
                     },
                     {
@@ -1358,15 +1354,31 @@
                         "rotate": 180,
                         "translate": {
                             "x": 6.824999999999999,
-                            "y": 37.875
+                            "y": 28.875000000000007
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "rotate": 30,
+                        "translate": {
+                            "x": 9.245882197852444,
+                            "y": 49.709021837472044
+                        }
+                    },
+                    {
+                        "id": 0,
+                        "rotate": 30,
+                        "translate": {
+                            "x": 8.444439374310612,
+                            "y": 66.74002157196351
                         }
                     },
                     {
                         "id": 2,
-                        "rotate": 330,
+                        "rotate": 150,
                         "translate": {
-                            "x": 6.705818776225736,
-                            "y": 56.809502796291426
+                            "x": 8.8708821943763,
+                            "y": 82.80087083389262
                         }
                     }
                 ]
@@ -1401,15 +1413,18 @@
             "ioValues": [
                 {
                     "name": "x",
-                    "ioValue": 10
+                    "ioValue": 10,
+                    "currentEquation": "10"
                 },
                 {
                     "name": "y",
-                    "ioValue": 20
+                    "ioValue": 20,
+                    "currentEquation": "20"
                 },
                 {
                     "name": "material_thickness",
-                    "ioValue": 1
+                    "ioValue": 1,
+                    "currentEquation": "1"
                 }
             ],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -1424,7 +1439,8 @@
                     "ioValues": [
                         {
                             "name": "number or geometry",
-                            "ioValue": "d8c34338-12a3-4bea-9f26-34a13dd23d12"
+                            "ioValue": "d8c34338-12a3-4bea-9f26-34a13dd23d12",
+                            "currentEquation": null
                         }
                     ],
                     "description": "Connect geometry here to make it available in the next level up. "
@@ -1468,11 +1484,13 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 10
+                            "ioValue": 10,
+                            "currentEquation": null
                         },
                         {
                             "name": "y length",
-                            "ioValue": 1
+                            "ioValue": 1,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Creates a new rectangle."
@@ -1486,19 +1504,23 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "1d5da286-2e70-4f97-9af1-9afdc3384b64"
+                            "ioValue": "1d5da286-2e70-4f97-9af1-9afdc3384b64",
+                            "currentEquation": null
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 0,
+                            "currentEquation": null
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 19
+                            "ioValue": 19,
+                            "currentEquation": null
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 0,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -1512,7 +1534,8 @@
                     "ioValues": [
                         {
                             "name": "m",
-                            "ioValue": 1
+                            "ioValue": 1,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -1527,19 +1550,23 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "927318e0-5182-40ca-9ec5-db621ce6a1ba"
+                            "ioValue": "927318e0-5182-40ca-9ec5-db621ce6a1ba",
+                            "currentEquation": null
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 0,
+                            "currentEquation": null
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0.5
+                            "ioValue": 0.5,
+                            "currentEquation": null
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 0,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -1571,11 +1598,13 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 1
+                            "ioValue": 1,
+                            "currentEquation": null
                         },
                         {
                             "name": "y length",
-                            "ioValue": 19
+                            "ioValue": 19,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Creates a new rectangle."
@@ -1589,19 +1618,23 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "4d46bc6f-8325-4a7d-809c-377e0fa145f2"
+                            "ioValue": "4d46bc6f-8325-4a7d-809c-377e0fa145f2",
+                            "currentEquation": null
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 9
+                            "ioValue": 9,
+                            "currentEquation": null
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": 0,
+                            "currentEquation": null
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 0,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -1615,11 +1648,13 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 10
+                            "ioValue": 10,
+                            "currentEquation": null
                         },
                         {
                             "name": "m",
-                            "ioValue": 1
+                            "ioValue": 1,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -1652,19 +1687,23 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "3a7da490-a546-43d2-a063-278d71d0b49b"
+                            "ioValue": "3a7da490-a546-43d2-a063-278d71d0b49b",
+                            "currentEquation": null
                         },
                         {
                             "name": "xDist",
-                            "ioValue": -4.5
+                            "ioValue": -4.5,
+                            "currentEquation": null
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 10
+                            "ioValue": 10,
+                            "currentEquation": null
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 0,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -1678,7 +1717,8 @@
                     "ioValues": [
                         {
                             "name": "m",
-                            "ioValue": 9
+                            "ioValue": 9,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -1711,11 +1751,13 @@
                     "ioValues": [
                         {
                             "name": "y",
-                            "ioValue": 20
+                            "ioValue": 20,
+                            "currentEquation": null
                         },
                         {
                             "name": "m",
-                            "ioValue": 1
+                            "ioValue": 1,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -1730,7 +1772,8 @@
                     "ioValues": [
                         {
                             "name": "y",
-                            "ioValue": 20
+                            "ioValue": 20,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -1741,189 +1784,162 @@
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "x length",
-                    "ap2Primary": false,
                     "ap1ID": "0ce0a653-8c6f-45df-ae50-a85342afa80f",
                     "ap2ID": "1d5da286-2e70-4f97-9af1-9afdc3384b64"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "x",
-                    "ap2Primary": false,
                     "ap1ID": "0ce0a653-8c6f-45df-ae50-a85342afa80f",
                     "ap2ID": "20c4638f-7804-4b06-a50b-a9a91e102658"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "y",
-                    "ap2Primary": false,
                     "ap1ID": "ad2006ce-a907-4cbd-9b76-55d53cc367cf",
                     "ap2ID": "0739424d-7de7-48ca-99c6-0d46c15fae6b"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "y",
-                    "ap2Primary": false,
                     "ap1ID": "ad2006ce-a907-4cbd-9b76-55d53cc367cf",
                     "ap2ID": "cb4313e1-7732-4194-9bd8-c63f3a7b395f"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "y length",
-                    "ap2Primary": false,
                     "ap1ID": "3ab92f84-a498-4288-a51b-07da83d3e872",
                     "ap2ID": "1d5da286-2e70-4f97-9af1-9afdc3384b64"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "m",
-                    "ap2Primary": false,
                     "ap1ID": "3ab92f84-a498-4288-a51b-07da83d3e872",
                     "ap2ID": "398e4a57-af4d-42d9-8528-fc870c50888d"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "x length",
-                    "ap2Primary": false,
                     "ap1ID": "3ab92f84-a498-4288-a51b-07da83d3e872",
                     "ap2ID": "4d46bc6f-8325-4a7d-809c-377e0fa145f2"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "m",
-                    "ap2Primary": false,
                     "ap1ID": "3ab92f84-a498-4288-a51b-07da83d3e872",
                     "ap2ID": "20c4638f-7804-4b06-a50b-a9a91e102658"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "m",
-                    "ap2Primary": false,
                     "ap1ID": "3ab92f84-a498-4288-a51b-07da83d3e872",
                     "ap2ID": "0739424d-7de7-48ca-99c6-0d46c15fae6b"
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
-                    "ap2Primary": true,
                     "ap1ID": "1d5da286-2e70-4f97-9af1-9afdc3384b64",
                     "ap2ID": "60b08034-faec-4d80-9b81-18524188b0b2"
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "Shape 1",
-                    "ap2Primary": false,
                     "ap1ID": "1d5da286-2e70-4f97-9af1-9afdc3384b64",
                     "ap2ID": "927318e0-5182-40ca-9ec5-db621ce6a1ba"
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "Shape 2",
-                    "ap2Primary": false,
                     "ap1ID": "60b08034-faec-4d80-9b81-18524188b0b2",
                     "ap2ID": "927318e0-5182-40ca-9ec5-db621ce6a1ba"
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "yDist",
-                    "ap2Primary": false,
                     "ap1ID": "398e4a57-af4d-42d9-8528-fc870c50888d",
                     "ap2ID": "26ea705b-f7d7-43f3-992d-4674ab2e98a5"
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "Shape 1",
-                    "ap2Primary": false,
                     "ap1ID": "26ea705b-f7d7-43f3-992d-4674ab2e98a5",
                     "ap2ID": "d8c34338-12a3-4bea-9f26-34a13dd23d12"
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
-                    "ap2Primary": true,
                     "ap1ID": "927318e0-5182-40ca-9ec5-db621ce6a1ba",
                     "ap2ID": "26ea705b-f7d7-43f3-992d-4674ab2e98a5"
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
-                    "ap2Primary": true,
                     "ap1ID": "4d46bc6f-8325-4a7d-809c-377e0fa145f2",
                     "ap2ID": "45331758-fa54-4d3b-b78c-560cd8a4db46"
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "Shape 2",
-                    "ap2Primary": false,
                     "ap1ID": "4d46bc6f-8325-4a7d-809c-377e0fa145f2",
                     "ap2ID": "3a7da490-a546-43d2-a063-278d71d0b49b"
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "Shape 1",
-                    "ap2Primary": false,
                     "ap1ID": "45331758-fa54-4d3b-b78c-560cd8a4db46",
                     "ap2ID": "3a7da490-a546-43d2-a063-278d71d0b49b"
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "xDist",
-                    "ap2Primary": false,
                     "ap1ID": "20c4638f-7804-4b06-a50b-a9a91e102658",
                     "ap2ID": "45331758-fa54-4d3b-b78c-560cd8a4db46"
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "m",
-                    "ap2Primary": false,
                     "ap1ID": "20c4638f-7804-4b06-a50b-a9a91e102658",
                     "ap2ID": "f5f40778-aac4-4bef-bec3-c9f949e4c540"
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
-                    "ap2Primary": true,
                     "ap1ID": "3a7da490-a546-43d2-a063-278d71d0b49b",
                     "ap2ID": "b83fbd7a-fbc6-4d7e-8220-2436380278ca"
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "Shape 2",
-                    "ap2Primary": false,
                     "ap1ID": "b83fbd7a-fbc6-4d7e-8220-2436380278ca",
                     "ap2ID": "d8c34338-12a3-4bea-9f26-34a13dd23d12"
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "xDist",
-                    "ap2Primary": false,
                     "ap1ID": "f5f40778-aac4-4bef-bec3-c9f949e4c540",
                     "ap2ID": "b83fbd7a-fbc6-4d7e-8220-2436380278ca"
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
-                    "ap2Primary": false,
                     "ap1ID": "d8c34338-12a3-4bea-9f26-34a13dd23d12",
                     "ap2ID": "88055a84-ad54-47a2-81e1-c718775aae97"
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "yDist",
-                    "ap2Primary": false,
                     "ap1ID": "0739424d-7de7-48ca-99c6-0d46c15fae6b",
                     "ap2ID": "60b08034-faec-4d80-9b81-18524188b0b2"
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "y length",
-                    "ap2Primary": false,
                     "ap1ID": "0739424d-7de7-48ca-99c6-0d46c15fae6b",
                     "ap2ID": "4d46bc6f-8325-4a7d-809c-377e0fa145f2"
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "yDist",
-                    "ap2Primary": false,
                     "ap1ID": "cb4313e1-7732-4194-9bd8-c63f3a7b395f",
                     "ap2ID": "b83fbd7a-fbc6-4d7e-8220-2436380278ca"
                 }
@@ -1940,23 +1956,28 @@
             "ioValues": [
                 {
                     "name": "width",
-                    "ioValue": 20
+                    "ioValue": 20,
+                    "currentEquation": null
                 },
                 {
                     "name": "height",
-                    "ioValue": 4
+                    "ioValue": 4,
+                    "currentEquation": null
                 },
                 {
                     "name": "depth",
-                    "ioValue": 14
+                    "ioValue": 14,
+                    "currentEquation": null
                 },
                 {
                     "name": "material_thickness",
-                    "ioValue": 0.5
+                    "ioValue": 0.5,
+                    "currentEquation": null
                 },
                 {
                     "name": "name (1)",
-                    "ioValue": 10
+                    "ioValue": 10,
+                    "currentEquation": null
                 }
             ],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -1971,7 +1992,8 @@
                     "ioValues": [
                         {
                             "name": "number or geometry",
-                            "ioValue": "fef8d88a-9aa5-457c-8b18-07bef39ef6b2"
+                            "ioValue": "fef8d88a-9aa5-457c-8b18-07bef39ef6b2",
+                            "currentEquation": null
                         }
                     ],
                     "description": "Connect geometry here to make it available in the next level up. "
@@ -2025,11 +2047,13 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "f2d98987-7fd6-4f57-9826-31ee4ac3f117"
+                            "ioValue": "f2d98987-7fd6-4f57-9826-31ee4ac3f117",
+                            "currentEquation": null
                         },
                         {
                             "name": "height",
-                            "ioValue": 4
+                            "ioValue": 4,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -2067,11 +2091,13 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 0.5
+                            "ioValue": 0.5,
+                            "currentEquation": null
                         },
                         {
                             "name": "y length",
-                            "ioValue": 20
+                            "ioValue": 20,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Creates a new rectangle."
@@ -2085,19 +2111,23 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "026caa9c-d8a1-4e5a-83a8-bc14b3cb93b9"
+                            "ioValue": "026caa9c-d8a1-4e5a-83a8-bc14b3cb93b9",
+                            "currentEquation": null
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 0,
+                            "currentEquation": null
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": 0,
+                            "currentEquation": null
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 0,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -2111,15 +2141,18 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 10
+                            "ioValue": 10,
+                            "currentEquation": null
                         },
                         {
                             "name": "y",
-                            "ioValue": 19
+                            "ioValue": 19,
+                            "currentEquation": null
                         },
                         {
                             "name": "material_thickness",
-                            "ioValue": 0.5
+                            "ioValue": 0.5,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -2134,7 +2167,8 @@
                             "ioValues": [
                                 {
                                     "name": "number or geometry",
-                                    "ioValue": "fd0816c4-03b9-4a2a-8fda-170a81d1306f"
+                                    "ioValue": "fd0816c4-03b9-4a2a-8fda-170a81d1306f",
+                                    "currentEquation": null
                                 }
                             ],
                             "description": "Connect geometry here to make it available in the next level up. "
@@ -2168,11 +2202,13 @@
                             "ioValues": [
                                 {
                                     "name": "w",
-                                    "ioValue": 10
+                                    "ioValue": 10,
+                                    "currentEquation": null
                                 },
                                 {
                                     "name": "t",
-                                    "ioValue": 0.5
+                                    "ioValue": 0.5,
+                                    "currentEquation": null
                                 }
                             ],
                             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -2187,11 +2223,13 @@
                             "ioValues": [
                                 {
                                     "name": "d",
-                                    "ioValue": 19
+                                    "ioValue": 19,
+                                    "currentEquation": null
                                 },
                                 {
                                     "name": "t",
-                                    "ioValue": 0.5
+                                    "ioValue": 0.5,
+                                    "currentEquation": null
                                 }
                             ],
                             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -2206,11 +2244,13 @@
                             "ioValues": [
                                 {
                                     "name": "d",
-                                    "ioValue": 19
+                                    "ioValue": 19,
+                                    "currentEquation": null
                                 },
                                 {
                                     "name": "t",
-                                    "ioValue": 0.5
+                                    "ioValue": 0.5,
+                                    "currentEquation": null
                                 }
                             ],
                             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -2225,11 +2265,13 @@
                             "ioValues": [
                                 {
                                     "name": "w",
-                                    "ioValue": 10
+                                    "ioValue": 10,
+                                    "currentEquation": null
                                 },
                                 {
                                     "name": "t",
-                                    "ioValue": 0.5
+                                    "ioValue": 0.5,
+                                    "currentEquation": null
                                 }
                             ],
                             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -2244,7 +2286,8 @@
                             "ioValues": [
                                 {
                                     "name": "t",
-                                    "ioValue": 0.5
+                                    "ioValue": 0.5,
+                                    "currentEquation": null
                                 }
                             ],
                             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -2259,11 +2302,13 @@
                             "ioValues": [
                                 {
                                     "name": "x length",
-                                    "ioValue": 9.5
+                                    "ioValue": 9.5,
+                                    "currentEquation": null
                                 },
                                 {
                                     "name": "y length",
-                                    "ioValue": 18.5
+                                    "ioValue": 18.5,
+                                    "currentEquation": null
                                 }
                             ],
                             "description": "Creates a new rectangle."
@@ -2287,11 +2332,13 @@
                             "ioValues": [
                                 {
                                     "name": "x length",
-                                    "ioValue": 9
+                                    "ioValue": 9,
+                                    "currentEquation": null
                                 },
                                 {
                                     "name": "y length",
-                                    "ioValue": 18
+                                    "ioValue": 18,
+                                    "currentEquation": null
                                 }
                             ],
                             "description": "Creates a new rectangle."
@@ -2305,19 +2352,23 @@
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": "fbfcda0e-6be1-45b2-b299-3628f2724e46"
+                                    "ioValue": "fbfcda0e-6be1-45b2-b299-3628f2724e46",
+                                    "currentEquation": null
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 0
+                                    "ioValue": 0,
+                                    "currentEquation": null
                                 },
                                 {
                                     "name": "yDist",
-                                    "ioValue": 0
+                                    "ioValue": 0,
+                                    "currentEquation": null
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 0.25
+                                    "ioValue": 0.25,
+                                    "currentEquation": null
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -2331,11 +2382,13 @@
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": "44df1ed9-1cfc-48d0-ba98-f5c679589ae9"
+                                    "ioValue": "44df1ed9-1cfc-48d0-ba98-f5c679589ae9",
+                                    "currentEquation": null
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 0.25
+                                    "ioValue": 0.25,
+                                    "currentEquation": null
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -2349,11 +2402,13 @@
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": "a1b12076-6a36-4af3-8a88-e2584778ee3f"
+                                    "ioValue": "a1b12076-6a36-4af3-8a88-e2584778ee3f",
+                                    "currentEquation": null
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 0.25
+                                    "ioValue": 0.25,
+                                    "currentEquation": null
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -2382,154 +2437,132 @@
                         {
                             "ap1Name": "number or geometry",
                             "ap2Name": "w",
-                            "ap2Primary": false,
                             "ap1ID": "41e51a0d-3f47-438f-b273-daffa4f86c41",
                             "ap2ID": "080410d1-2df9-4433-abc5-948efb61eb81"
                         },
                         {
                             "ap1Name": "number or geometry",
                             "ap2Name": "w",
-                            "ap2Primary": false,
                             "ap1ID": "41e51a0d-3f47-438f-b273-daffa4f86c41",
                             "ap2ID": "b07d5d4d-c24a-4858-becf-885477c47d3c"
                         },
                         {
                             "ap1Name": "number or geometry",
                             "ap2Name": "d",
-                            "ap2Primary": false,
                             "ap1ID": "7e07dc12-b51b-4f13-8548-528bbe1ea06a",
                             "ap2ID": "7071e44e-8575-4b40-a390-efb1720529f2"
                         },
                         {
                             "ap1Name": "number or geometry",
                             "ap2Name": "d",
-                            "ap2Primary": false,
                             "ap1ID": "7e07dc12-b51b-4f13-8548-528bbe1ea06a",
                             "ap2ID": "59834478-8351-4a31-abaa-2472bd80a19d"
                         },
                         {
                             "ap1Name": "result",
                             "ap2Name": "x length",
-                            "ap2Primary": false,
                             "ap1ID": "080410d1-2df9-4433-abc5-948efb61eb81",
                             "ap2ID": "fbfcda0e-6be1-45b2-b299-3628f2724e46"
                         },
                         {
                             "ap1Name": "result",
                             "ap2Name": "y length",
-                            "ap2Primary": false,
                             "ap1ID": "7071e44e-8575-4b40-a390-efb1720529f2",
                             "ap2ID": "fbfcda0e-6be1-45b2-b299-3628f2724e46"
                         },
                         {
                             "ap1Name": "result",
                             "ap2Name": "y length",
-                            "ap2Primary": false,
                             "ap1ID": "59834478-8351-4a31-abaa-2472bd80a19d",
                             "ap2ID": "a1b12076-6a36-4af3-8a88-e2584778ee3f"
                         },
                         {
                             "ap1Name": "result",
                             "ap2Name": "x length",
-                            "ap2Primary": false,
                             "ap1ID": "b07d5d4d-c24a-4858-becf-885477c47d3c",
                             "ap2ID": "a1b12076-6a36-4af3-8a88-e2584778ee3f"
                         },
                         {
                             "ap1Name": "result",
                             "ap2Name": "zDist",
-                            "ap2Primary": false,
                             "ap1ID": "37a04088-7e07-46cb-aef9-7dedd294238d",
                             "ap2ID": "44df1ed9-1cfc-48d0-ba98-f5c679589ae9"
                         },
                         {
                             "ap1Name": "result",
                             "ap2Name": "height",
-                            "ap2Primary": false,
                             "ap1ID": "37a04088-7e07-46cb-aef9-7dedd294238d",
                             "ap2ID": "45ac6826-0ced-466e-945d-3df18cbf6aa7"
                         },
                         {
                             "ap1Name": "result",
                             "ap2Name": "height",
-                            "ap2Primary": false,
                             "ap1ID": "37a04088-7e07-46cb-aef9-7dedd294238d",
                             "ap2ID": "a74dde8f-0edc-4a09-846d-f3584507e30e"
                         },
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "geometry",
-                            "ap2Primary": true,
                             "ap1ID": "fbfcda0e-6be1-45b2-b299-3628f2724e46",
                             "ap2ID": "44df1ed9-1cfc-48d0-ba98-f5c679589ae9"
                         },
                         {
                             "ap1Name": "number or geometry",
                             "ap2Name": "t",
-                            "ap2Primary": false,
                             "ap1ID": "475ea748-58bd-4f8d-879d-4e8bc8760280",
                             "ap2ID": "37a04088-7e07-46cb-aef9-7dedd294238d"
                         },
                         {
                             "ap1Name": "number or geometry",
                             "ap2Name": "t",
-                            "ap2Primary": false,
                             "ap1ID": "475ea748-58bd-4f8d-879d-4e8bc8760280",
                             "ap2ID": "7071e44e-8575-4b40-a390-efb1720529f2"
                         },
                         {
                             "ap1Name": "number or geometry",
                             "ap2Name": "t",
-                            "ap2Primary": false,
                             "ap1ID": "475ea748-58bd-4f8d-879d-4e8bc8760280",
                             "ap2ID": "59834478-8351-4a31-abaa-2472bd80a19d"
                         },
                         {
                             "ap1Name": "number or geometry",
                             "ap2Name": "t",
-                            "ap2Primary": false,
                             "ap1ID": "475ea748-58bd-4f8d-879d-4e8bc8760280",
                             "ap2ID": "b07d5d4d-c24a-4858-becf-885477c47d3c"
                         },
                         {
                             "ap1Name": "number or geometry",
                             "ap2Name": "t",
-                            "ap2Primary": false,
                             "ap1ID": "475ea748-58bd-4f8d-879d-4e8bc8760280",
                             "ap2ID": "080410d1-2df9-4433-abc5-948efb61eb81"
                         },
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "geometry",
-                            "ap2Primary": true,
                             "ap1ID": "a1b12076-6a36-4af3-8a88-e2584778ee3f",
                             "ap2ID": "a74dde8f-0edc-4a09-846d-f3584507e30e"
                         },
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "geometry",
-                            "ap2Primary": true,
                             "ap1ID": "44df1ed9-1cfc-48d0-ba98-f5c679589ae9",
                             "ap2ID": "45ac6826-0ced-466e-945d-3df18cbf6aa7"
                         },
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "Shape 1",
-                            "ap2Primary": false,
                             "ap1ID": "45ac6826-0ced-466e-945d-3df18cbf6aa7",
                             "ap2ID": "fd0816c4-03b9-4a2a-8fda-170a81d1306f"
                         },
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "Shape 2",
-                            "ap2Primary": false,
                             "ap1ID": "a74dde8f-0edc-4a09-846d-f3584507e30e",
                             "ap2ID": "fd0816c4-03b9-4a2a-8fda-170a81d1306f"
                         },
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "number or geometry",
-                            "ap2Primary": false,
                             "ap1ID": "fd0816c4-03b9-4a2a-8fda-170a81d1306f",
                             "ap2ID": "8ab7e5ba-6eaa-48b1-8a69-bebe741cc63e"
                         }
@@ -2546,19 +2579,23 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "83a82f0e-4638-4ab4-96fd-c7c0fb456440"
+                            "ioValue": "83a82f0e-4638-4ab4-96fd-c7c0fb456440",
+                            "currentEquation": null
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 0,
+                            "currentEquation": null
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": 0,
+                            "currentEquation": null
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 0,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -2572,11 +2609,13 @@
                     "ioValues": [
                         {
                             "name": "w",
-                            "ioValue": 20
+                            "ioValue": 20,
+                            "currentEquation": null
                         },
                         {
                             "name": "s",
-                            "ioValue": 0.5
+                            "ioValue": 0.5,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -2615,98 +2654,84 @@
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "y length",
-                    "ap2Primary": false,
                     "ap1ID": "4f2eaa99-2e72-4c0f-ad64-0939be58327f",
                     "ap2ID": "026caa9c-d8a1-4e5a-83a8-bc14b3cb93b9"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "w",
-                    "ap2Primary": false,
                     "ap1ID": "4f2eaa99-2e72-4c0f-ad64-0939be58327f",
                     "ap2ID": "e6d3763c-edb1-4c48-b94c-076917c501c6"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "height",
-                    "ap2Primary": false,
                     "ap1ID": "c254a471-5a8b-4658-bcc2-ed25ec9be084",
                     "ap2ID": "dcb1b332-348e-4913-a8c9-b30a4da2fdcd"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "x length",
-                    "ap2Primary": false,
                     "ap1ID": "b99bd937-965d-490d-aa88-b1e92adf14d8",
                     "ap2ID": "026caa9c-d8a1-4e5a-83a8-bc14b3cb93b9"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "material_thickness",
-                    "ap2Primary": false,
                     "ap1ID": "b99bd937-965d-490d-aa88-b1e92adf14d8",
                     "ap2ID": "83a82f0e-4638-4ab4-96fd-c7c0fb456440"
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "Shape 1",
-                    "ap2Primary": false,
                     "ap1ID": "dcb1b332-348e-4913-a8c9-b30a4da2fdcd",
                     "ap2ID": "fef8d88a-9aa5-457c-8b18-07bef39ef6b2"
                 },
                 {
                     "ap1Name": "number",
                     "ap2Name": "s",
-                    "ap2Primary": false,
                     "ap1ID": "5e6f8d4a-81e6-4123-afd1-0793d464ac23",
                     "ap2ID": "e6d3763c-edb1-4c48-b94c-076917c501c6"
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
-                    "ap2Primary": true,
                     "ap1ID": "f2d98987-7fd6-4f57-9826-31ee4ac3f117",
                     "ap2ID": "dcb1b332-348e-4913-a8c9-b30a4da2fdcd"
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
-                    "ap2Primary": true,
                     "ap1ID": "026caa9c-d8a1-4e5a-83a8-bc14b3cb93b9",
                     "ap2ID": "c7fe5671-3806-4ad2-94f2-d1b0c4bf1d9a"
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "Shape 9",
-                    "ap2Primary": false,
                     "ap1ID": "c7fe5671-3806-4ad2-94f2-d1b0c4bf1d9a",
                     "ap2ID": "f2d98987-7fd6-4f57-9826-31ee4ac3f117"
                 },
                 {
-                    "ap1Name": "Geometry",
+                    "ap1Name": "geometry or number",
                     "ap2Name": "geometry",
-                    "ap2Primary": true,
                     "ap1ID": "83a82f0e-4638-4ab4-96fd-c7c0fb456440",
                     "ap2ID": "ffaad64c-a4c3-4c0e-a258-efddf65eb001"
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "Shape 2",
-                    "ap2Primary": false,
                     "ap1ID": "ffaad64c-a4c3-4c0e-a258-efddf65eb001",
                     "ap2ID": "fef8d88a-9aa5-457c-8b18-07bef39ef6b2"
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "y",
-                    "ap2Primary": false,
                     "ap1ID": "e6d3763c-edb1-4c48-b94c-076917c501c6",
                     "ap2ID": "83a82f0e-4638-4ab4-96fd-c7c0fb456440"
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
-                    "ap2Primary": false,
                     "ap1ID": "fef8d88a-9aa5-457c-8b18-07bef39ef6b2",
                     "ap2ID": "d3ef9302-fae2-47aa-9c21-545a7a56b927"
                 }
@@ -2723,15 +2748,18 @@
             "ioValues": [
                 {
                     "name": "x",
-                    "ioValue": 19
+                    "ioValue": 19,
+                    "currentEquation": "19"
                 },
                 {
                     "name": "y",
-                    "ioValue": 10
+                    "ioValue": 10,
+                    "currentEquation": "10"
                 },
                 {
                     "name": "thickness",
-                    "ioValue": 10
+                    "ioValue": 10,
+                    "currentEquation": "10"
                 }
             ],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -2790,19 +2818,23 @@
             "ioValues": [
                 {
                     "name": "width",
-                    "ioValue": 20
+                    "ioValue": 20,
+                    "currentEquation": null
                 },
                 {
                     "name": "height",
-                    "ioValue": 4
+                    "ioValue": 4,
+                    "currentEquation": null
                 },
                 {
                     "name": "depth",
-                    "ioValue": 14
+                    "ioValue": 14,
+                    "currentEquation": null
                 },
                 {
                     "name": "material_thickness",
-                    "ioValue": 0.5
+                    "ioValue": 0.5,
+                    "currentEquation": null
                 }
             ],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -2817,7 +2849,8 @@
                     "ioValues": [
                         {
                             "name": "number or geometry",
-                            "ioValue": "74d69605-e47d-437e-a5cb-10a8e6c1c841"
+                            "ioValue": "74d69605-e47d-437e-a5cb-10a8e6c1c841",
+                            "currentEquation": null
                         }
                     ],
                     "description": "Connect geometry here to make it available in the next level up. "
@@ -2871,11 +2904,13 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 13.5
+                            "ioValue": 13.5,
+                            "currentEquation": null
                         },
                         {
                             "name": "y length",
-                            "ioValue": 0.5
+                            "ioValue": 0.5,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Creates a new rectangle."
@@ -2889,11 +2924,13 @@
                     "ioValues": [
                         {
                             "name": "d",
-                            "ioValue": 14
+                            "ioValue": 14,
+                            "currentEquation": null
                         },
                         {
                             "name": "t",
-                            "ioValue": 0.5
+                            "ioValue": 0.5,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -2908,11 +2945,13 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "66edc685-026e-4ee0-8386-05cc4c5fb965"
+                            "ioValue": "66edc685-026e-4ee0-8386-05cc4c5fb965",
+                            "currentEquation": null
                         },
                         {
                             "name": "height",
-                            "ioValue": 4
+                            "ioValue": 4,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -2926,11 +2965,13 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 0.5
+                            "ioValue": 0.5,
+                            "currentEquation": null
                         },
                         {
                             "name": "y length",
-                            "ioValue": 18.5
+                            "ioValue": 18.5,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Creates a new rectangle."
@@ -2944,15 +2985,18 @@
                     "ioValues": [
                         {
                             "name": "w",
-                            "ioValue": 20
+                            "ioValue": 20,
+                            "currentEquation": null
                         },
                         {
                             "name": "s",
-                            "ioValue": 0.5
+                            "ioValue": 0.5,
+                            "currentEquation": null
                         },
                         {
                             "name": "t",
-                            "ioValue": 0.5
+                            "ioValue": 0.5,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -2977,19 +3021,23 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "132822d6-d688-4396-ae5e-db035a6b04cb"
+                            "ioValue": "132822d6-d688-4396-ae5e-db035a6b04cb",
+                            "currentEquation": null
                         },
                         {
                             "name": "xDist",
-                            "ioValue": -6.5
+                            "ioValue": -6.5,
+                            "currentEquation": null
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 9.25
+                            "ioValue": 9.25,
+                            "currentEquation": null
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 0,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -3003,7 +3051,8 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 18.5
+                            "ioValue": 18.5,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -3018,11 +3067,13 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 13.5
+                            "ioValue": 13.5,
+                            "currentEquation": null
                         },
                         {
                             "name": "t",
-                            "ioValue": 0.5
+                            "ioValue": 0.5,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -3067,19 +3118,23 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "ddec64bd-9774-4857-82a8-464dc2cafdb0"
+                            "ioValue": "ddec64bd-9774-4857-82a8-464dc2cafdb0",
+                            "currentEquation": null
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 13
+                            "ioValue": 13,
+                            "currentEquation": null
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": 0,
+                            "currentEquation": null
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 0,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -3093,11 +3148,13 @@
                     "ioValues": [
                         {
                             "name": "d",
-                            "ioValue": 13.5
+                            "ioValue": 13.5,
+                            "currentEquation": null
                         },
                         {
                             "name": "t",
-                            "ioValue": 0.5
+                            "ioValue": 0.5,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -3112,19 +3169,23 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "c4d5ffc4-3778-496f-b0b0-00d2e6ee8559"
+                            "ioValue": "c4d5ffc4-3778-496f-b0b0-00d2e6ee8559",
+                            "currentEquation": null
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 0,
+                            "currentEquation": null
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 18.5
+                            "ioValue": 18.5,
+                            "currentEquation": null
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 0,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -3138,11 +3199,13 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 0.5
+                            "ioValue": 0.5,
+                            "currentEquation": null
                         },
                         {
                             "name": "y length",
-                            "ioValue": 20
+                            "ioValue": 20,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Creates a new rectangle."
@@ -3156,19 +3219,23 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "90414d7a-78f2-4773-a60c-7bdeaafa2183"
+                            "ioValue": "90414d7a-78f2-4773-a60c-7bdeaafa2183",
+                            "currentEquation": null
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 7
+                            "ioValue": 7,
+                            "currentEquation": null
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 9.25
+                            "ioValue": 9.25,
+                            "currentEquation": null
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 0,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -3182,7 +3249,8 @@
                     "ioValues": [
                         {
                             "name": "d",
-                            "ioValue": 14
+                            "ioValue": 14,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -3197,15 +3265,18 @@
                     "ioValues": [
                         {
                             "name": "w",
-                            "ioValue": 20
+                            "ioValue": 20,
+                            "currentEquation": null
                         },
                         {
                             "name": "t",
-                            "ioValue": 0.5
+                            "ioValue": 0.5,
+                            "currentEquation": null
                         },
                         {
                             "name": "s",
-                            "ioValue": 0.5
+                            "ioValue": 0.5,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -3220,15 +3291,18 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 13.5
+                            "ioValue": 13.5,
+                            "currentEquation": null
                         },
                         {
                             "name": "y",
-                            "ioValue": 19
+                            "ioValue": 19,
+                            "currentEquation": null
                         },
                         {
                             "name": "material_thickness",
-                            "ioValue": 0.5
+                            "ioValue": 0.5,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -3243,7 +3317,8 @@
                             "ioValues": [
                                 {
                                     "name": "number or geometry",
-                                    "ioValue": "fd0816c4-03b9-4a2a-8fda-170a81d1306f"
+                                    "ioValue": "fd0816c4-03b9-4a2a-8fda-170a81d1306f",
+                                    "currentEquation": null
                                 }
                             ],
                             "description": "Connect geometry here to make it available in the next level up. "
@@ -3277,11 +3352,13 @@
                             "ioValues": [
                                 {
                                     "name": "w",
-                                    "ioValue": 13.5
+                                    "ioValue": 13.5,
+                                    "currentEquation": null
                                 },
                                 {
                                     "name": "t",
-                                    "ioValue": 0.5
+                                    "ioValue": 0.5,
+                                    "currentEquation": null
                                 }
                             ],
                             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -3296,11 +3373,13 @@
                             "ioValues": [
                                 {
                                     "name": "d",
-                                    "ioValue": 19
+                                    "ioValue": 19,
+                                    "currentEquation": null
                                 },
                                 {
                                     "name": "t",
-                                    "ioValue": 0.5
+                                    "ioValue": 0.5,
+                                    "currentEquation": null
                                 }
                             ],
                             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -3315,11 +3394,13 @@
                             "ioValues": [
                                 {
                                     "name": "d",
-                                    "ioValue": 19
+                                    "ioValue": 19,
+                                    "currentEquation": null
                                 },
                                 {
                                     "name": "t",
-                                    "ioValue": 0.5
+                                    "ioValue": 0.5,
+                                    "currentEquation": null
                                 }
                             ],
                             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -3334,11 +3415,13 @@
                             "ioValues": [
                                 {
                                     "name": "w",
-                                    "ioValue": 13.5
+                                    "ioValue": 13.5,
+                                    "currentEquation": null
                                 },
                                 {
                                     "name": "t",
-                                    "ioValue": 0.5
+                                    "ioValue": 0.5,
+                                    "currentEquation": null
                                 }
                             ],
                             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -3353,7 +3436,8 @@
                             "ioValues": [
                                 {
                                     "name": "t",
-                                    "ioValue": 0.5
+                                    "ioValue": 0.5,
+                                    "currentEquation": null
                                 }
                             ],
                             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -3368,11 +3452,13 @@
                             "ioValues": [
                                 {
                                     "name": "x length",
-                                    "ioValue": 13
+                                    "ioValue": 13,
+                                    "currentEquation": null
                                 },
                                 {
                                     "name": "y length",
-                                    "ioValue": 18.5
+                                    "ioValue": 18.5,
+                                    "currentEquation": null
                                 }
                             ],
                             "description": "Creates a new rectangle."
@@ -3396,11 +3482,13 @@
                             "ioValues": [
                                 {
                                     "name": "x length",
-                                    "ioValue": 12.5
+                                    "ioValue": 12.5,
+                                    "currentEquation": null
                                 },
                                 {
                                     "name": "y length",
-                                    "ioValue": 18
+                                    "ioValue": 18,
+                                    "currentEquation": null
                                 }
                             ],
                             "description": "Creates a new rectangle."
@@ -3414,19 +3502,23 @@
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": "fbfcda0e-6be1-45b2-b299-3628f2724e46"
+                                    "ioValue": "fbfcda0e-6be1-45b2-b299-3628f2724e46",
+                                    "currentEquation": null
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 0
+                                    "ioValue": 0,
+                                    "currentEquation": null
                                 },
                                 {
                                     "name": "yDist",
-                                    "ioValue": 0
+                                    "ioValue": 0,
+                                    "currentEquation": null
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 0.25
+                                    "ioValue": 0.25,
+                                    "currentEquation": null
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -3440,11 +3532,13 @@
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": "44df1ed9-1cfc-48d0-ba98-f5c679589ae9"
+                                    "ioValue": "44df1ed9-1cfc-48d0-ba98-f5c679589ae9",
+                                    "currentEquation": null
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 0.25
+                                    "ioValue": 0.25,
+                                    "currentEquation": null
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -3458,11 +3552,13 @@
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": "a1b12076-6a36-4af3-8a88-e2584778ee3f"
+                                    "ioValue": "a1b12076-6a36-4af3-8a88-e2584778ee3f",
+                                    "currentEquation": null
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 0.25
+                                    "ioValue": 0.25,
+                                    "currentEquation": null
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -3491,154 +3587,132 @@
                         {
                             "ap1Name": "number or geometry",
                             "ap2Name": "w",
-                            "ap2Primary": false,
                             "ap1ID": "41e51a0d-3f47-438f-b273-daffa4f86c41",
                             "ap2ID": "080410d1-2df9-4433-abc5-948efb61eb81"
                         },
                         {
                             "ap1Name": "number or geometry",
                             "ap2Name": "w",
-                            "ap2Primary": false,
                             "ap1ID": "41e51a0d-3f47-438f-b273-daffa4f86c41",
                             "ap2ID": "b07d5d4d-c24a-4858-becf-885477c47d3c"
                         },
                         {
                             "ap1Name": "number or geometry",
                             "ap2Name": "d",
-                            "ap2Primary": false,
                             "ap1ID": "7e07dc12-b51b-4f13-8548-528bbe1ea06a",
                             "ap2ID": "7071e44e-8575-4b40-a390-efb1720529f2"
                         },
                         {
                             "ap1Name": "number or geometry",
                             "ap2Name": "d",
-                            "ap2Primary": false,
                             "ap1ID": "7e07dc12-b51b-4f13-8548-528bbe1ea06a",
                             "ap2ID": "59834478-8351-4a31-abaa-2472bd80a19d"
                         },
                         {
                             "ap1Name": "result",
                             "ap2Name": "x length",
-                            "ap2Primary": false,
                             "ap1ID": "080410d1-2df9-4433-abc5-948efb61eb81",
                             "ap2ID": "fbfcda0e-6be1-45b2-b299-3628f2724e46"
                         },
                         {
                             "ap1Name": "result",
                             "ap2Name": "y length",
-                            "ap2Primary": false,
                             "ap1ID": "7071e44e-8575-4b40-a390-efb1720529f2",
                             "ap2ID": "fbfcda0e-6be1-45b2-b299-3628f2724e46"
                         },
                         {
                             "ap1Name": "result",
                             "ap2Name": "y length",
-                            "ap2Primary": false,
                             "ap1ID": "59834478-8351-4a31-abaa-2472bd80a19d",
                             "ap2ID": "a1b12076-6a36-4af3-8a88-e2584778ee3f"
                         },
                         {
                             "ap1Name": "result",
                             "ap2Name": "x length",
-                            "ap2Primary": false,
                             "ap1ID": "b07d5d4d-c24a-4858-becf-885477c47d3c",
                             "ap2ID": "a1b12076-6a36-4af3-8a88-e2584778ee3f"
                         },
                         {
                             "ap1Name": "result",
                             "ap2Name": "zDist",
-                            "ap2Primary": false,
                             "ap1ID": "37a04088-7e07-46cb-aef9-7dedd294238d",
                             "ap2ID": "44df1ed9-1cfc-48d0-ba98-f5c679589ae9"
                         },
                         {
                             "ap1Name": "result",
                             "ap2Name": "height",
-                            "ap2Primary": false,
                             "ap1ID": "37a04088-7e07-46cb-aef9-7dedd294238d",
                             "ap2ID": "45ac6826-0ced-466e-945d-3df18cbf6aa7"
                         },
                         {
                             "ap1Name": "result",
                             "ap2Name": "height",
-                            "ap2Primary": false,
                             "ap1ID": "37a04088-7e07-46cb-aef9-7dedd294238d",
                             "ap2ID": "a74dde8f-0edc-4a09-846d-f3584507e30e"
                         },
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "geometry",
-                            "ap2Primary": true,
                             "ap1ID": "fbfcda0e-6be1-45b2-b299-3628f2724e46",
                             "ap2ID": "44df1ed9-1cfc-48d0-ba98-f5c679589ae9"
                         },
                         {
                             "ap1Name": "number or geometry",
                             "ap2Name": "t",
-                            "ap2Primary": false,
                             "ap1ID": "475ea748-58bd-4f8d-879d-4e8bc8760280",
                             "ap2ID": "37a04088-7e07-46cb-aef9-7dedd294238d"
                         },
                         {
                             "ap1Name": "number or geometry",
                             "ap2Name": "t",
-                            "ap2Primary": false,
                             "ap1ID": "475ea748-58bd-4f8d-879d-4e8bc8760280",
                             "ap2ID": "7071e44e-8575-4b40-a390-efb1720529f2"
                         },
                         {
                             "ap1Name": "number or geometry",
                             "ap2Name": "t",
-                            "ap2Primary": false,
                             "ap1ID": "475ea748-58bd-4f8d-879d-4e8bc8760280",
                             "ap2ID": "59834478-8351-4a31-abaa-2472bd80a19d"
                         },
                         {
                             "ap1Name": "number or geometry",
                             "ap2Name": "t",
-                            "ap2Primary": false,
                             "ap1ID": "475ea748-58bd-4f8d-879d-4e8bc8760280",
                             "ap2ID": "b07d5d4d-c24a-4858-becf-885477c47d3c"
                         },
                         {
                             "ap1Name": "number or geometry",
                             "ap2Name": "t",
-                            "ap2Primary": false,
                             "ap1ID": "475ea748-58bd-4f8d-879d-4e8bc8760280",
                             "ap2ID": "080410d1-2df9-4433-abc5-948efb61eb81"
                         },
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "geometry",
-                            "ap2Primary": true,
                             "ap1ID": "a1b12076-6a36-4af3-8a88-e2584778ee3f",
                             "ap2ID": "a74dde8f-0edc-4a09-846d-f3584507e30e"
                         },
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "geometry",
-                            "ap2Primary": true,
                             "ap1ID": "44df1ed9-1cfc-48d0-ba98-f5c679589ae9",
                             "ap2ID": "45ac6826-0ced-466e-945d-3df18cbf6aa7"
                         },
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "Shape 1",
-                            "ap2Primary": false,
                             "ap1ID": "45ac6826-0ced-466e-945d-3df18cbf6aa7",
                             "ap2ID": "fd0816c4-03b9-4a2a-8fda-170a81d1306f"
                         },
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "Shape 2",
-                            "ap2Primary": false,
                             "ap1ID": "a74dde8f-0edc-4a09-846d-f3584507e30e",
                             "ap2ID": "fd0816c4-03b9-4a2a-8fda-170a81d1306f"
                         },
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "number or geometry",
-                            "ap2Primary": false,
                             "ap1ID": "fd0816c4-03b9-4a2a-8fda-170a81d1306f",
                             "ap2ID": "8ab7e5ba-6eaa-48b1-8a69-bebe741cc63e"
                         }
@@ -3655,19 +3729,23 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "27d7facc-2a97-4a78-a096-17d823759d98"
+                            "ioValue": "27d7facc-2a97-4a78-a096-17d823759d98",
+                            "currentEquation": null
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 0,
+                            "currentEquation": null
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 9.25
+                            "ioValue": 9.25,
+                            "currentEquation": null
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 0,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -3681,11 +3759,13 @@
                     "ioValues": [
                         {
                             "name": "w",
-                            "ioValue": 20
+                            "ioValue": 20,
+                            "currentEquation": null
                         },
                         {
                             "name": "s",
-                            "ioValue": 0.5
+                            "ioValue": 0.5,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -3714,329 +3794,282 @@
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "w",
-                    "ap2Primary": false,
                     "ap1ID": "480f35a7-ab2a-4d93-86bb-50ac6a94b556",
                     "ap2ID": "0ac292c6-658e-408d-b5d2-195de41fc2cf"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "y length",
-                    "ap2Primary": false,
                     "ap1ID": "480f35a7-ab2a-4d93-86bb-50ac6a94b556",
                     "ap2ID": "90414d7a-78f2-4773-a60c-7bdeaafa2183"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "w",
-                    "ap2Primary": false,
                     "ap1ID": "480f35a7-ab2a-4d93-86bb-50ac6a94b556",
                     "ap2ID": "535dbd00-8400-47ae-848d-193412a3c225"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "w",
-                    "ap2Primary": false,
                     "ap1ID": "480f35a7-ab2a-4d93-86bb-50ac6a94b556",
                     "ap2ID": "f21ec66d-1de8-4f77-a264-da95db6b7645"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "height",
-                    "ap2Primary": false,
                     "ap1ID": "9a024240-5041-471d-a67c-35785997aceb",
                     "ap2ID": "4d657265-3962-49e2-932d-c0ecd0fa72f3"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "d",
-                    "ap2Primary": false,
                     "ap1ID": "de1e8dcc-4d98-4198-b44b-8ca0731108d3",
                     "ap2ID": "873c36b3-d2d6-4924-bedd-71426dc44815"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "d",
-                    "ap2Primary": false,
                     "ap1ID": "de1e8dcc-4d98-4198-b44b-8ca0731108d3",
                     "ap2ID": "534cdfc1-b537-4c7d-af6f-023af90720c4"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "t",
-                    "ap2Primary": false,
                     "ap1ID": "17823d16-6ca4-47a6-b8fe-de5fff4b1cf4",
                     "ap2ID": "873c36b3-d2d6-4924-bedd-71426dc44815"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "y length",
-                    "ap2Primary": false,
                     "ap1ID": "17823d16-6ca4-47a6-b8fe-de5fff4b1cf4",
                     "ap2ID": "c4d5ffc4-3778-496f-b0b0-00d2e6ee8559"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "t",
-                    "ap2Primary": false,
                     "ap1ID": "17823d16-6ca4-47a6-b8fe-de5fff4b1cf4",
                     "ap2ID": "0ac292c6-658e-408d-b5d2-195de41fc2cf"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "x length",
-                    "ap2Primary": false,
                     "ap1ID": "17823d16-6ca4-47a6-b8fe-de5fff4b1cf4",
                     "ap2ID": "132822d6-d688-4396-ae5e-db035a6b04cb"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "t",
-                    "ap2Primary": false,
                     "ap1ID": "17823d16-6ca4-47a6-b8fe-de5fff4b1cf4",
                     "ap2ID": "e33ff4e2-0578-4fd5-a651-349ad16f8052"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "t",
-                    "ap2Primary": false,
                     "ap1ID": "17823d16-6ca4-47a6-b8fe-de5fff4b1cf4",
                     "ap2ID": "5d5ea89a-83cc-4542-97ae-720d226b075f"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "x length",
-                    "ap2Primary": false,
                     "ap1ID": "17823d16-6ca4-47a6-b8fe-de5fff4b1cf4",
                     "ap2ID": "90414d7a-78f2-4773-a60c-7bdeaafa2183"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "t",
-                    "ap2Primary": false,
                     "ap1ID": "17823d16-6ca4-47a6-b8fe-de5fff4b1cf4",
                     "ap2ID": "535dbd00-8400-47ae-848d-193412a3c225"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "material_thickness",
-                    "ap2Primary": false,
                     "ap1ID": "17823d16-6ca4-47a6-b8fe-de5fff4b1cf4",
                     "ap2ID": "27d7facc-2a97-4a78-a096-17d823759d98"
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
-                    "ap2Primary": true,
                     "ap1ID": "c4d5ffc4-3778-496f-b0b0-00d2e6ee8559",
                     "ap2ID": "4cb61aca-8e42-4fa8-844f-5e284bb656e2"
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "Shape 5",
-                    "ap2Primary": false,
                     "ap1ID": "c4d5ffc4-3778-496f-b0b0-00d2e6ee8559",
                     "ap2ID": "66edc685-026e-4ee0-8386-05cc4c5fb965"
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "x length",
-                    "ap2Primary": false,
                     "ap1ID": "873c36b3-d2d6-4924-bedd-71426dc44815",
                     "ap2ID": "c4d5ffc4-3778-496f-b0b0-00d2e6ee8559"
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "x",
-                    "ap2Primary": false,
                     "ap1ID": "873c36b3-d2d6-4924-bedd-71426dc44815",
                     "ap2ID": "e33ff4e2-0578-4fd5-a651-349ad16f8052"
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "d",
-                    "ap2Primary": false,
                     "ap1ID": "873c36b3-d2d6-4924-bedd-71426dc44815",
                     "ap2ID": "5d5ea89a-83cc-4542-97ae-720d226b075f"
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "x",
-                    "ap2Primary": false,
                     "ap1ID": "873c36b3-d2d6-4924-bedd-71426dc44815",
                     "ap2ID": "27d7facc-2a97-4a78-a096-17d823759d98"
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "Shape 1",
-                    "ap2Primary": false,
                     "ap1ID": "4d657265-3962-49e2-932d-c0ecd0fa72f3",
                     "ap2ID": "74d69605-e47d-437e-a5cb-10a8e6c1c841"
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
-                    "ap2Primary": true,
                     "ap1ID": "132822d6-d688-4396-ae5e-db035a6b04cb",
                     "ap2ID": "ddec64bd-9774-4857-82a8-464dc2cafdb0"
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "y length",
-                    "ap2Primary": false,
                     "ap1ID": "0ac292c6-658e-408d-b5d2-195de41fc2cf",
                     "ap2ID": "132822d6-d688-4396-ae5e-db035a6b04cb"
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "x",
-                    "ap2Primary": false,
                     "ap1ID": "0ac292c6-658e-408d-b5d2-195de41fc2cf",
                     "ap2ID": "e9ec9cab-018d-4ea5-8dcc-60b6a410fdf9"
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "yDist",
-                    "ap2Primary": false,
                     "ap1ID": "0ac292c6-658e-408d-b5d2-195de41fc2cf",
                     "ap2ID": "4cb61aca-8e42-4fa8-844f-5e284bb656e2"
                 },
                 {
                     "ap1Name": "number",
                     "ap2Name": "s",
-                    "ap2Primary": false,
                     "ap1ID": "46ba22bb-4114-455f-b4fe-3146e062926f",
                     "ap2ID": "0ac292c6-658e-408d-b5d2-195de41fc2cf"
                 },
                 {
                     "ap1Name": "number",
                     "ap2Name": "s",
-                    "ap2Primary": false,
                     "ap1ID": "46ba22bb-4114-455f-b4fe-3146e062926f",
                     "ap2ID": "535dbd00-8400-47ae-848d-193412a3c225"
                 },
                 {
                     "ap1Name": "number",
                     "ap2Name": "s",
-                    "ap2Primary": false,
                     "ap1ID": "46ba22bb-4114-455f-b4fe-3146e062926f",
                     "ap2ID": "f21ec66d-1de8-4f77-a264-da95db6b7645"
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
-                    "ap2Primary": true,
                     "ap1ID": "ddec64bd-9774-4857-82a8-464dc2cafdb0",
                     "ap2ID": "92b27f69-4d4c-4bc4-81bc-649dfce4101e"
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "Shape 7",
-                    "ap2Primary": false,
                     "ap1ID": "ddec64bd-9774-4857-82a8-464dc2cafdb0",
                     "ap2ID": "66edc685-026e-4ee0-8386-05cc4c5fb965"
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "yDist",
-                    "ap2Primary": false,
                     "ap1ID": "e9ec9cab-018d-4ea5-8dcc-60b6a410fdf9",
                     "ap2ID": "ddec64bd-9774-4857-82a8-464dc2cafdb0"
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "xDist",
-                    "ap2Primary": false,
                     "ap1ID": "e33ff4e2-0578-4fd5-a651-349ad16f8052",
                     "ap2ID": "ddec64bd-9774-4857-82a8-464dc2cafdb0"
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
-                    "ap2Primary": true,
                     "ap1ID": "66edc685-026e-4ee0-8386-05cc4c5fb965",
                     "ap2ID": "4d657265-3962-49e2-932d-c0ecd0fa72f3"
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "Shape 8",
-                    "ap2Primary": false,
                     "ap1ID": "92b27f69-4d4c-4bc4-81bc-649dfce4101e",
                     "ap2ID": "66edc685-026e-4ee0-8386-05cc4c5fb965"
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "xDist",
-                    "ap2Primary": false,
                     "ap1ID": "5d5ea89a-83cc-4542-97ae-720d226b075f",
                     "ap2ID": "92b27f69-4d4c-4bc4-81bc-649dfce4101e"
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "Shape 6",
-                    "ap2Primary": false,
                     "ap1ID": "4cb61aca-8e42-4fa8-844f-5e284bb656e2",
                     "ap2ID": "66edc685-026e-4ee0-8386-05cc4c5fb965"
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
-                    "ap2Primary": true,
                     "ap1ID": "90414d7a-78f2-4773-a60c-7bdeaafa2183",
                     "ap2ID": "3c58b60d-593c-4c7e-ac12-db8201438449"
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "Shape 9",
-                    "ap2Primary": false,
                     "ap1ID": "3c58b60d-593c-4c7e-ac12-db8201438449",
                     "ap2ID": "66edc685-026e-4ee0-8386-05cc4c5fb965"
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "xDist",
-                    "ap2Primary": false,
                     "ap1ID": "534cdfc1-b537-4c7d-af6f-023af90720c4",
                     "ap2ID": "3c58b60d-593c-4c7e-ac12-db8201438449"
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "yDist",
-                    "ap2Primary": false,
                     "ap1ID": "535dbd00-8400-47ae-848d-193412a3c225",
                     "ap2ID": "3c58b60d-593c-4c7e-ac12-db8201438449"
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "yDist",
-                    "ap2Primary": false,
                     "ap1ID": "535dbd00-8400-47ae-848d-193412a3c225",
                     "ap2ID": "d2a15fe6-bb51-4372-afa0-4d3c335f6816"
                 },
                 {
-                    "ap1Name": "Geometry",
+                    "ap1Name": "geometry or number",
                     "ap2Name": "geometry",
-                    "ap2Primary": true,
                     "ap1ID": "27d7facc-2a97-4a78-a096-17d823759d98",
                     "ap2ID": "d2a15fe6-bb51-4372-afa0-4d3c335f6816"
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "Shape 2",
-                    "ap2Primary": false,
                     "ap1ID": "d2a15fe6-bb51-4372-afa0-4d3c335f6816",
                     "ap2ID": "74d69605-e47d-437e-a5cb-10a8e6c1c841"
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "y",
-                    "ap2Primary": false,
                     "ap1ID": "f21ec66d-1de8-4f77-a264-da95db6b7645",
                     "ap2ID": "27d7facc-2a97-4a78-a096-17d823759d98"
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
-                    "ap2Primary": false,
                     "ap1ID": "74d69605-e47d-437e-a5cb-10a8e6c1c841",
                     "ap2ID": "97c29385-de43-4341-9923-074be9903fb5"
                 }
@@ -4053,7 +4086,8 @@
             "ioValues": [
                 {
                     "name": "diameter",
-                    "ioValue": 10
+                    "ioValue": 10,
+                    "currentEquation": null
                 }
             ],
             "description": "Creates a new circle."
@@ -4067,11 +4101,13 @@
             "ioValues": [
                 {
                     "name": "Geometry",
-                    "ioValue": 10
+                    "ioValue": "731ae18c-d2a5-45ac-bbe2-1ccfb224d106",
+                    "currentEquation": null
                 },
                 {
                     "name": "Scale Factor",
-                    "ioValue": 10
+                    "ioValue": 10,
+                    "currentEquation": null
                 }
             ],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -4083,7 +4119,13 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": "e8943b89-0c7d-475a-b5e6-62a2056e1478",
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": "a94f5ae3-72dc-4010-a7d1-8873365f1f3f",
+                            "currentEquation": null
+                        }
+                    ],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -4115,11 +4157,13 @@
                     "ioValues": [
                         {
                             "name": "inputShape",
-                            "ioValue": 10
+                            "ioValue": "731ae18c-d2a5-45ac-bbe2-1ccfb224d106",
+                            "currentEquation": null
                         },
                         {
                             "name": "scaleFactor",
-                            "ioValue": 10
+                            "ioValue": 10,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Defines a Replicad code block.",
@@ -4131,21 +4175,18 @@
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "inputShape",
-                    "ap2Primary": false,
                     "ap1ID": "efc16c5c-7097-4b2d-962e-c6c2235a819d",
                     "ap2ID": "a94f5ae3-72dc-4010-a7d1-8873365f1f3f"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "scaleFactor",
-                    "ap2Primary": false,
                     "ap1ID": "54b7376e-abbd-4c4e-9b46-2555af32ba0b",
                     "ap2ID": "a94f5ae3-72dc-4010-a7d1-8873365f1f3f"
                 },
                 {
-                    "ap1Name": "geometry",
+                    "ap1Name": "output",
                     "ap2Name": "number or geometry",
-                    "ap2Primary": false,
                     "ap1ID": "a94f5ae3-72dc-4010-a7d1-8873365f1f3f",
                     "ap2ID": "e8943b89-0c7d-475a-b5e6-62a2056e1478"
                 }
@@ -4184,76 +4225,58 @@
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": "21ffcb1b-9559-4348-baa1-4fd6b8a0e8e2"
+                    "ioValue": "21ffcb1b-9559-4348-baa1-4fd6b8a0e8e2",
+                    "currentEquation": null
                 },
                 {
                     "name": "xDist",
-                    "ioValue": 0
+                    "ioValue": 0,
+                    "currentEquation": null
                 },
                 {
                     "name": "yDist",
-                    "ioValue": 0
+                    "ioValue": 0,
+                    "currentEquation": null
                 },
                 {
                     "name": "zDist",
-                    "ioValue": 0
+                    "ioValue": 0,
+                    "currentEquation": null
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
-        },
-        {
-            "atomType": "Molecule",
-            "name": "Molecule",
-            "x": 0.3219251336898396,
-            "y": 0.8095238095238095,
-            "uniqueID": "046ee6a6-1eef-455d-bae5-8af1184438c3",
-            "ioValues": [],
-            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
-            "topLevel": false,
-            "allAtoms": [
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.98,
-                    "y": 0.5,
-                    "uniqueID": "08d57717-a104-42f3-a825-6de7bf4d3a01",
-                    "ioValues": [],
-                    "description": "Connect geometry here to make it available in the next level up. "
-                }
-            ],
-            "allConnectors": [],
-            "fileTypeVersion": 1,
-            "compiledBom": {}
         }
     ],
     "allConnectors": [
         {
-            "ap1Name": "Geometry",
+            "ap1Name": "geometry or number",
             "ap2Name": "geometry",
-            "ap2Primary": false,
             "ap1ID": "3707da93-fa19-430b-824e-0f517859f9c0",
             "ap2ID": "21ffcb1b-9559-4348-baa1-4fd6b8a0e8e2"
         },
         {
             "ap1Name": "geometry",
             "ap2Name": "number or geometry",
-            "ap2Primary": false,
             "ap1ID": "21ffcb1b-9559-4348-baa1-4fd6b8a0e8e2",
             "ap2ID": "f63cede1-fd7f-4d54-a176-3180cdd72624"
         },
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
-            "ap2Primary": true,
             "ap1ID": "21ffcb1b-9559-4348-baa1-4fd6b8a0e8e2",
             "ap2ID": "64365141-8a46-4d55-b041-10eba7e5c372"
         },
         {
             "ap1Name": "number or geometry",
             "ap2Name": "x",
-            "ap2Primary": false,
             "ap1ID": "26063e68-f8ae-4efa-b1c9-716d6733e4de",
             "ap2ID": "544cbafd-f427-431e-871a-8d599804c541"
+        },
+        {
+            "ap1Name": "geometry or number",
+            "ap2Name": "Geometry",
+            "ap1ID": "731ae18c-d2a5-45ac-bbe2-1ccfb224d106",
+            "ap2ID": "1e844612-1098-47c9-b8a9-3300bf209b8d"
         }
     ],
     "unitsKey": "Inches",
