@@ -25,13 +25,7 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": "f63cede1-fd7f-4d54-a176-3180cdd72624",
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": "21ffcb1b-9559-4348-baa1-4fd6b8a0e8e2",
-                    "currentEquation": null
-                }
-            ],
+            "ioValues": [],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -144,11 +138,6 @@
             "uniqueID": "64365141-8a46-4d55-b041-10eba7e5c372",
             "ioValues": [
                 {
-                    "name": "geometry",
-                    "ioValue": "21ffcb1b-9559-4348-baa1-4fd6b8a0e8e2",
-                    "currentEquation": null
-                },
-                {
                     "name": "xDist",
                     "ioValue": 0,
                     "currentEquation": null
@@ -165,6 +154,21 @@
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.4963579604578564,
+            "y": 0.7028571428571428,
+            "uniqueID": "beddc07a-71f1-41a7-a124-3c17319cda17",
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 20,
+                    "currentEquation": null
+                }
+            ],
+            "description": "Creates a new circle."
         },
         {
             "atomType": "Molecule",
@@ -900,6 +904,84 @@
                 "isLocal": false
             },
             "unitsKey": "Unitless",
+            "fileTypeVersion": 1,
+            "compiledBom": []
+        },
+        {
+            "atomType": "Molecule",
+            "name": "New Molecule",
+            "x": 0.23517169614984393,
+            "y": 0.8057142857142858,
+            "uniqueID": "e5f0d564-0fb8-4318-b832-469ef42b2fe9",
+            "ioValues": [],
+            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": "d920fe87-f733-4c41-a860-21ce8775e5ff",
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": "c7a6b75d-f22e-4a2c-ad29-8e2fee837e6d",
+                            "currentEquation": null
+                        }
+                    ],
+                    "description": "Connect geometry here to make it available in the next level up. "
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.4217447916666667,
+                    "y": 0.7,
+                    "uniqueID": "5a8f7636-a3d4-4e01-b5a9-ed3022f09d41",
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 10,
+                            "currentEquation": null
+                        }
+                    ],
+                    "description": "Creates a new circle."
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.5291666666666667,
+                    "y": 0.7089285714285714,
+                    "uniqueID": "c7a6b75d-f22e-4a2c-ad29-8e2fee837e6d",
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "5a8f7636-a3d4-4e01-b5a9-ed3022f09d41",
+                            "currentEquation": null
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": 10,
+                            "currentEquation": null
+                        }
+                    ],
+                    "description": "Extrudes a 2D shape. Input can be negative."
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": "5a8f7636-a3d4-4e01-b5a9-ed3022f09d41",
+                    "ap2ID": "c7a6b75d-f22e-4a2c-ad29-8e2fee837e6d"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": "c7a6b75d-f22e-4a2c-ad29-8e2fee837e6d",
+                    "ap2ID": "d920fe87-f733-4c41-a860-21ce8775e5ff"
+                }
+            ],
             "fileTypeVersion": 1,
             "compiledBom": []
         },
@@ -4706,99 +4788,6 @@
             ],
             "fileTypeVersion": 1,
             "compiledBom": []
-        },
-        {
-            "atomType": "Molecule",
-            "name": "New Molecule",
-            "x": 0.23517169614984393,
-            "y": 0.8057142857142858,
-            "uniqueID": "e5f0d564-0fb8-4318-b832-469ef42b2fe9",
-            "ioValues": [],
-            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
-            "topLevel": false,
-            "allAtoms": [
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.98,
-                    "y": 0.5,
-                    "uniqueID": "d920fe87-f733-4c41-a860-21ce8775e5ff",
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": "c7a6b75d-f22e-4a2c-ad29-8e2fee837e6d",
-                            "currentEquation": null
-                        }
-                    ],
-                    "description": "Connect geometry here to make it available in the next level up. "
-                },
-                {
-                    "atomType": "Circle",
-                    "name": "Circle",
-                    "x": 0.4217447916666667,
-                    "y": 0.7,
-                    "uniqueID": "5a8f7636-a3d4-4e01-b5a9-ed3022f09d41",
-                    "ioValues": [
-                        {
-                            "name": "diameter",
-                            "ioValue": 10,
-                            "currentEquation": null
-                        }
-                    ],
-                    "description": "Creates a new circle."
-                },
-                {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 0.5291666666666667,
-                    "y": 0.7089285714285714,
-                    "uniqueID": "c7a6b75d-f22e-4a2c-ad29-8e2fee837e6d",
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "5a8f7636-a3d4-4e01-b5a9-ed3022f09d41",
-                            "currentEquation": null
-                        },
-                        {
-                            "name": "height",
-                            "ioValue": 10,
-                            "currentEquation": null
-                        }
-                    ],
-                    "description": "Extrudes a 2D shape. Input can be negative."
-                }
-            ],
-            "allConnectors": [
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": "5a8f7636-a3d4-4e01-b5a9-ed3022f09d41",
-                    "ap2ID": "c7a6b75d-f22e-4a2c-ad29-8e2fee837e6d"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap1ID": "c7a6b75d-f22e-4a2c-ad29-8e2fee837e6d",
-                    "ap2ID": "d920fe87-f733-4c41-a860-21ce8775e5ff"
-                }
-            ],
-            "fileTypeVersion": 1,
-            "compiledBom": []
-        },
-        {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.4963579604578564,
-            "y": 0.7028571428571428,
-            "uniqueID": "beddc07a-71f1-41a7-a124-3c17319cda17",
-            "ioValues": [
-                {
-                    "name": "diameter",
-                    "ioValue": 20,
-                    "currentEquation": "20"
-                }
-            ],
-            "description": "Creates a new circle."
         }
     ],
     "allConnectors": [
