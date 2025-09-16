@@ -6,9 +6,9 @@
     "uniqueID": "4ec35f67-479c-40d7-ba20-bd50117e3f17",
     "ioValues": [
         {
-            "name": "height",
-            "ioValue": 1,
-            "currentEquation": "1"
+            "name": "width",
+            "ioValue": 10,
+            "currentEquation": "10"
         },
         {
             "name": "depth",
@@ -43,7 +43,7 @@
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": "30bb289d-bd9f-47a6-96ca-f20f3d5f7ebe",
+                    "ioValue": "444b3161-5065-4a56-a2c6-12018adc2f29",
                     "currentEquation": null
                 },
                 {
@@ -118,7 +118,7 @@
         },
         {
             "atomType": "Input",
-            "name": "height",
+            "name": "width",
             "x": 0.025384615384615384,
             "y": 0.28273809523809523,
             "uniqueID": "26063e68-f8ae-4efa-b1c9-716d6733e4de",
@@ -137,55 +137,10 @@
             "type": "number"
         },
         {
-            "atomType": "Move",
-            "name": "Move",
-            "x": 0.8424479166666667,
-            "y": 0.3333333333333333,
-            "uniqueID": "64365141-8a46-4d55-b041-10eba7e5c372",
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "21ffcb1b-9559-4348-baa1-4fd6b8a0e8e2",
-                    "currentEquation": null
-                },
-                {
-                    "name": "xDist",
-                    "ioValue": 0,
-                    "currentEquation": null
-                },
-                {
-                    "name": "yDist",
-                    "ioValue": 0,
-                    "currentEquation": null
-                },
-                {
-                    "name": "zDist",
-                    "ioValue": 0,
-                    "currentEquation": null
-                }
-            ],
-            "description": "Moves a shape laterally in X, Y, Z."
-        },
-        {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.4963579604578564,
-            "y": 0.7028571428571428,
-            "uniqueID": "beddc07a-71f1-41a7-a124-3c17319cda17",
-            "ioValues": [
-                {
-                    "name": "diameter",
-                    "ioValue": 20,
-                    "currentEquation": null
-                }
-            ],
-            "description": "Creates a new circle."
-        },
-        {
             "atomType": "Molecule",
             "name": "hollow_box",
-            "x": 0.23307291666666666,
-            "y": 0.6130952380952381,
+            "x": 0.056640625,
+            "y": 0.7114285714285714,
             "uniqueID": "731ae18c-d2a5-45ac-bbe2-1ccfb224d106",
             "ioValues": [
                 {
@@ -726,296 +681,24 @@
         },
         {
             "atomType": "Molecule",
-            "name": "Molecule",
-            "x": 0.3046875,
-            "y": 0.22857142857142856,
-            "uniqueID": "544cbafd-f427-431e-871a-8d599804c541",
-            "ioValues": [
-                {
-                    "name": "x",
-                    "ioValue": 1,
-                    "currentEquation": null
-                },
-                {
-                    "name": "y",
-                    "ioValue": 10,
-                    "currentEquation": null
-                },
-                {
-                    "name": "thickness",
-                    "ioValue": 10,
-                    "currentEquation": null
-                }
-            ],
-            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
-            "topLevel": false,
-            "allAtoms": [
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.98,
-                    "y": 0.5,
-                    "uniqueID": "72d73fcf-e8a0-406b-b3c4-15fb1c198401",
-                    "ioValues": [],
-                    "description": "Connect geometry here to make it available in the next level up. "
-                },
-                {
-                    "atomType": "Input",
-                    "name": "x",
-                    "x": 0.025384615384615384,
-                    "y": 0.4,
-                    "uniqueID": "14bf893b-5e8a-44e4-8763-bc4959af69db",
-                    "ioValues": [],
-                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
-                    "type": "number"
-                },
-                {
-                    "atomType": "Input",
-                    "name": "y",
-                    "x": 0.025384615384615384,
-                    "y": 0.52,
-                    "uniqueID": "48e34aa9-37e7-4bd3-a787-a8688d89c7ba",
-                    "ioValues": [],
-                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
-                    "type": "number"
-                },
-                {
-                    "atomType": "Input",
-                    "name": "thickness",
-                    "x": 0.025384615384615384,
-                    "y": 0.6314285714285715,
-                    "uniqueID": "9910160f-6014-46c1-beb4-ac6bc0d9949a",
-                    "ioValues": [],
-                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
-                    "type": "number"
-                }
-            ],
-            "allConnectors": [],
-            "fileTypeVersion": 1,
-            "compiledBom": {}
-        },
-        {
-            "atomType": "GitHubMolecule",
-            "name": "Scale",
-            "x": 0.4147135416666667,
-            "y": 0.3914285714285714,
-            "uniqueID": "1e844612-1098-47c9-b8a9-3300bf209b8d",
-            "ioValues": [
-                {
-                    "name": "Geometry",
-                    "ioValue": "731ae18c-d2a5-45ac-bbe2-1ccfb224d106",
-                    "currentEquation": null
-                },
-                {
-                    "name": "Scale Factor",
-                    "ioValue": 10,
-                    "currentEquation": null
-                }
-            ],
-            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
-            "topLevel": false,
-            "allAtoms": [
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.98,
-                    "y": 0.5,
-                    "uniqueID": "e8943b89-0c7d-475a-b5e6-62a2056e1478",
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": "a94f5ae3-72dc-4010-a7d1-8873365f1f3f",
-                            "currentEquation": null
-                        }
-                    ],
-                    "description": "Connect geometry here to make it available in the next level up. "
-                },
-                {
-                    "atomType": "Input",
-                    "name": "Geometry",
-                    "x": 0.025384615384615384,
-                    "y": 0.4692737430167598,
-                    "uniqueID": "efc16c5c-7097-4b2d-962e-c6c2235a819d",
-                    "ioValues": [],
-                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
-                    "type": "number"
-                },
-                {
-                    "atomType": "Input",
-                    "name": "Scale Factor",
-                    "x": 0.025384615384615384,
-                    "y": 0.6508379888268156,
-                    "uniqueID": "54b7376e-abbd-4c4e-9b46-2555af32ba0b",
-                    "ioValues": [],
-                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
-                    "type": "number"
-                },
-                {
-                    "atomType": "Code",
-                    "name": "Code",
-                    "x": 0.4226190476190476,
-                    "y": 0.25139664804469275,
-                    "uniqueID": "a94f5ae3-72dc-4010-a7d1-8873365f1f3f",
-                    "ioValues": [
-                        {
-                            "name": "inputShape",
-                            "ioValue": "731ae18c-d2a5-45ac-bbe2-1ccfb224d106",
-                            "currentEquation": null
-                        },
-                        {
-                            "name": "scaleFactor",
-                            "ioValue": 10,
-                            "currentEquation": null
-                        }
-                    ],
-                    "description": "Defines a Replicad code block.",
-                    "codeVersion": 1,
-                    "code": " \n      //Inputs:[inputShape, scaleFactor]\n      //This defines the molecules inputs and creates variables with the same names which can be referenced in the code\n      \n      //Takes the address and gets the shape from the library\n      let importedShape = library[inputShape]\n\n      let scaledShape = await Scale(inputShape, scaleFactor);\n      \n      \n      //Shapes stored in the library have tags, a color, a plane, and a bill of materials like this. We don't modify them here\n      let shape1 = {\n        geometry: [scaledShape],\n        tags: importedShape.tags,\n        color: importedShape.color,\n        plane: importedShape.plane,\n        bom: importedShape.bom\n      }\n      \n      return shape1\n      \n      \n      \n          /**\n          To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n          If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n          Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n          https://replicad.xyz/docs/introapp/UserGuide.html \n          Return a replicad object that includes geometry, color, tags and plane. \n      \n      \n          Example Code Atom:\n      \n            Inputs:[shape, x];\n      \n            let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n      \n            return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n      \n            - See more examples at _______ \n      \n      \n          */\n      "
-                }
-            ],
-            "allConnectors": [
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "inputShape",
-                    "ap1ID": "efc16c5c-7097-4b2d-962e-c6c2235a819d",
-                    "ap2ID": "a94f5ae3-72dc-4010-a7d1-8873365f1f3f"
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "scaleFactor",
-                    "ap1ID": "54b7376e-abbd-4c4e-9b46-2555af32ba0b",
-                    "ap2ID": "a94f5ae3-72dc-4010-a7d1-8873365f1f3f"
-                },
-                {
-                    "ap1Name": "output",
-                    "ap2Name": "number or geometry",
-                    "ap1ID": "a94f5ae3-72dc-4010-a7d1-8873365f1f3f",
-                    "ap2ID": "e8943b89-0c7d-475a-b5e6-62a2056e1478"
-                }
-            ],
-            "parentRepo": {
-                "privateRepo": false,
-                "repoName": "Scale",
-                "dateCreated": "2025-06-26T17:06:11Z",
-                "readMe": "https://raw.githubusercontent.com/BarbourSmith/Scale/master/README.md?sanitize=true",
-                "yyyy": 2025,
-                "topMoleculeID": "4b6bc40a-44a9-438a-9ed9-ba4910815d8d",
-                "githubMoleculesUsed": [],
-                "html_url": "https://github.com/BarbourSmith/Scale",
-                "topics": [],
-                "parentRepo": null,
-                "forks": 0,
-                "dateModified": "739428",
-                "ranking": 0,
-                "searchField": "scale barboursmith scales the input 2d or 3d geometry by the scale factor ",
-                "owner": "BarbourSmith",
-                "description": "Scales the input 2D or 3D geometry by the scale factor",
-                "contentURL": "https://raw.githubusercontent.com/BarbourSmith/Scale/master/project.abundance?sanitize=true",
-                "svgURL": "https://raw.githubusercontent.com/BarbourSmith/Scale/master/project.svg?sanitize=true",
-                "isLocal": false
-            },
-            "unitsKey": "Unitless",
-            "fileTypeVersion": 1,
-            "compiledBom": []
-        },
-        {
-            "atomType": "Molecule",
-            "name": "New Molecule",
-            "x": 0.23697916666666666,
-            "y": 0.8342857142857143,
-            "uniqueID": "e5f0d564-0fb8-4318-b832-469ef42b2fe9",
-            "ioValues": [],
-            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
-            "topLevel": false,
-            "allAtoms": [
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.98,
-                    "y": 0.5,
-                    "uniqueID": "d920fe87-f733-4c41-a860-21ce8775e5ff",
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": "c7a6b75d-f22e-4a2c-ad29-8e2fee837e6d",
-                            "currentEquation": null
-                        }
-                    ],
-                    "description": "Connect geometry here to make it available in the next level up. "
-                },
-                {
-                    "atomType": "Circle",
-                    "name": "Circle",
-                    "x": 0.4217447916666667,
-                    "y": 0.7,
-                    "uniqueID": "5a8f7636-a3d4-4e01-b5a9-ed3022f09d41",
-                    "ioValues": [
-                        {
-                            "name": "diameter",
-                            "ioValue": 10,
-                            "currentEquation": null
-                        }
-                    ],
-                    "description": "Creates a new circle."
-                },
-                {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 0.5291666666666667,
-                    "y": 0.7089285714285714,
-                    "uniqueID": "c7a6b75d-f22e-4a2c-ad29-8e2fee837e6d",
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "5a8f7636-a3d4-4e01-b5a9-ed3022f09d41",
-                            "currentEquation": null
-                        },
-                        {
-                            "name": "height",
-                            "ioValue": 10,
-                            "currentEquation": null
-                        }
-                    ],
-                    "description": "Extrudes a 2D shape. Input can be negative."
-                }
-            ],
-            "allConnectors": [
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": "5a8f7636-a3d4-4e01-b5a9-ed3022f09d41",
-                    "ap2ID": "c7a6b75d-f22e-4a2c-ad29-8e2fee837e6d"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap1ID": "c7a6b75d-f22e-4a2c-ad29-8e2fee837e6d",
-                    "ap2ID": "d920fe87-f733-4c41-a860-21ce8775e5ff"
-                }
-            ],
-            "fileTypeVersion": 1,
-            "compiledBom": []
-        },
-        {
-            "atomType": "Molecule",
             "name": "drawer",
-            "x": 0.5768229166666666,
-            "y": 0.2742857142857143,
+            "x": 0.37109375,
+            "y": 0.27999999999999997,
             "uniqueID": "3707da93-fa19-430b-824e-0f517859f9c0",
             "ioValues": [
                 {
                     "name": "width",
-                    "ioValue": 20,
+                    "ioValue": 10,
                     "currentEquation": null
                 },
                 {
                     "name": "height",
-                    "ioValue": 9,
+                    "ioValue": 10,
                     "currentEquation": null
                 },
                 {
                     "name": "depth",
-                    "ioValue": 14,
+                    "ioValue": 10,
                     "currentEquation": null
                 },
                 {
@@ -1091,7 +774,7 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 13.5,
+                            "ioValue": 9.5,
                             "currentEquation": null
                         },
                         {
@@ -1111,7 +794,7 @@
                     "ioValues": [
                         {
                             "name": "d",
-                            "ioValue": 14,
+                            "ioValue": 10,
                             "currentEquation": null
                         },
                         {
@@ -1137,7 +820,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 9,
+                            "ioValue": 10,
                             "currentEquation": null
                         }
                     ],
@@ -1157,7 +840,7 @@
                         },
                         {
                             "name": "y length",
-                            "ioValue": 18.5,
+                            "ioValue": 8.5,
                             "currentEquation": null
                         }
                     ],
@@ -1172,7 +855,7 @@
                     "ioValues": [
                         {
                             "name": "w",
-                            "ioValue": 20,
+                            "ioValue": 10,
                             "currentEquation": null
                         },
                         {
@@ -1213,12 +896,12 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": -6.5,
+                            "ioValue": -4.5,
                             "currentEquation": null
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 9.25,
+                            "ioValue": 4.25,
                             "currentEquation": null
                         },
                         {
@@ -1238,7 +921,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 18.5,
+                            "ioValue": 8.5,
                             "currentEquation": null
                         }
                     ],
@@ -1254,7 +937,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 13.5,
+                            "ioValue": 9.5,
                             "currentEquation": null
                         },
                         {
@@ -1310,7 +993,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 13,
+                            "ioValue": 9,
                             "currentEquation": null
                         },
                         {
@@ -1335,7 +1018,7 @@
                     "ioValues": [
                         {
                             "name": "d",
-                            "ioValue": 13.5,
+                            "ioValue": 9.5,
                             "currentEquation": null
                         },
                         {
@@ -1366,7 +1049,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 18.5,
+                            "ioValue": 8.5,
                             "currentEquation": null
                         },
                         {
@@ -1391,7 +1074,7 @@
                         },
                         {
                             "name": "y length",
-                            "ioValue": 20,
+                            "ioValue": 10,
                             "currentEquation": null
                         }
                     ],
@@ -1411,12 +1094,12 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 7,
+                            "ioValue": 5,
                             "currentEquation": null
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 9.25,
+                            "ioValue": 4.25,
                             "currentEquation": null
                         },
                         {
@@ -1436,7 +1119,7 @@
                     "ioValues": [
                         {
                             "name": "d",
-                            "ioValue": 14,
+                            "ioValue": 10,
                             "currentEquation": null
                         }
                     ],
@@ -1452,7 +1135,7 @@
                     "ioValues": [
                         {
                             "name": "w",
-                            "ioValue": 20,
+                            "ioValue": 10,
                             "currentEquation": null
                         },
                         {
@@ -1488,7 +1171,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 9.25,
+                            "ioValue": 4.25,
                             "currentEquation": null
                         },
                         {
@@ -1508,7 +1191,7 @@
                     "ioValues": [
                         {
                             "name": "w",
-                            "ioValue": 20,
+                            "ioValue": 10,
                             "currentEquation": null
                         },
                         {
@@ -1547,12 +1230,12 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 13.5,
+                            "ioValue": 9.5,
                             "currentEquation": null
                         },
                         {
                             "name": "y",
-                            "ioValue": 19,
+                            "ioValue": 9,
                             "currentEquation": null
                         },
                         {
@@ -1608,7 +1291,7 @@
                             "ioValues": [
                                 {
                                     "name": "w",
-                                    "ioValue": 13.5,
+                                    "ioValue": 9.5,
                                     "currentEquation": null
                                 },
                                 {
@@ -1629,7 +1312,7 @@
                             "ioValues": [
                                 {
                                     "name": "d",
-                                    "ioValue": 19,
+                                    "ioValue": 9,
                                     "currentEquation": null
                                 },
                                 {
@@ -1650,7 +1333,7 @@
                             "ioValues": [
                                 {
                                     "name": "d",
-                                    "ioValue": 19,
+                                    "ioValue": 9,
                                     "currentEquation": null
                                 },
                                 {
@@ -1671,7 +1354,7 @@
                             "ioValues": [
                                 {
                                     "name": "w",
-                                    "ioValue": 13.5,
+                                    "ioValue": 9.5,
                                     "currentEquation": null
                                 },
                                 {
@@ -1708,12 +1391,12 @@
                             "ioValues": [
                                 {
                                     "name": "x length",
-                                    "ioValue": 13,
+                                    "ioValue": 9,
                                     "currentEquation": null
                                 },
                                 {
                                     "name": "y length",
-                                    "ioValue": 18.5,
+                                    "ioValue": 8.5,
                                     "currentEquation": null
                                 }
                             ],
@@ -1738,12 +1421,12 @@
                             "ioValues": [
                                 {
                                     "name": "x length",
-                                    "ioValue": 12.5,
+                                    "ioValue": 8.5,
                                     "currentEquation": null
                                 },
                                 {
                                     "name": "y length",
-                                    "ioValue": 18,
+                                    "ioValue": 8,
                                     "currentEquation": null
                                 }
                             ],
@@ -2267,23 +1950,23 @@
         {
             "atomType": "Molecule",
             "name": "drawer",
-            "x": 0.6201873048907388,
-            "y": 0.5657142857142857,
+            "x": 0.3776041666666667,
+            "y": 0.6,
             "uniqueID": "30bb289d-bd9f-47a6-96ca-f20f3d5f7ebe",
             "ioValues": [
                 {
                     "name": "width",
-                    "ioValue": 20,
+                    "ioValue": 10,
                     "currentEquation": null
                 },
                 {
                     "name": "height",
-                    "ioValue": 4,
+                    "ioValue": 6.666666666666667,
                     "currentEquation": null
                 },
                 {
                     "name": "depth",
-                    "ioValue": 14,
+                    "ioValue": 10,
                     "currentEquation": null
                 },
                 {
@@ -2359,7 +2042,7 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 13.5,
+                            "ioValue": 9.5,
                             "currentEquation": null
                         },
                         {
@@ -2379,7 +2062,7 @@
                     "ioValues": [
                         {
                             "name": "d",
-                            "ioValue": 14,
+                            "ioValue": 10,
                             "currentEquation": null
                         },
                         {
@@ -2405,7 +2088,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 4,
+                            "ioValue": 6.666666666666667,
                             "currentEquation": null
                         }
                     ],
@@ -2425,7 +2108,7 @@
                         },
                         {
                             "name": "y length",
-                            "ioValue": 18.5,
+                            "ioValue": 8.5,
                             "currentEquation": null
                         }
                     ],
@@ -2440,7 +2123,7 @@
                     "ioValues": [
                         {
                             "name": "w",
-                            "ioValue": 20,
+                            "ioValue": 10,
                             "currentEquation": null
                         },
                         {
@@ -2481,12 +2164,12 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": -6.5,
+                            "ioValue": -4.5,
                             "currentEquation": null
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 9.25,
+                            "ioValue": 4.25,
                             "currentEquation": null
                         },
                         {
@@ -2506,7 +2189,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 18.5,
+                            "ioValue": 8.5,
                             "currentEquation": null
                         }
                     ],
@@ -2522,7 +2205,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 13.5,
+                            "ioValue": 9.5,
                             "currentEquation": null
                         },
                         {
@@ -2578,7 +2261,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 13,
+                            "ioValue": 9,
                             "currentEquation": null
                         },
                         {
@@ -2603,7 +2286,7 @@
                     "ioValues": [
                         {
                             "name": "d",
-                            "ioValue": 13.5,
+                            "ioValue": 9.5,
                             "currentEquation": null
                         },
                         {
@@ -2634,7 +2317,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 18.5,
+                            "ioValue": 8.5,
                             "currentEquation": null
                         },
                         {
@@ -2659,7 +2342,7 @@
                         },
                         {
                             "name": "y length",
-                            "ioValue": 20,
+                            "ioValue": 10,
                             "currentEquation": null
                         }
                     ],
@@ -2679,12 +2362,12 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 7,
+                            "ioValue": 5,
                             "currentEquation": null
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 9.25,
+                            "ioValue": 4.25,
                             "currentEquation": null
                         },
                         {
@@ -2704,7 +2387,7 @@
                     "ioValues": [
                         {
                             "name": "d",
-                            "ioValue": 14,
+                            "ioValue": 10,
                             "currentEquation": null
                         }
                     ],
@@ -2720,7 +2403,7 @@
                     "ioValues": [
                         {
                             "name": "w",
-                            "ioValue": 20,
+                            "ioValue": 10,
                             "currentEquation": null
                         },
                         {
@@ -2756,7 +2439,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 9.25,
+                            "ioValue": 4.25,
                             "currentEquation": null
                         },
                         {
@@ -2776,7 +2459,7 @@
                     "ioValues": [
                         {
                             "name": "w",
-                            "ioValue": 20,
+                            "ioValue": 10,
                             "currentEquation": null
                         },
                         {
@@ -2815,12 +2498,12 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 13.5,
+                            "ioValue": 9.5,
                             "currentEquation": null
                         },
                         {
                             "name": "y",
-                            "ioValue": 19,
+                            "ioValue": 9,
                             "currentEquation": null
                         },
                         {
@@ -2876,7 +2559,7 @@
                             "ioValues": [
                                 {
                                     "name": "w",
-                                    "ioValue": 13.5,
+                                    "ioValue": 9.5,
                                     "currentEquation": null
                                 },
                                 {
@@ -2897,7 +2580,7 @@
                             "ioValues": [
                                 {
                                     "name": "d",
-                                    "ioValue": 19,
+                                    "ioValue": 9,
                                     "currentEquation": null
                                 },
                                 {
@@ -2918,7 +2601,7 @@
                             "ioValues": [
                                 {
                                     "name": "d",
-                                    "ioValue": 19,
+                                    "ioValue": 9,
                                     "currentEquation": null
                                 },
                                 {
@@ -2939,7 +2622,7 @@
                             "ioValues": [
                                 {
                                     "name": "w",
-                                    "ioValue": 13.5,
+                                    "ioValue": 9.5,
                                     "currentEquation": null
                                 },
                                 {
@@ -2976,12 +2659,12 @@
                             "ioValues": [
                                 {
                                     "name": "x length",
-                                    "ioValue": 13,
+                                    "ioValue": 9,
                                     "currentEquation": null
                                 },
                                 {
                                     "name": "y length",
-                                    "ioValue": 18.5,
+                                    "ioValue": 8.5,
                                     "currentEquation": null
                                 }
                             ],
@@ -3006,12 +2689,12 @@
                             "ioValues": [
                                 {
                                     "name": "x length",
-                                    "ioValue": 12.5,
+                                    "ioValue": 8.5,
                                     "currentEquation": null
                                 },
                                 {
                                     "name": "y length",
-                                    "ioValue": 18,
+                                    "ioValue": 8,
                                     "currentEquation": null
                                 }
                             ],
@@ -3535,8 +3218,8 @@
         {
             "atomType": "Molecule",
             "name": "drawer",
-            "x": 0.6256510416666667,
-            "y": 0.7886904761904763,
+            "x": 0.06901041666666667,
+            "y": 0.8657142857142858,
             "uniqueID": "2594d9a1-26d7-403a-b2d7-5a690380e1c9",
             "ioValues": [
                 {
@@ -4801,86 +4484,94 @@
             "compiledBom": []
         },
         {
-            "atomType": "CutLayout",
-            "name": "Cut Layout",
-            "x": 0.701171875,
-            "y": 0.29714285714285715,
-            "uniqueID": "4c338c1f-9db5-40e3-a0dc-46abed1a43e7",
+            "atomType": "Constant",
+            "name": "Height",
+            "x": 0.17513020833333334,
+            "y": 0.1857142857142857,
+            "uniqueID": "643edbe5-8521-4423-a0b2-7908f971629f",
+            "ioValues": [],
+            "description": "Defines a mathematical constant.",
+            "value": 10
+        },
+        {
+            "atomType": "Equation",
+            "name": "Equation",
+            "x": 0.2877604166666667,
+            "y": 0.43999999999999995,
+            "uniqueID": "f0851903-4da6-463b-a1b0-f5927f0c127b",
+            "ioValues": [
+                {
+                    "name": "x",
+                    "ioValue": 10,
+                    "currentEquation": "1"
+                }
+            ],
+            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+            "currentEquation": "x / 3 * 2"
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.4915364583333333,
+            "y": 0.47714285714285715,
+            "uniqueID": "5b6b463c-94de-4f31-b6ec-75b54ecbc038",
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": "3707da93-fa19-430b-824e-0f517859f9c0",
+                    "ioValue": "30bb289d-bd9f-47a6-96ca-f20f3d5f7ebe",
                     "currentEquation": null
                 },
                 {
-                    "name": "Sheet Width",
-                    "ioValue": 48,
+                    "name": "xDist",
+                    "ioValue": 0,
                     "currentEquation": null
                 },
                 {
-                    "name": "Sheet Height",
-                    "ioValue": 96,
+                    "name": "yDist",
+                    "ioValue": 0,
                     "currentEquation": null
                 },
                 {
-                    "name": "Part Padding",
-                    "ioValue": 0.25,
+                    "name": "zDist",
+                    "ioValue": 10.75,
                     "currentEquation": null
                 }
             ],
-            "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut.",
-            "placements": [
-                [
-                    {
-                        "id": 2,
-                        "rotate": 330,
-                        "translate": {
-                            "x": 8.870882202147557,
-                            "y": 10.609502796291427
-                        }
-                    },
-                    {
-                        "id": 5,
-                        "rotate": 90,
-                        "translate": {
-                            "x": 9.574999992228745,
-                            "y": 28.044005592582852
-                        }
-                    },
-                    {
-                        "id": 1,
-                        "rotate": 180,
-                        "translate": {
-                            "x": 7.074999999999999,
-                            "y": 39.694005592582855
-                        }
-                    },
-                    {
-                        "id": 0,
-                        "rotate": 330,
-                        "translate": {
-                            "x": 10.409864212265912,
-                            "y": 52.13988779473041
-                        }
-                    },
-                    {
-                        "id": 3,
-                        "rotate": 90,
-                        "translate": {
-                            "x": 9.574999992228744,
-                            "y": 64.58576999687797
-                        }
-                    },
-                    {
-                        "id": 4,
-                        "rotate": 30,
-                        "translate": {
-                            "x": 9.245882197852444,
-                            "y": 80.66979183435001
-                        }
-                    }
-                ]
-            ]
+            "description": "Moves a shape laterally in X, Y, Z."
+        },
+        {
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.6165364583333333,
+            "y": 0.2857142857142857,
+            "uniqueID": "444b3161-5065-4a56-a2c6-12018adc2f29",
+            "ioValues": [
+                {
+                    "name": "Shape 1",
+                    "ioValue": "3707da93-fa19-430b-824e-0f517859f9c0"
+                },
+                {
+                    "name": "Shape 2",
+                    "ioValue": "5b6b463c-94de-4f31-b6ec-75b54ecbc038"
+                }
+            ],
+            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
+        },
+        {
+            "atomType": "Equation",
+            "name": "Equation",
+            "x": 0.38932291666666663,
+            "y": 0.4228571428571429,
+            "uniqueID": "a1e00e6d-cbbb-4a87-b130-1ae5da21aadc",
+            "ioValues": [
+                {
+                    "name": "x",
+                    "ioValue": 10,
+                    "currentEquation": null
+                }
+            ],
+            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+            "currentEquation": "x + 0.75"
         }
     ],
     "allConnectors": [
@@ -4891,34 +4582,82 @@
             "ap2ID": "f63cede1-fd7f-4d54-a176-3180cdd72624"
         },
         {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap1ID": "21ffcb1b-9559-4348-baa1-4fd6b8a0e8e2",
-            "ap2ID": "64365141-8a46-4d55-b041-10eba7e5c372"
+            "ap1Name": "number or geometry",
+            "ap2Name": "width",
+            "ap1ID": "26063e68-f8ae-4efa-b1c9-716d6733e4de",
+            "ap2ID": "3707da93-fa19-430b-824e-0f517859f9c0"
         },
         {
             "ap1Name": "number or geometry",
-            "ap2Name": "x",
+            "ap2Name": "width",
             "ap1ID": "26063e68-f8ae-4efa-b1c9-716d6733e4de",
-            "ap2ID": "544cbafd-f427-431e-871a-8d599804c541"
+            "ap2ID": "30bb289d-bd9f-47a6-96ca-f20f3d5f7ebe"
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "depth",
+            "ap1ID": "e719e574-b3f7-401b-877b-33955450a934",
+            "ap2ID": "3707da93-fa19-430b-824e-0f517859f9c0"
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "depth",
+            "ap1ID": "e719e574-b3f7-401b-877b-33955450a934",
+            "ap2ID": "30bb289d-bd9f-47a6-96ca-f20f3d5f7ebe"
         },
         {
             "ap1Name": "geometry or number",
-            "ap2Name": "Geometry",
-            "ap1ID": "731ae18c-d2a5-45ac-bbe2-1ccfb224d106",
-            "ap2ID": "1e844612-1098-47c9-b8a9-3300bf209b8d"
-        },
-        {
-            "ap1Name": "geometry or number",
-            "ap2Name": "geometry",
+            "ap2Name": "Shape 1",
             "ap1ID": "3707da93-fa19-430b-824e-0f517859f9c0",
-            "ap2ID": "4c338c1f-9db5-40e3-a0dc-46abed1a43e7"
+            "ap2ID": "444b3161-5065-4a56-a2c6-12018adc2f29"
         },
         {
             "ap1Name": "geometry or number",
             "ap2Name": "geometry",
             "ap1ID": "30bb289d-bd9f-47a6-96ca-f20f3d5f7ebe",
+            "ap2ID": "5b6b463c-94de-4f31-b6ec-75b54ecbc038"
+        },
+        {
+            "ap1Name": "number",
+            "ap2Name": "x",
+            "ap1ID": "643edbe5-8521-4423-a0b2-7908f971629f",
+            "ap2ID": "f0851903-4da6-463b-a1b0-f5927f0c127b"
+        },
+        {
+            "ap1Name": "number",
+            "ap2Name": "height",
+            "ap1ID": "643edbe5-8521-4423-a0b2-7908f971629f",
+            "ap2ID": "3707da93-fa19-430b-824e-0f517859f9c0"
+        },
+        {
+            "ap1Name": "number",
+            "ap2Name": "x",
+            "ap1ID": "643edbe5-8521-4423-a0b2-7908f971629f",
+            "ap2ID": "a1e00e6d-cbbb-4a87-b130-1ae5da21aadc"
+        },
+        {
+            "ap1Name": "result",
+            "ap2Name": "height",
+            "ap1ID": "f0851903-4da6-463b-a1b0-f5927f0c127b",
+            "ap2ID": "30bb289d-bd9f-47a6-96ca-f20f3d5f7ebe"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Shape 2",
+            "ap1ID": "5b6b463c-94de-4f31-b6ec-75b54ecbc038",
+            "ap2ID": "444b3161-5065-4a56-a2c6-12018adc2f29"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap1ID": "444b3161-5065-4a56-a2c6-12018adc2f29",
             "ap2ID": "21ffcb1b-9559-4348-baa1-4fd6b8a0e8e2"
+        },
+        {
+            "ap1Name": "result",
+            "ap2Name": "zDist",
+            "ap1ID": "a1e00e6d-cbbb-4a87-b130-1ae5da21aadc",
+            "ap2ID": "5b6b463c-94de-4f31-b6ec-75b54ecbc038"
         }
     ],
     "unitsKey": "Inches",
