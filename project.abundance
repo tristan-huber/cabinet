@@ -25,7 +25,13 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": "f63cede1-fd7f-4d54-a176-3180cdd72624",
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": "21ffcb1b-9559-4348-baa1-4fd6b8a0e8e2",
+                    "currentEquation": null
+                }
+            ],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -725,7 +731,7 @@
             "atomType": "Molecule",
             "name": "drawer",
             "x": 0.37109375,
-            "y": 0.27999999999999997,
+            "y": 0.2914285714285714,
             "uniqueID": "3707da93-fa19-430b-824e-0f517859f9c0",
             "ioValues": [
                 {
