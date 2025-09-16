@@ -8,7 +8,7 @@
         {
             "name": "width",
             "ioValue": 15,
-            "currentEquation": "15"
+            "currentEquation": null
         },
         {
             "name": "depth",
@@ -67,98 +67,98 @@
                 [
                     {
                         "id": 6,
-                        "rotate": 180,
+                        "rotate": 150,
                         "translate": {
-                            "x": 5.075,
-                            "y": 3.658333333333336
+                            "x": 6.004055215874424,
+                            "y": 5.394012902139734
                         }
                     },
                     {
                         "id": 4,
-                        "rotate": 0,
+                        "rotate": 300,
                         "translate": {
-                            "x": 5.325,
-                            "y": 15.141666666666671
-                        }
-                    },
-                    {
-                        "id": 5,
-                        "rotate": 210,
-                        "translate": {
-                            "x": 7.620882202147557,
-                            "y": 31.411105992356056
+                            "x": 9.218958336685958,
+                            "y": 18.11862824920776
                         }
                     },
                     {
                         "id": 0,
-                        "rotate": 30,
+                        "rotate": 210,
                         "translate": {
-                            "x": 6.96238855079224,
-                            "y": 45.349211066083924
+                            "x": 15.439291849207759,
+                            "y": 9.989729180976282
                         }
                     },
                     {
                         "id": 2,
-                        "rotate": 60,
+                        "rotate": 30,
                         "translate": {
-                            "x": 8.69443930449465,
-                            "y": 58.53746521150329
+                            "x": 7.837388550792239,
+                            "y": 31.35058999550535
                         }
                     },
                     {
-                        "id": 3,
-                        "rotate": 240,
+                        "id": 5,
+                        "rotate": 60,
                         "translate": {
-                            "x": 8.694439295505347,
-                            "y": 70.8350258884967
+                            "x": 11.609502833892618,
+                            "y": 46.10342662914207
                         }
                     },
                     {
                         "id": 8,
-                        "rotate": 270,
+                        "rotate": 150,
                         "translate": {
-                            "x": 7.075000007771258,
-                            "y": 82.547254118098
+                            "x": 20.357094894368473,
+                            "y": 35.288034337827995
                         }
                     },
                     {
-                        "id": 1,
-                        "rotate": 0,
+                        "id": 3,
+                        "rotate": 270,
                         "translate": {
-                            "x": 15.725000000000001,
-                            "y": 19.775378007771256
+                            "x": 7.075000007771258,
+                            "y": 61.78135960777125
                         }
                     },
                     {
                         "id": 11,
-                        "rotate": 180,
+                        "rotate": 0,
                         "translate": {
-                            "x": 15.475,
-                            "y": 7.375378007771253
+                            "x": 20.975000007771268,
+                            "y": 61.98258470777125
                         }
                     },
                     {
                         "id": 10,
-                        "rotate": 90,
+                        "rotate": 0,
                         "translate": {
-                            "x": 7.8249999922287445,
-                            "y": 89.86392078476466
+                            "x": 23.30923936666667,
+                            "y": 20.046606107771257
                         }
                     },
                     {
-                        "id": 9,
-                        "rotate": 210,
+                        "id": 1,
+                        "rotate": 90,
                         "translate": {
-                            "x": 14.967664249199938,
-                            "y": 35.652772671161316
+                            "x": 5.074999992228744,
+                            "y": 71.93135960777124
                         }
                     },
                     {
                         "id": 7,
+                        "rotate": 210,
+                        "translate": {
+                            "x": 16.15405520810317,
+                            "y": 76.5403145280443
+                        }
+                    },
+                    {
+                        "id": 9,
                         "rotate": 270,
                         "translate": {
-                            "x": 17.59859606351737,
-                            "y": 48.58887866351738
+                            "x": 7.075000007771258,
+                            "y": 82.61729403333334
                         }
                     }
                 ]
@@ -183,6 +183,96 @@
             "ioValues": [],
             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
             "type": "number"
+        },
+        {
+            "atomType": "Constant",
+            "name": "Height",
+            "x": 0.17513020833333334,
+            "y": 0.1857142857142857,
+            "uniqueID": "643edbe5-8521-4423-a0b2-7908f971629f",
+            "ioValues": [],
+            "description": "Defines a mathematical constant.",
+            "value": 10
+        },
+        {
+            "atomType": "Equation",
+            "name": "Equation",
+            "x": 0.2877604166666667,
+            "y": 0.43999999999999995,
+            "uniqueID": "f0851903-4da6-463b-a1b0-f5927f0c127b",
+            "ioValues": [
+                {
+                    "name": "x",
+                    "ioValue": 10,
+                    "currentEquation": null
+                }
+            ],
+            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+            "currentEquation": "x / 3 * 2"
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.4915364583333333,
+            "y": 0.47714285714285715,
+            "uniqueID": "5b6b463c-94de-4f31-b6ec-75b54ecbc038",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "30bb289d-bd9f-47a6-96ca-f20f3d5f7ebe",
+                    "currentEquation": null
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0,
+                    "currentEquation": null
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0,
+                    "currentEquation": null
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 10.75,
+                    "currentEquation": null
+                }
+            ],
+            "description": "Moves a shape laterally in X, Y, Z."
+        },
+        {
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.6165364583333333,
+            "y": 0.2857142857142857,
+            "uniqueID": "444b3161-5065-4a56-a2c6-12018adc2f29",
+            "ioValues": [
+                {
+                    "name": "Shape 1",
+                    "ioValue": "3707da93-fa19-430b-824e-0f517859f9c0"
+                },
+                {
+                    "name": "Shape 2",
+                    "ioValue": "5b6b463c-94de-4f31-b6ec-75b54ecbc038"
+                }
+            ],
+            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
+        },
+        {
+            "atomType": "Equation",
+            "name": "Equation",
+            "x": 0.38932291666666663,
+            "y": 0.4228571428571429,
+            "uniqueID": "a1e00e6d-cbbb-4a87-b130-1ae5da21aadc",
+            "ioValues": [
+                {
+                    "name": "x",
+                    "ioValue": 10,
+                    "currentEquation": null
+                }
+            ],
+            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+            "currentEquation": "x + 0.75"
         },
         {
             "atomType": "Molecule",
@@ -4530,96 +4620,6 @@
             ],
             "fileTypeVersion": 1,
             "compiledBom": []
-        },
-        {
-            "atomType": "Constant",
-            "name": "Height",
-            "x": 0.17513020833333334,
-            "y": 0.1857142857142857,
-            "uniqueID": "643edbe5-8521-4423-a0b2-7908f971629f",
-            "ioValues": [],
-            "description": "Defines a mathematical constant.",
-            "value": 10
-        },
-        {
-            "atomType": "Equation",
-            "name": "Equation",
-            "x": 0.2877604166666667,
-            "y": 0.43999999999999995,
-            "uniqueID": "f0851903-4da6-463b-a1b0-f5927f0c127b",
-            "ioValues": [
-                {
-                    "name": "x",
-                    "ioValue": 10,
-                    "currentEquation": "1"
-                }
-            ],
-            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
-            "currentEquation": "x / 3 * 2"
-        },
-        {
-            "atomType": "Move",
-            "name": "Move",
-            "x": 0.4915364583333333,
-            "y": 0.47714285714285715,
-            "uniqueID": "5b6b463c-94de-4f31-b6ec-75b54ecbc038",
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "30bb289d-bd9f-47a6-96ca-f20f3d5f7ebe",
-                    "currentEquation": null
-                },
-                {
-                    "name": "xDist",
-                    "ioValue": 0,
-                    "currentEquation": null
-                },
-                {
-                    "name": "yDist",
-                    "ioValue": 0,
-                    "currentEquation": null
-                },
-                {
-                    "name": "zDist",
-                    "ioValue": 10.75,
-                    "currentEquation": null
-                }
-            ],
-            "description": "Moves a shape laterally in X, Y, Z."
-        },
-        {
-            "atomType": "Assembly",
-            "name": "Assembly",
-            "x": 0.6165364583333333,
-            "y": 0.2857142857142857,
-            "uniqueID": "444b3161-5065-4a56-a2c6-12018adc2f29",
-            "ioValues": [
-                {
-                    "name": "Shape 1",
-                    "ioValue": "3707da93-fa19-430b-824e-0f517859f9c0"
-                },
-                {
-                    "name": "Shape 2",
-                    "ioValue": "5b6b463c-94de-4f31-b6ec-75b54ecbc038"
-                }
-            ],
-            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
-        },
-        {
-            "atomType": "Equation",
-            "name": "Equation",
-            "x": 0.38932291666666663,
-            "y": 0.4228571428571429,
-            "uniqueID": "a1e00e6d-cbbb-4a87-b130-1ae5da21aadc",
-            "ioValues": [
-                {
-                    "name": "x",
-                    "ioValue": 10,
-                    "currentEquation": null
-                }
-            ],
-            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
-            "currentEquation": "x + 0.75"
         }
     ],
     "allConnectors": [
@@ -4652,18 +4652,6 @@
             "ap2Name": "depth",
             "ap1ID": "e719e574-b3f7-401b-877b-33955450a934",
             "ap2ID": "30bb289d-bd9f-47a6-96ca-f20f3d5f7ebe"
-        },
-        {
-            "ap1Name": "geometry or number",
-            "ap2Name": "Shape 1",
-            "ap1ID": "3707da93-fa19-430b-824e-0f517859f9c0",
-            "ap2ID": "444b3161-5065-4a56-a2c6-12018adc2f29"
-        },
-        {
-            "ap1Name": "geometry or number",
-            "ap2Name": "geometry",
-            "ap1ID": "30bb289d-bd9f-47a6-96ca-f20f3d5f7ebe",
-            "ap2ID": "5b6b463c-94de-4f31-b6ec-75b54ecbc038"
         },
         {
             "ap1Name": "number",
@@ -4705,6 +4693,18 @@
             "ap1Name": "result",
             "ap2Name": "zDist",
             "ap1ID": "a1e00e6d-cbbb-4a87-b130-1ae5da21aadc",
+            "ap2ID": "5b6b463c-94de-4f31-b6ec-75b54ecbc038"
+        },
+        {
+            "ap1Name": "geometry or number",
+            "ap2Name": "Shape 1",
+            "ap1ID": "3707da93-fa19-430b-824e-0f517859f9c0",
+            "ap2ID": "444b3161-5065-4a56-a2c6-12018adc2f29"
+        },
+        {
+            "ap1Name": "geometry or number",
+            "ap2Name": "geometry",
+            "ap1ID": "30bb289d-bd9f-47a6-96ca-f20f3d5f7ebe",
             "ap2ID": "5b6b463c-94de-4f31-b6ec-75b54ecbc038"
         }
     ],
