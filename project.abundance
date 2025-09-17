@@ -7,8 +7,8 @@
     "ioValues": [
         {
             "name": "width",
-            "ioValue": 16,
-            "currentEquation": "16"
+            "ioValue": 15,
+            "currentEquation": "15"
         },
         {
             "name": "depth",
@@ -67,98 +67,50 @@
                 [
                     {
                         "id": 4,
-                        "rotate": 90,
+                        "rotate": 180,
                         "translate": {
-                            "x": 8.325000000000001,
-                            "y": 5.325000000000001
+                            "x": 5.325000000000001,
+                            "y": 7.825000000000001
                         }
                     },
                     {
                         "id": 2,
-                        "rotate": 90,
+                        "rotate": 0,
                         "translate": {
-                            "x": 7.574999992228743,
-                            "y": 15.975000000000001
-                        }
-                    },
-                    {
-                        "id": 5,
-                        "rotate": 180,
-                        "translate": {
-                            "x": 4.824999999999999,
-                            "y": 28.875000000000004
+                            "x": 5.325,
+                            "y": 22.725
                         }
                     },
                     {
                         "id": 3,
-                        "rotate": 270,
-                        "translate": {
-                            "x": 7.575000007771258,
-                            "y": 41.775
-                        }
-                    },
-                    {
-                        "id": 6,
-                        "rotate": 120,
-                        "translate": {
-                            "x": 15.260519249199945,
-                            "y": 30.763619414309623
-                        }
-                    },
-                    {
-                        "id": 0,
-                        "rotate": 330,
-                        "translate": {
-                            "x": 6.962388558563496,
-                            "y": 54.15389489626796
-                        }
-                    },
-                    {
-                        "id": 11,
-                        "rotate": 270,
-                        "translate": {
-                            "x": 7.575000007771258,
-                            "y": 66.03278979253592
-                        }
-                    },
-                    {
-                        "id": 8,
                         "rotate": 0,
                         "translate": {
-                            "x": 18.80833334110459,
-                            "y": 44.46767463018405
+                            "x": 5.325,
+                            "y": 36.875
                         }
                     },
                     {
                         "id": 1,
-                        "rotate": 0,
+                        "rotate": 150,
                         "translate": {
-                            "x": 20.224999992228746,
-                            "y": 19.624622207771253
+                            "x": 6.962388541436504,
+                            "y": 51.003894896267965
                         }
                     },
                     {
-                        "id": 7,
-                        "rotate": 30,
+                        "id": 5,
+                        "rotate": 90,
                         "translate": {
-                            "x": 18.240367884125572,
-                            "y": 58.8776514190159
+                            "x": 7.074999992228743,
+                            "y": 62.88278979253592
                         }
                     },
                     {
-                        "id": 9,
-                        "rotate": 180,
+                        "id": 0,
+                        "rotate": 210,
                         "translate": {
-                            "x": 18.808333341104593,
-                            "y": 72.06317066821583
-                        }
-                    },
-                    {
-                        "id": 10,
-                        "rotate": 330,
-                        "translate": {
-                            "x": 7.235519258571317,
-                            "y": 79.801427520193
+                            "x": 6.96238854920776,
+                            "y": 74.76168468880388
                         }
                     }
                 ]
@@ -826,7 +778,7 @@
             "ioValues": [
                 {
                     "name": "width",
-                    "ioValue": 16,
+                    "ioValue": 15,
                     "currentEquation": null
                 },
                 {
@@ -978,7 +930,7 @@
                         },
                         {
                             "name": "y length",
-                            "ioValue": 14.5,
+                            "ioValue": 13.5,
                             "currentEquation": null
                         }
                     ],
@@ -993,7 +945,7 @@
                     "ioValues": [
                         {
                             "name": "w",
-                            "ioValue": 16,
+                            "ioValue": 15,
                             "currentEquation": null
                         },
                         {
@@ -1039,7 +991,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 7.25,
+                            "ioValue": 6.75,
                             "currentEquation": null
                         },
                         {
@@ -1059,7 +1011,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 14.5,
+                            "ioValue": 13.5,
                             "currentEquation": null
                         }
                     ],
@@ -1187,7 +1139,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 14.5,
+                            "ioValue": 13.5,
                             "currentEquation": null
                         },
                         {
@@ -1212,7 +1164,7 @@
                         },
                         {
                             "name": "y length",
-                            "ioValue": 16,
+                            "ioValue": 15,
                             "currentEquation": null
                         }
                     ],
@@ -1237,7 +1189,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 7.25,
+                            "ioValue": 6.75,
                             "currentEquation": null
                         },
                         {
@@ -1273,7 +1225,7 @@
                     "ioValues": [
                         {
                             "name": "w",
-                            "ioValue": 16,
+                            "ioValue": 15,
                             "currentEquation": null
                         },
                         {
@@ -1309,7 +1261,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 7.25,
+                            "ioValue": 6.75,
                             "currentEquation": null
                         },
                         {
@@ -1329,7 +1281,7 @@
                     "ioValues": [
                         {
                             "name": "w",
-                            "ioValue": 16,
+                            "ioValue": 15,
                             "currentEquation": null
                         },
                         {
@@ -1373,7 +1325,7 @@
                         },
                         {
                             "name": "y",
-                            "ioValue": 15,
+                            "ioValue": 14,
                             "currentEquation": null
                         },
                         {
@@ -1450,7 +1402,7 @@
                             "ioValues": [
                                 {
                                     "name": "d",
-                                    "ioValue": 15,
+                                    "ioValue": 14,
                                     "currentEquation": null
                                 },
                                 {
@@ -1471,7 +1423,7 @@
                             "ioValues": [
                                 {
                                     "name": "d",
-                                    "ioValue": 15,
+                                    "ioValue": 14,
                                     "currentEquation": null
                                 },
                                 {
@@ -1534,7 +1486,7 @@
                                 },
                                 {
                                     "name": "y length",
-                                    "ioValue": 14.5,
+                                    "ioValue": 13.5,
                                     "currentEquation": null
                                 }
                             ],
@@ -1564,7 +1516,7 @@
                                 },
                                 {
                                     "name": "y length",
-                                    "ioValue": 14,
+                                    "ioValue": 13,
                                     "currentEquation": null
                                 }
                             ],
@@ -2094,7 +2046,7 @@
             "ioValues": [
                 {
                     "name": "width",
-                    "ioValue": 16,
+                    "ioValue": 15,
                     "currentEquation": null
                 },
                 {
@@ -2246,7 +2198,7 @@
                         },
                         {
                             "name": "y length",
-                            "ioValue": 14.5,
+                            "ioValue": 13.5,
                             "currentEquation": null
                         }
                     ],
@@ -2261,7 +2213,7 @@
                     "ioValues": [
                         {
                             "name": "w",
-                            "ioValue": 16,
+                            "ioValue": 15,
                             "currentEquation": null
                         },
                         {
@@ -2307,7 +2259,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 7.25,
+                            "ioValue": 6.75,
                             "currentEquation": null
                         },
                         {
@@ -2327,7 +2279,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 14.5,
+                            "ioValue": 13.5,
                             "currentEquation": null
                         }
                     ],
@@ -2455,7 +2407,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 14.5,
+                            "ioValue": 13.5,
                             "currentEquation": null
                         },
                         {
@@ -2480,7 +2432,7 @@
                         },
                         {
                             "name": "y length",
-                            "ioValue": 16,
+                            "ioValue": 15,
                             "currentEquation": null
                         }
                     ],
@@ -2505,7 +2457,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 7.25,
+                            "ioValue": 6.75,
                             "currentEquation": null
                         },
                         {
@@ -2541,7 +2493,7 @@
                     "ioValues": [
                         {
                             "name": "w",
-                            "ioValue": 16,
+                            "ioValue": 15,
                             "currentEquation": null
                         },
                         {
@@ -2577,7 +2529,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 7.25,
+                            "ioValue": 6.75,
                             "currentEquation": null
                         },
                         {
@@ -2597,7 +2549,7 @@
                     "ioValues": [
                         {
                             "name": "w",
-                            "ioValue": 16,
+                            "ioValue": 15,
                             "currentEquation": null
                         },
                         {
@@ -2641,7 +2593,7 @@
                         },
                         {
                             "name": "y",
-                            "ioValue": 15,
+                            "ioValue": 14,
                             "currentEquation": null
                         },
                         {
@@ -2718,7 +2670,7 @@
                             "ioValues": [
                                 {
                                     "name": "d",
-                                    "ioValue": 15,
+                                    "ioValue": 14,
                                     "currentEquation": null
                                 },
                                 {
@@ -2739,7 +2691,7 @@
                             "ioValues": [
                                 {
                                     "name": "d",
-                                    "ioValue": 15,
+                                    "ioValue": 14,
                                     "currentEquation": null
                                 },
                                 {
@@ -2802,7 +2754,7 @@
                                 },
                                 {
                                     "name": "y length",
-                                    "ioValue": 14.5,
+                                    "ioValue": 13.5,
                                     "currentEquation": null
                                 }
                             ],
@@ -2832,7 +2784,7 @@
                                 },
                                 {
                                     "name": "y length",
-                                    "ioValue": 14,
+                                    "ioValue": 13,
                                     "currentEquation": null
                                 }
                             ],
