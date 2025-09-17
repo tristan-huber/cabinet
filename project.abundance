@@ -8,7 +8,7 @@
         {
             "name": "width",
             "ioValue": 15,
-            "currentEquation": "15"
+            "currentEquation": null
         },
         {
             "name": "depth",
@@ -2077,7 +2077,7 @@
                     "ioValues": [
                         {
                             "name": "number or geometry",
-                            "ioValue": "80829327-47ad-43a3-8053-f837b5f3d5fd",
+                            "ioValue": "4dc15948-d35d-4c4f-98d1-627834f8c79f",
                             "currentEquation": null
                         }
                     ],
@@ -3016,6 +3016,26 @@
                     ],
                     "fileTypeVersion": 1,
                     "compiledBom": []
+                },
+                {
+                    "atomType": "Intersection",
+                    "name": "Intersection",
+                    "x": 0.828125,
+                    "y": 0.5357142857142857,
+                    "uniqueID": "4dc15948-d35d-4c4f-98d1-627834f8c79f",
+                    "ioValues": [
+                        {
+                            "name": "geometry1",
+                            "ioValue": "d27f05ef-099b-4a04-88ef-3fce5bbbfbf0",
+                            "currentEquation": null
+                        },
+                        {
+                            "name": "geometry2",
+                            "ioValue": "c0f11e36-8207-4e99-9983-dd2a51067e63",
+                            "currentEquation": null
+                        }
+                    ],
+                    "description": "The space shared by two shapes."
                 }
             ],
             "allConnectors": [
@@ -3159,6 +3179,12 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry1",
+                    "ap1ID": "d27f05ef-099b-4a04-88ef-3fce5bbbfbf0",
+                    "ap2ID": "4dc15948-d35d-4c4f-98d1-627834f8c79f"
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": "90c855e2-c413-4130-bbb7-0303f5819c18",
                     "ap2ID": "7ebaa9d8-89cb-44e5-8765-6b75f3fecb90"
@@ -3284,22 +3310,28 @@
                     "ap2ID": "80829327-47ad-43a3-8053-f837b5f3d5fd"
                 },
                 {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry2",
+                    "ap1ID": "c0f11e36-8207-4e99-9983-dd2a51067e63",
+                    "ap2ID": "4dc15948-d35d-4c4f-98d1-627834f8c79f"
+                },
+                {
                     "ap1Name": "result",
                     "ap2Name": "y",
                     "ap1ID": "86a35915-43d6-4f3c-8e79-19b6345fe548",
                     "ap2ID": "fc1bc3d2-ddae-4957-b3a3-55213b0dbdb6"
                 },
                 {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap1ID": "80829327-47ad-43a3-8053-f837b5f3d5fd",
-                    "ap2ID": "ac3a7bdc-deeb-405d-a0a1-26299b28c69a"
-                },
-                {
                     "ap1Name": "geometry or number",
                     "ap2Name": "geometry",
                     "ap1ID": "fc1bc3d2-ddae-4957-b3a3-55213b0dbdb6",
                     "ap2ID": "c0f11e36-8207-4e99-9983-dd2a51067e63"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": "4dc15948-d35d-4c4f-98d1-627834f8c79f",
+                    "ap2ID": "ac3a7bdc-deeb-405d-a0a1-26299b28c69a"
                 }
             ],
             "fileTypeVersion": 1,
