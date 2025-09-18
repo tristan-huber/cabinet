@@ -2039,7 +2039,7 @@
         },
         {
             "atomType": "Molecule",
-            "name": "drawer",
+            "name": "drawer2",
             "x": 0.3776041666666667,
             "y": 0.6,
             "uniqueID": "30bb289d-bd9f-47a6-96ca-f20f3d5f7ebe",
@@ -2580,6 +2580,26 @@
                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
                 },
                 {
+                    "atomType": "Intersection",
+                    "name": "Intersection",
+                    "x": 0.828125,
+                    "y": 0.5357142857142857,
+                    "uniqueID": "4dc15948-d35d-4c4f-98d1-627834f8c79f",
+                    "ioValues": [
+                        {
+                            "name": "geometry1",
+                            "ioValue": "d27f05ef-099b-4a04-88ef-3fce5bbbfbf0",
+                            "currentEquation": null
+                        },
+                        {
+                            "name": "geometry2",
+                            "ioValue": "c0f11e36-8207-4e99-9983-dd2a51067e63",
+                            "currentEquation": null
+                        }
+                    ],
+                    "description": "The space shared by two shapes."
+                },
+                {
                     "atomType": "Molecule",
                     "name": "base",
                     "x": 0.69921875,
@@ -3016,26 +3036,6 @@
                     ],
                     "fileTypeVersion": 1,
                     "compiledBom": []
-                },
-                {
-                    "atomType": "Intersection",
-                    "name": "Intersection",
-                    "x": 0.828125,
-                    "y": 0.5357142857142857,
-                    "uniqueID": "4dc15948-d35d-4c4f-98d1-627834f8c79f",
-                    "ioValues": [
-                        {
-                            "name": "geometry1",
-                            "ioValue": "d27f05ef-099b-4a04-88ef-3fce5bbbfbf0",
-                            "currentEquation": null
-                        },
-                        {
-                            "name": "geometry2",
-                            "ioValue": "c0f11e36-8207-4e99-9983-dd2a51067e63",
-                            "currentEquation": null
-                        }
-                    ],
-                    "description": "The space shared by two shapes."
                 }
             ],
             "allConnectors": [
@@ -3322,16 +3322,16 @@
                     "ap2ID": "fc1bc3d2-ddae-4957-b3a3-55213b0dbdb6"
                 },
                 {
-                    "ap1Name": "geometry or number",
-                    "ap2Name": "geometry",
-                    "ap1ID": "fc1bc3d2-ddae-4957-b3a3-55213b0dbdb6",
-                    "ap2ID": "c0f11e36-8207-4e99-9983-dd2a51067e63"
-                },
-                {
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap1ID": "4dc15948-d35d-4c4f-98d1-627834f8c79f",
                     "ap2ID": "ac3a7bdc-deeb-405d-a0a1-26299b28c69a"
+                },
+                {
+                    "ap1Name": "geometry or number",
+                    "ap2Name": "geometry",
+                    "ap1ID": "fc1bc3d2-ddae-4957-b3a3-55213b0dbdb6",
+                    "ap2ID": "c0f11e36-8207-4e99-9983-dd2a51067e63"
                 }
             ],
             "fileTypeVersion": 1,
@@ -3339,7 +3339,7 @@
         },
         {
             "atomType": "Molecule",
-            "name": "drawer",
+            "name": "drawer3",
             "x": 0.06901041666666667,
             "y": 0.8657142857142858,
             "uniqueID": "2594d9a1-26d7-403a-b2d7-5a690380e1c9",
