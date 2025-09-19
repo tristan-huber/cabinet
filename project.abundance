@@ -108,7 +108,7 @@
         {
             "atomType": "Input",
             "name": "width",
-            "x": 0.025384615384615384,
+            "x": 0.024749999999999998,
             "y": 0.28273809523809523,
             "uniqueID": "26063e68-f8ae-4efa-b1c9-716d6733e4de",
             "ioValues": [],
@@ -118,7 +118,7 @@
         {
             "atomType": "Input",
             "name": "depth",
-            "x": 0.025384615384615384,
+            "x": 0.024749999999999998,
             "y": 0.4255952380952381,
             "uniqueID": "e719e574-b3f7-401b-877b-33955450a934",
             "ioValues": [],
@@ -596,6 +596,31 @@
             "sortDirection": "Bottom"
         },
         {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.5455729166666666,
+            "y": 0.7342857142857142,
+            "uniqueID": "69beb194-3f1e-4e09-89ec-c418e29f8d39",
+            "ioValues": [
+                {
+                    "name": "xDist",
+                    "ioValue": 0,
+                    "currentEquation": null
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 10.75,
+                    "currentEquation": null
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 10.75,
+                    "currentEquation": null
+                }
+            ],
+            "description": "Moves a shape laterally in X, Y, Z."
+        },
+        {
             "atomType": "Molecule",
             "name": "hollow_box",
             "x": 0.056640625,
@@ -633,7 +658,7 @@
                 {
                     "atomType": "Input",
                     "name": "x",
-                    "x": 0.025384615384615384,
+                    "x": 0.024749999999999998,
                     "y": 0.2648809523809524,
                     "uniqueID": "0ce0a653-8c6f-45df-ae50-a85342afa80f",
                     "ioValues": [],
@@ -643,7 +668,7 @@
                 {
                     "atomType": "Input",
                     "name": "y",
-                    "x": 0.025384615384615384,
+                    "x": 0.024749999999999998,
                     "y": 0.8690476190476191,
                     "uniqueID": "ad2006ce-a907-4cbd-9b76-55d53cc367cf",
                     "ioValues": [],
@@ -653,7 +678,7 @@
                 {
                     "atomType": "Input",
                     "name": "material_thickness",
-                    "x": 0.025384615384615384,
+                    "x": 0.024749999999999998,
                     "y": 0.38690476190476186,
                     "uniqueID": "3ab92f84-a498-4288-a51b-07da83d3e872",
                     "ioValues": [],
@@ -1389,7 +1414,7 @@
                 {
                     "atomType": "Input",
                     "name": "width",
-                    "x": 0.025384615384615384,
+                    "x": 0.024749999999999998,
                     "y": 0.2708333333333333,
                     "uniqueID": "b3762981-c611-4781-8060-16e8dcb4f86f",
                     "ioValues": [],
@@ -1399,7 +1424,7 @@
                 {
                     "atomType": "Input",
                     "name": "height",
-                    "x": 0.025384615384615384,
+                    "x": 0.024749999999999998,
                     "y": 0.4107142857142857,
                     "uniqueID": "54a194f5-6ea6-4d93-bb99-1cfe48a96261",
                     "ioValues": [],
@@ -1409,7 +1434,7 @@
                 {
                     "atomType": "Input",
                     "name": "depth",
-                    "x": 0.025384615384615384,
+                    "x": 0.024749999999999998,
                     "y": 0.5386904761904762,
                     "uniqueID": "e66a09e0-b5f3-4113-a52f-8e770ba684e2",
                     "ioValues": [],
@@ -1419,7 +1444,7 @@
                 {
                     "atomType": "Input",
                     "name": "material_thickness",
-                    "x": 0.025384615384615384,
+                    "x": 0.024749999999999998,
                     "y": 0.7053571428571429,
                     "uniqueID": "903aa976-3032-4f8d-9273-915bf759e95f",
                     "ioValues": [],
@@ -2171,7 +2196,7 @@
                         {
                             "atomType": "Input",
                             "name": "x",
-                            "x": 0.025384615384615384,
+                            "x": 0.024749999999999998,
                             "y": 0.4553571428571428,
                             "uniqueID": "41e51a0d-3f47-438f-b273-daffa4f86c41",
                             "ioValues": [],
@@ -2181,7 +2206,7 @@
                         {
                             "atomType": "Input",
                             "name": "y",
-                            "x": 0.025384615384615384,
+                            "x": 0.024749999999999998,
                             "y": 0.6130952380952381,
                             "uniqueID": "7e07dc12-b51b-4f13-8548-528bbe1ea06a",
                             "ioValues": [],
@@ -2311,7 +2336,7 @@
                         {
                             "atomType": "Input",
                             "name": "material_thickness",
-                            "x": 0.025384615384615384,
+                            "x": 0.024749999999999998,
                             "y": 0.7797619047619048,
                             "uniqueID": "475ea748-58bd-4f8d-879d-4e8bc8760280",
                             "ioValues": [],
@@ -2927,7 +2952,7 @@
                 {
                     "atomType": "Input",
                     "name": "width",
-                    "x": 0.025384615384615384,
+                    "x": 0.024749999999999998,
                     "y": 0.2708333333333333,
                     "uniqueID": "e2bc12da-d61d-4338-a0ef-127926ba3110",
                     "ioValues": [],
@@ -2937,7 +2962,7 @@
                 {
                     "atomType": "Input",
                     "name": "height",
-                    "x": 0.025384615384615384,
+                    "x": 0.024749999999999998,
                     "y": 0.4107142857142857,
                     "uniqueID": "498c8b34-9435-4197-877d-2cd99501330e",
                     "ioValues": [],
@@ -2947,7 +2972,7 @@
                 {
                     "atomType": "Input",
                     "name": "depth",
-                    "x": 0.025384615384615384,
+                    "x": 0.024749999999999998,
                     "y": 0.5386904761904762,
                     "uniqueID": "2111269c-891d-47a1-ba5c-1c7d25842711",
                     "ioValues": [],
@@ -2957,7 +2982,7 @@
                 {
                     "atomType": "Input",
                     "name": "material_thickness",
-                    "x": 0.025384615384615384,
+                    "x": 0.024749999999999998,
                     "y": 0.7053571428571429,
                     "uniqueID": "39052854-971f-4fc1-9d42-e72778a4308e",
                     "ioValues": [],
@@ -3718,7 +3743,7 @@
                         {
                             "atomType": "Input",
                             "name": "x",
-                            "x": 0.025384615384615384,
+                            "x": 0.024749999999999998,
                             "y": 0.4553571428571428,
                             "uniqueID": "41e51a0d-3f47-438f-b273-daffa4f86c41",
                             "ioValues": [],
@@ -3728,7 +3753,7 @@
                         {
                             "atomType": "Input",
                             "name": "y",
-                            "x": 0.025384615384615384,
+                            "x": 0.024749999999999998,
                             "y": 0.6130952380952381,
                             "uniqueID": "7e07dc12-b51b-4f13-8548-528bbe1ea06a",
                             "ioValues": [],
@@ -3858,7 +3883,7 @@
                         {
                             "atomType": "Input",
                             "name": "material_thickness",
-                            "x": 0.025384615384615384,
+                            "x": 0.024749999999999998,
                             "y": 0.7797619047619048,
                             "uniqueID": "475ea748-58bd-4f8d-879d-4e8bc8760280",
                             "ioValues": [],
@@ -4486,7 +4511,7 @@
                 {
                     "atomType": "Input",
                     "name": "width",
-                    "x": 0.025384615384615384,
+                    "x": 0.024749999999999998,
                     "y": 0.2708333333333333,
                     "uniqueID": "8b4a2639-8430-45b1-b554-8137f26d24fe",
                     "ioValues": [],
@@ -4496,7 +4521,7 @@
                 {
                     "atomType": "Input",
                     "name": "height",
-                    "x": 0.025384615384615384,
+                    "x": 0.024749999999999998,
                     "y": 0.4107142857142857,
                     "uniqueID": "5fbb2d24-11c9-49a9-b577-1b702148d5cd",
                     "ioValues": [],
@@ -4506,7 +4531,7 @@
                 {
                     "atomType": "Input",
                     "name": "depth",
-                    "x": 0.025384615384615384,
+                    "x": 0.024749999999999998,
                     "y": 0.5386904761904762,
                     "uniqueID": "b8d0ea28-22f8-4cbf-943b-93456584dcfc",
                     "ioValues": [],
@@ -4516,7 +4541,7 @@
                 {
                     "atomType": "Input",
                     "name": "material_thickness",
-                    "x": 0.025384615384615384,
+                    "x": 0.024749999999999998,
                     "y": 0.7053571428571429,
                     "uniqueID": "f7a5e805-8216-4ece-aa2d-f033f90a88df",
                     "ioValues": [],
@@ -5268,7 +5293,7 @@
                         {
                             "atomType": "Input",
                             "name": "x",
-                            "x": 0.025384615384615384,
+                            "x": 0.024749999999999998,
                             "y": 0.4553571428571428,
                             "uniqueID": "41e51a0d-3f47-438f-b273-daffa4f86c41",
                             "ioValues": [],
@@ -5278,7 +5303,7 @@
                         {
                             "atomType": "Input",
                             "name": "y",
-                            "x": 0.025384615384615384,
+                            "x": 0.024749999999999998,
                             "y": 0.6130952380952381,
                             "uniqueID": "7e07dc12-b51b-4f13-8548-528bbe1ea06a",
                             "ioValues": [],
@@ -5408,7 +5433,7 @@
                         {
                             "atomType": "Input",
                             "name": "material_thickness",
-                            "x": 0.025384615384615384,
+                            "x": 0.024749999999999998,
                             "y": 0.7797619047619048,
                             "uniqueID": "475ea748-58bd-4f8d-879d-4e8bc8760280",
                             "ioValues": [],
@@ -5980,31 +6005,6 @@
             ],
             "fileTypeVersion": 1,
             "compiledBom": []
-        },
-        {
-            "atomType": "Move",
-            "name": "Move",
-            "x": 0.5455729166666666,
-            "y": 0.7342857142857142,
-            "uniqueID": "69beb194-3f1e-4e09-89ec-c418e29f8d39",
-            "ioValues": [
-                {
-                    "name": "xDist",
-                    "ioValue": 0,
-                    "currentEquation": null
-                },
-                {
-                    "name": "yDist",
-                    "ioValue": 10.75,
-                    "currentEquation": null
-                },
-                {
-                    "name": "zDist",
-                    "ioValue": 10.75,
-                    "currentEquation": null
-                }
-            ],
-            "description": "Moves a shape laterally in X, Y, Z."
         }
     ],
     "allConnectors": [
