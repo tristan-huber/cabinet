@@ -6005,6 +6005,31 @@
             ],
             "fileTypeVersion": 1,
             "compiledBom": []
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.8450520833333333,
+            "y": 0.7261904761904762,
+            "uniqueID": "716bd42b-1165-4c12-a8c9-0568d4528fc0",
+            "ioValues": [
+                {
+                    "name": "xDist",
+                    "ioValue": 10,
+                    "currentEquation": "10"
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0,
+                    "currentEquation": null
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0,
+                    "currentEquation": null
+                }
+            ],
+            "description": "Moves a shape laterally in X, Y, Z."
         }
     ],
     "allConnectors": [
@@ -6085,6 +6110,12 @@
             "ap2Name": "yDist",
             "ap1ID": "a1e00e6d-cbbb-4a87-b130-1ae5da21aadc",
             "ap2ID": "69beb194-3f1e-4e09-89ec-c418e29f8d39"
+        },
+        {
+            "ap1Name": "output",
+            "ap2Name": "geometry",
+            "ap1ID": "f11ffa82-ee86-451a-8e15-ffc6c31fe6af",
+            "ap2ID": "716bd42b-1165-4c12-a8c9-0568d4528fc0"
         },
         {
             "ap1Name": "geometry or number",
