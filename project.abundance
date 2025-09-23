@@ -16,7 +16,6 @@
             "currentEquation": null
         }
     ],
-    "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
     "topLevel": true,
     "allAtoms": [
         {
@@ -25,8 +24,7 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": "f63cede1-fd7f-4d54-a176-3180cdd72624",
-            "ioValues": [],
-            "description": "Connect geometry here to make it available in the next level up. "
+            "ioValues": []
         },
         {
             "atomType": "CutLayout",
@@ -51,7 +49,6 @@
                     "currentEquation": null
                 }
             ],
-            "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut.",
             "placements": [
                 [
                     {
@@ -112,7 +109,6 @@
             "y": 0.28273809523809523,
             "uniqueID": "26063e68-f8ae-4efa-b1c9-716d6733e4de",
             "ioValues": [],
-            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
             "type": "number"
         },
         {
@@ -122,7 +118,6 @@
             "y": 0.4255952380952381,
             "uniqueID": "e719e574-b3f7-401b-877b-33955450a934",
             "ioValues": [],
-            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
             "type": "number"
         },
         {
@@ -132,7 +127,6 @@
             "y": 0.1857142857142857,
             "uniqueID": "643edbe5-8521-4423-a0b2-7908f971629f",
             "ioValues": [],
-            "description": "Defines a mathematical constant.",
             "value": 10
         },
         {
@@ -148,7 +142,6 @@
                     "currentEquation": null
                 }
             ],
-            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
             "currentEquation": "x / 3 * 2"
         },
         {
@@ -173,8 +166,7 @@
                     "ioValue": 10.75,
                     "currentEquation": null
                 }
-            ],
-            "description": "Moves a shape laterally in X, Y, Z."
+            ]
         },
         {
             "atomType": "Assembly",
@@ -526,8 +518,7 @@
                         "bom": []
                     }
                 }
-            ],
-            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
+            ]
         },
         {
             "atomType": "Equation",
@@ -542,7 +533,6 @@
                     "currentEquation": null
                 }
             ],
-            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
             "currentEquation": "x + 0.75"
         },
         {
@@ -552,7 +542,6 @@
             "y": 0.7057142857142857,
             "uniqueID": "59613a98-381c-4087-a5ab-7ccbbcd05dd6",
             "ioValues": [],
-            "description": "Import Atom, let's you choose a type of file to import and use in your design.",
             "fileName": "ExportTest(2).svg",
             "type": "SVG",
             "repoOwner": "tristan-huber",
@@ -591,7 +580,6 @@
                     "currentEquation": null
                 }
             ],
-            "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them based on the selected direction (Left, Right, Top, or Bottom) using bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
             "partName": "cabinet",
             "sortDirection": "Bottom"
         },
@@ -617,8 +605,31 @@
                     "ioValue": 10.75,
                     "currentEquation": null
                 }
-            ],
-            "description": "Moves a shape laterally in X, Y, Z."
+            ]
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.8450520833333333,
+            "y": 0.7261904761904762,
+            "uniqueID": "716bd42b-1165-4c12-a8c9-0568d4528fc0",
+            "ioValues": [
+                {
+                    "name": "xDist",
+                    "ioValue": 10,
+                    "currentEquation": null
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0,
+                    "currentEquation": null
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0,
+                    "currentEquation": null
+                }
+            ]
         },
         {
             "atomType": "Molecule",
@@ -643,7 +654,6 @@
                     "currentEquation": null
                 }
             ],
-            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
             "topLevel": false,
             "allAtoms": [
                 {
@@ -652,8 +662,7 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": "88055a84-ad54-47a2-81e1-c718775aae97",
-                    "ioValues": [],
-                    "description": "Connect geometry here to make it available in the next level up. "
+                    "ioValues": []
                 },
                 {
                     "atomType": "Input",
@@ -662,7 +671,6 @@
                     "y": 0.2648809523809524,
                     "uniqueID": "0ce0a653-8c6f-45df-ae50-a85342afa80f",
                     "ioValues": [],
-                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
                     "type": "number"
                 },
                 {
@@ -672,7 +680,6 @@
                     "y": 0.8690476190476191,
                     "uniqueID": "ad2006ce-a907-4cbd-9b76-55d53cc367cf",
                     "ioValues": [],
-                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
                     "type": "number"
                 },
                 {
@@ -682,7 +689,6 @@
                     "y": 0.38690476190476186,
                     "uniqueID": "3ab92f84-a498-4288-a51b-07da83d3e872",
                     "ioValues": [],
-                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
                     "type": "number"
                 },
                 {
@@ -702,8 +708,7 @@
                             "ioValue": 1,
                             "currentEquation": null
                         }
-                    ],
-                    "description": "Creates a new rectangle."
+                    ]
                 },
                 {
                     "atomType": "Move",
@@ -727,8 +732,7 @@
                             "ioValue": 0,
                             "currentEquation": null
                         }
-                    ],
-                    "description": "Moves a shape laterally in X, Y, Z."
+                    ]
                 },
                 {
                     "atomType": "Equation",
@@ -743,7 +747,6 @@
                             "currentEquation": null
                         }
                     ],
-                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "m / 2"
                 },
                 {
@@ -768,8 +771,7 @@
                             "ioValue": 0,
                             "currentEquation": null
                         }
-                    ],
-                    "description": "Moves a shape laterally in X, Y, Z."
+                    ]
                 },
                 {
                     "atomType": "Assembly",
@@ -832,8 +834,7 @@
                                 "bom": []
                             }
                         }
-                    ],
-                    "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
+                    ]
                 },
                 {
                     "atomType": "Rectangle",
@@ -852,8 +853,7 @@
                             "ioValue": 19,
                             "currentEquation": null
                         }
-                    ],
-                    "description": "Creates a new rectangle."
+                    ]
                 },
                 {
                     "atomType": "Move",
@@ -877,8 +877,7 @@
                             "ioValue": 0,
                             "currentEquation": null
                         }
-                    ],
-                    "description": "Moves a shape laterally in X, Y, Z."
+                    ]
                 },
                 {
                     "atomType": "Equation",
@@ -898,7 +897,6 @@
                             "currentEquation": null
                         }
                     ],
-                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "x - m"
                 },
                 {
@@ -962,8 +960,7 @@
                                 "bom": []
                             }
                         }
-                    ],
-                    "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
+                    ]
                 },
                 {
                     "atomType": "Move",
@@ -987,8 +984,7 @@
                             "ioValue": 0,
                             "currentEquation": null
                         }
-                    ],
-                    "description": "Moves a shape laterally in X, Y, Z."
+                    ]
                 },
                 {
                     "atomType": "Equation",
@@ -1003,7 +999,6 @@
                             "currentEquation": null
                         }
                     ],
-                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "m / -2"
                 },
                 {
@@ -1163,8 +1158,7 @@
                                 "bom": []
                             }
                         }
-                    ],
-                    "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
+                    ]
                 },
                 {
                     "atomType": "Equation",
@@ -1184,7 +1178,6 @@
                             "currentEquation": null
                         }
                     ],
-                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "y - m"
                 },
                 {
@@ -1200,7 +1193,6 @@
                             "currentEquation": null
                         }
                     ],
-                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "y / 2"
                 }
             ],
@@ -1399,7 +1391,6 @@
                     "currentEquation": null
                 }
             ],
-            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
             "topLevel": false,
             "allAtoms": [
                 {
@@ -1408,8 +1399,7 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": "7e8c4276-6cb5-494e-95ae-fc9d6f4c8468",
-                    "ioValues": [],
-                    "description": "Connect geometry here to make it available in the next level up. "
+                    "ioValues": []
                 },
                 {
                     "atomType": "Input",
@@ -1418,7 +1408,6 @@
                     "y": 0.2708333333333333,
                     "uniqueID": "b3762981-c611-4781-8060-16e8dcb4f86f",
                     "ioValues": [],
-                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
                     "type": "number"
                 },
                 {
@@ -1428,7 +1417,6 @@
                     "y": 0.4107142857142857,
                     "uniqueID": "54a194f5-6ea6-4d93-bb99-1cfe48a96261",
                     "ioValues": [],
-                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
                     "type": "number"
                 },
                 {
@@ -1438,7 +1426,6 @@
                     "y": 0.5386904761904762,
                     "uniqueID": "e66a09e0-b5f3-4113-a52f-8e770ba684e2",
                     "ioValues": [],
-                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
                     "type": "number"
                 },
                 {
@@ -1448,7 +1435,6 @@
                     "y": 0.7053571428571429,
                     "uniqueID": "903aa976-3032-4f8d-9273-915bf759e95f",
                     "ioValues": [],
-                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
                     "type": "number"
                 },
                 {
@@ -1468,8 +1454,7 @@
                             "ioValue": 0.5,
                             "currentEquation": null
                         }
-                    ],
-                    "description": "Creates a new rectangle."
+                    ]
                 },
                 {
                     "atomType": "Equation",
@@ -1489,7 +1474,6 @@
                             "currentEquation": null
                         }
                     ],
-                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "d - t"
                 },
                 {
@@ -1504,8 +1488,7 @@
                             "ioValue": 10,
                             "currentEquation": null
                         }
-                    ],
-                    "description": "Extrudes a 2D shape. Input can be negitive. "
+                    ]
                 },
                 {
                     "atomType": "Rectangle",
@@ -1524,8 +1507,7 @@
                             "ioValue": 13.5,
                             "currentEquation": null
                         }
-                    ],
-                    "description": "Creates a new rectangle."
+                    ]
                 },
                 {
                     "atomType": "Equation",
@@ -1550,7 +1532,6 @@
                             "currentEquation": null
                         }
                     ],
-                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "w - (2 * s) - t"
                 },
                 {
@@ -1560,7 +1541,6 @@
                     "y": 0.14583333333333334,
                     "uniqueID": "62b61011-62e0-4fa9-b386-e80c352aa7c8",
                     "ioValues": [],
-                    "description": "Defines a mathematical constant.",
                     "value": 0.5
                 },
                 {
@@ -1585,8 +1565,7 @@
                             "ioValue": 0,
                             "currentEquation": null
                         }
-                    ],
-                    "description": "Moves a shape laterally in X, Y, Z."
+                    ]
                 },
                 {
                     "atomType": "Equation",
@@ -1601,7 +1580,6 @@
                             "currentEquation": null
                         }
                     ],
-                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "x / 2"
                 },
                 {
@@ -1622,7 +1600,6 @@
                             "currentEquation": null
                         }
                     ],
-                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "-1 * (x - t) / 2"
                 },
                 {
@@ -1767,8 +1744,7 @@
                                 "bom": []
                             }
                         }
-                    ],
-                    "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
+                    ]
                 },
                 {
                     "atomType": "Move",
@@ -1792,8 +1768,7 @@
                             "ioValue": 0,
                             "currentEquation": null
                         }
-                    ],
-                    "description": "Moves a shape laterally in X, Y, Z."
+                    ]
                 },
                 {
                     "atomType": "Equation",
@@ -1813,7 +1788,6 @@
                             "currentEquation": null
                         }
                     ],
-                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "d - t"
                 },
                 {
@@ -1838,8 +1812,7 @@
                             "ioValue": 0,
                             "currentEquation": null
                         }
-                    ],
-                    "description": "Moves a shape laterally in X, Y, Z."
+                    ]
                 },
                 {
                     "atomType": "Rectangle",
@@ -1858,8 +1831,7 @@
                             "ioValue": 15,
                             "currentEquation": null
                         }
-                    ],
-                    "description": "Creates a new rectangle."
+                    ]
                 },
                 {
                     "atomType": "Move",
@@ -1883,8 +1855,7 @@
                             "ioValue": 0,
                             "currentEquation": null
                         }
-                    ],
-                    "description": "Moves a shape laterally in X, Y, Z."
+                    ]
                 },
                 {
                     "atomType": "Equation",
@@ -1899,7 +1870,6 @@
                             "currentEquation": null
                         }
                     ],
-                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "d/2"
                 },
                 {
@@ -1925,7 +1895,6 @@
                             "currentEquation": null
                         }
                     ],
-                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "(w / 2) - (t / 2) - s"
                 },
                 {
@@ -1950,8 +1919,7 @@
                             "ioValue": 0,
                             "currentEquation": null
                         }
-                    ],
-                    "description": "Moves a shape laterally in X, Y, Z."
+                    ]
                 },
                 {
                     "atomType": "Equation",
@@ -1971,7 +1939,6 @@
                             "currentEquation": null
                         }
                     ],
-                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "w - 2 * s"
                 },
                 {
@@ -2155,8 +2122,7 @@
                                 "dimension": "3D"
                             }
                         }
-                    ],
-                    "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
+                    ]
                 },
                 {
                     "atomType": "Molecule",
@@ -2181,7 +2147,6 @@
                             "currentEquation": null
                         }
                     ],
-                    "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
                     "topLevel": false,
                     "allAtoms": [
                         {
@@ -2190,8 +2155,7 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": "8ab7e5ba-6eaa-48b1-8a69-bebe741cc63e",
-                            "ioValues": [],
-                            "description": "Connect geometry here to make it available in the next level up. "
+                            "ioValues": []
                         },
                         {
                             "atomType": "Input",
@@ -2200,7 +2164,6 @@
                             "y": 0.4553571428571428,
                             "uniqueID": "41e51a0d-3f47-438f-b273-daffa4f86c41",
                             "ioValues": [],
-                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
                             "type": "number"
                         },
                         {
@@ -2210,7 +2173,6 @@
                             "y": 0.6130952380952381,
                             "uniqueID": "7e07dc12-b51b-4f13-8548-528bbe1ea06a",
                             "ioValues": [],
-                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
                             "type": "number"
                         },
                         {
@@ -2231,7 +2193,6 @@
                                     "currentEquation": null
                                 }
                             ],
-                            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                             "currentEquation": "w - t"
                         },
                         {
@@ -2252,7 +2213,6 @@
                                     "currentEquation": null
                                 }
                             ],
-                            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                             "currentEquation": "d - t"
                         },
                         {
@@ -2273,7 +2233,6 @@
                                     "currentEquation": null
                                 }
                             ],
-                            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                             "currentEquation": "d - (t * 2)"
                         },
                         {
@@ -2294,7 +2253,6 @@
                                     "currentEquation": null
                                 }
                             ],
-                            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                             "currentEquation": "w - (t * 2)"
                         },
                         {
@@ -2310,7 +2268,6 @@
                                     "currentEquation": null
                                 }
                             ],
-                            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                             "currentEquation": "t / 2"
                         },
                         {
@@ -2330,8 +2287,7 @@
                                     "ioValue": 13.5,
                                     "currentEquation": null
                                 }
-                            ],
-                            "description": "Creates a new rectangle."
+                            ]
                         },
                         {
                             "atomType": "Input",
@@ -2340,7 +2296,6 @@
                             "y": 0.7797619047619048,
                             "uniqueID": "475ea748-58bd-4f8d-879d-4e8bc8760280",
                             "ioValues": [],
-                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
                             "type": "number"
                         },
                         {
@@ -2360,8 +2315,7 @@
                                     "ioValue": 13,
                                     "currentEquation": null
                                 }
-                            ],
-                            "description": "Creates a new rectangle."
+                            ]
                         },
                         {
                             "atomType": "Move",
@@ -2385,8 +2339,7 @@
                                     "ioValue": 0.25,
                                     "currentEquation": null
                                 }
-                            ],
-                            "description": "Moves a shape laterally in X, Y, Z."
+                            ]
                         },
                         {
                             "atomType": "Extrude",
@@ -2400,8 +2353,7 @@
                                     "ioValue": 0.25,
                                     "currentEquation": null
                                 }
-                            ],
-                            "description": "Extrudes a 2D shape. Input can be negitive. "
+                            ]
                         },
                         {
                             "atomType": "Extrude",
@@ -2415,8 +2367,7 @@
                                     "ioValue": 0.25,
                                     "currentEquation": null
                                 }
-                            ],
-                            "description": "Extrudes a 2D shape. Input can be negitive. "
+                            ]
                         },
                         {
                             "atomType": "Fusion",
@@ -2480,7 +2431,6 @@
                                     }
                                 }
                             ],
-                            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
                             "unionType": "Fusion"
                         }
                     ],
@@ -2937,7 +2887,6 @@
                     "currentEquation": null
                 }
             ],
-            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
             "topLevel": false,
             "allAtoms": [
                 {
@@ -2946,8 +2895,7 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": "ac3a7bdc-deeb-405d-a0a1-26299b28c69a",
-                    "ioValues": [],
-                    "description": "Connect geometry here to make it available in the next level up. "
+                    "ioValues": []
                 },
                 {
                     "atomType": "Input",
@@ -2956,7 +2904,6 @@
                     "y": 0.2708333333333333,
                     "uniqueID": "e2bc12da-d61d-4338-a0ef-127926ba3110",
                     "ioValues": [],
-                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
                     "type": "number"
                 },
                 {
@@ -2966,7 +2913,6 @@
                     "y": 0.4107142857142857,
                     "uniqueID": "498c8b34-9435-4197-877d-2cd99501330e",
                     "ioValues": [],
-                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
                     "type": "number"
                 },
                 {
@@ -2976,7 +2922,6 @@
                     "y": 0.5386904761904762,
                     "uniqueID": "2111269c-891d-47a1-ba5c-1c7d25842711",
                     "ioValues": [],
-                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
                     "type": "number"
                 },
                 {
@@ -2986,7 +2931,6 @@
                     "y": 0.7053571428571429,
                     "uniqueID": "39052854-971f-4fc1-9d42-e72778a4308e",
                     "ioValues": [],
-                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
                     "type": "number"
                 },
                 {
@@ -3006,8 +2950,7 @@
                             "ioValue": 0.5,
                             "currentEquation": null
                         }
-                    ],
-                    "description": "Creates a new rectangle."
+                    ]
                 },
                 {
                     "atomType": "Equation",
@@ -3027,7 +2970,6 @@
                             "currentEquation": null
                         }
                     ],
-                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "d - t"
                 },
                 {
@@ -3042,8 +2984,7 @@
                             "ioValue": 6.666666666666667,
                             "currentEquation": null
                         }
-                    ],
-                    "description": "Extrudes a 2D shape. Input can be negitive. "
+                    ]
                 },
                 {
                     "atomType": "Rectangle",
@@ -3062,8 +3003,7 @@
                             "ioValue": 13.5,
                             "currentEquation": null
                         }
-                    ],
-                    "description": "Creates a new rectangle."
+                    ]
                 },
                 {
                     "atomType": "Equation",
@@ -3088,7 +3028,6 @@
                             "currentEquation": null
                         }
                     ],
-                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "w - (2 * s) - t"
                 },
                 {
@@ -3098,7 +3037,6 @@
                     "y": 0.14583333333333334,
                     "uniqueID": "a46406fd-ca07-47ec-a1c8-1e37e1cef833",
                     "ioValues": [],
-                    "description": "Defines a mathematical constant.",
                     "value": 0.5
                 },
                 {
@@ -3123,8 +3061,7 @@
                             "ioValue": 0,
                             "currentEquation": null
                         }
-                    ],
-                    "description": "Moves a shape laterally in X, Y, Z."
+                    ]
                 },
                 {
                     "atomType": "Equation",
@@ -3139,7 +3076,6 @@
                             "currentEquation": null
                         }
                     ],
-                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "x / 2"
                 },
                 {
@@ -3160,7 +3096,6 @@
                             "currentEquation": null
                         }
                     ],
-                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "-1 * (x - t) / 2"
                 },
                 {
@@ -3305,8 +3240,7 @@
                                 "bom": []
                             }
                         }
-                    ],
-                    "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
+                    ]
                 },
                 {
                     "atomType": "Move",
@@ -3330,8 +3264,7 @@
                             "ioValue": 0,
                             "currentEquation": null
                         }
-                    ],
-                    "description": "Moves a shape laterally in X, Y, Z."
+                    ]
                 },
                 {
                     "atomType": "Equation",
@@ -3351,7 +3284,6 @@
                             "currentEquation": null
                         }
                     ],
-                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "d - t"
                 },
                 {
@@ -3376,8 +3308,7 @@
                             "ioValue": 0,
                             "currentEquation": null
                         }
-                    ],
-                    "description": "Moves a shape laterally in X, Y, Z."
+                    ]
                 },
                 {
                     "atomType": "Rectangle",
@@ -3396,8 +3327,7 @@
                             "ioValue": 15,
                             "currentEquation": null
                         }
-                    ],
-                    "description": "Creates a new rectangle."
+                    ]
                 },
                 {
                     "atomType": "Move",
@@ -3421,8 +3351,7 @@
                             "ioValue": 0,
                             "currentEquation": null
                         }
-                    ],
-                    "description": "Moves a shape laterally in X, Y, Z."
+                    ]
                 },
                 {
                     "atomType": "Equation",
@@ -3437,7 +3366,6 @@
                             "currentEquation": null
                         }
                     ],
-                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "d/2"
                 },
                 {
@@ -3463,7 +3391,6 @@
                             "currentEquation": null
                         }
                     ],
-                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "(w / 2) - (t / 2) - s"
                 },
                 {
@@ -3488,8 +3415,7 @@
                             "ioValue": 0,
                             "currentEquation": null
                         }
-                    ],
-                    "description": "Moves a shape laterally in X, Y, Z."
+                    ]
                 },
                 {
                     "atomType": "Equation",
@@ -3509,7 +3435,6 @@
                             "currentEquation": null
                         }
                     ],
-                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "w - 2 * s"
                 },
                 {
@@ -3693,8 +3618,7 @@
                                 "dimension": "3D"
                             }
                         }
-                    ],
-                    "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
+                    ]
                 },
                 {
                     "atomType": "Intersection",
@@ -3702,8 +3626,7 @@
                     "x": 0.828125,
                     "y": 0.5357142857142857,
                     "uniqueID": "4dc15948-d35d-4c4f-98d1-627834f8c79f",
-                    "ioValues": [],
-                    "description": "The space shared by two shapes."
+                    "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
@@ -3728,7 +3651,6 @@
                             "currentEquation": null
                         }
                     ],
-                    "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
                     "topLevel": false,
                     "allAtoms": [
                         {
@@ -3737,8 +3659,7 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": "8ab7e5ba-6eaa-48b1-8a69-bebe741cc63e",
-                            "ioValues": [],
-                            "description": "Connect geometry here to make it available in the next level up. "
+                            "ioValues": []
                         },
                         {
                             "atomType": "Input",
@@ -3747,7 +3668,6 @@
                             "y": 0.4553571428571428,
                             "uniqueID": "41e51a0d-3f47-438f-b273-daffa4f86c41",
                             "ioValues": [],
-                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
                             "type": "number"
                         },
                         {
@@ -3757,7 +3677,6 @@
                             "y": 0.6130952380952381,
                             "uniqueID": "7e07dc12-b51b-4f13-8548-528bbe1ea06a",
                             "ioValues": [],
-                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
                             "type": "number"
                         },
                         {
@@ -3778,7 +3697,6 @@
                                     "currentEquation": null
                                 }
                             ],
-                            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                             "currentEquation": "w - t"
                         },
                         {
@@ -3799,7 +3717,6 @@
                                     "currentEquation": null
                                 }
                             ],
-                            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                             "currentEquation": "d - t"
                         },
                         {
@@ -3820,7 +3737,6 @@
                                     "currentEquation": null
                                 }
                             ],
-                            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                             "currentEquation": "d - (t * 2)"
                         },
                         {
@@ -3841,7 +3757,6 @@
                                     "currentEquation": null
                                 }
                             ],
-                            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                             "currentEquation": "w - (t * 2)"
                         },
                         {
@@ -3857,7 +3772,6 @@
                                     "currentEquation": null
                                 }
                             ],
-                            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                             "currentEquation": "t / 2"
                         },
                         {
@@ -3877,8 +3791,7 @@
                                     "ioValue": 13.5,
                                     "currentEquation": null
                                 }
-                            ],
-                            "description": "Creates a new rectangle."
+                            ]
                         },
                         {
                             "atomType": "Input",
@@ -3887,7 +3800,6 @@
                             "y": 0.7797619047619048,
                             "uniqueID": "475ea748-58bd-4f8d-879d-4e8bc8760280",
                             "ioValues": [],
-                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
                             "type": "number"
                         },
                         {
@@ -3907,8 +3819,7 @@
                                     "ioValue": 13,
                                     "currentEquation": null
                                 }
-                            ],
-                            "description": "Creates a new rectangle."
+                            ]
                         },
                         {
                             "atomType": "Move",
@@ -3932,8 +3843,7 @@
                                     "ioValue": 0.25,
                                     "currentEquation": null
                                 }
-                            ],
-                            "description": "Moves a shape laterally in X, Y, Z."
+                            ]
                         },
                         {
                             "atomType": "Extrude",
@@ -3947,8 +3857,7 @@
                                     "ioValue": 0.25,
                                     "currentEquation": null
                                 }
-                            ],
-                            "description": "Extrudes a 2D shape. Input can be negitive. "
+                            ]
                         },
                         {
                             "atomType": "Extrude",
@@ -3962,8 +3871,7 @@
                                     "ioValue": 0.25,
                                     "currentEquation": null
                                 }
-                            ],
-                            "description": "Extrudes a 2D shape. Input can be negitive. "
+                            ]
                         },
                         {
                             "atomType": "Fusion",
@@ -4027,7 +3935,6 @@
                                     }
                                 }
                             ],
-                            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
                             "unionType": "Fusion"
                         }
                     ],
@@ -4496,7 +4403,6 @@
                     "currentEquation": null
                 }
             ],
-            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
             "topLevel": false,
             "allAtoms": [
                 {
@@ -4505,8 +4411,7 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": "18cb0967-740a-4c26-aa92-7858d0c5fbb4",
-                    "ioValues": [],
-                    "description": "Connect geometry here to make it available in the next level up. "
+                    "ioValues": []
                 },
                 {
                     "atomType": "Input",
@@ -4515,7 +4420,6 @@
                     "y": 0.2708333333333333,
                     "uniqueID": "8b4a2639-8430-45b1-b554-8137f26d24fe",
                     "ioValues": [],
-                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
                     "type": "number"
                 },
                 {
@@ -4525,7 +4429,6 @@
                     "y": 0.4107142857142857,
                     "uniqueID": "5fbb2d24-11c9-49a9-b577-1b702148d5cd",
                     "ioValues": [],
-                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
                     "type": "number"
                 },
                 {
@@ -4535,7 +4438,6 @@
                     "y": 0.5386904761904762,
                     "uniqueID": "b8d0ea28-22f8-4cbf-943b-93456584dcfc",
                     "ioValues": [],
-                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
                     "type": "number"
                 },
                 {
@@ -4545,7 +4447,6 @@
                     "y": 0.7053571428571429,
                     "uniqueID": "f7a5e805-8216-4ece-aa2d-f033f90a88df",
                     "ioValues": [],
-                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
                     "type": "number"
                 },
                 {
@@ -4565,8 +4466,7 @@
                             "ioValue": 0.5,
                             "currentEquation": null
                         }
-                    ],
-                    "description": "Creates a new rectangle."
+                    ]
                 },
                 {
                     "atomType": "Equation",
@@ -4586,7 +4486,6 @@
                             "currentEquation": null
                         }
                     ],
-                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "d - t"
                 },
                 {
@@ -4601,8 +4500,7 @@
                             "ioValue": 4,
                             "currentEquation": null
                         }
-                    ],
-                    "description": "Extrudes a 2D shape. Input can be negitive. "
+                    ]
                 },
                 {
                     "atomType": "Rectangle",
@@ -4621,8 +4519,7 @@
                             "ioValue": 18.5,
                             "currentEquation": null
                         }
-                    ],
-                    "description": "Creates a new rectangle."
+                    ]
                 },
                 {
                     "atomType": "Equation",
@@ -4647,7 +4544,6 @@
                             "currentEquation": null
                         }
                     ],
-                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "w - (2 * s) - t"
                 },
                 {
@@ -4657,7 +4553,6 @@
                     "y": 0.14583333333333334,
                     "uniqueID": "9d60c29a-828e-4895-9cd2-0902d329c9f7",
                     "ioValues": [],
-                    "description": "Defines a mathematical constant.",
                     "value": 0.5
                 },
                 {
@@ -4682,8 +4577,7 @@
                             "ioValue": 0,
                             "currentEquation": null
                         }
-                    ],
-                    "description": "Moves a shape laterally in X, Y, Z."
+                    ]
                 },
                 {
                     "atomType": "Equation",
@@ -4698,7 +4592,6 @@
                             "currentEquation": null
                         }
                     ],
-                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "x / 2"
                 },
                 {
@@ -4719,7 +4612,6 @@
                             "currentEquation": null
                         }
                     ],
-                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "-1 * (x - t) / 2"
                 },
                 {
@@ -4864,8 +4756,7 @@
                                 "bom": []
                             }
                         }
-                    ],
-                    "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
+                    ]
                 },
                 {
                     "atomType": "Move",
@@ -4889,8 +4780,7 @@
                             "ioValue": 0,
                             "currentEquation": null
                         }
-                    ],
-                    "description": "Moves a shape laterally in X, Y, Z."
+                    ]
                 },
                 {
                     "atomType": "Equation",
@@ -4910,7 +4800,6 @@
                             "currentEquation": null
                         }
                     ],
-                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "d - t"
                 },
                 {
@@ -4935,8 +4824,7 @@
                             "ioValue": 0,
                             "currentEquation": null
                         }
-                    ],
-                    "description": "Moves a shape laterally in X, Y, Z."
+                    ]
                 },
                 {
                     "atomType": "Rectangle",
@@ -4955,8 +4843,7 @@
                             "ioValue": 20,
                             "currentEquation": null
                         }
-                    ],
-                    "description": "Creates a new rectangle."
+                    ]
                 },
                 {
                     "atomType": "Move",
@@ -4980,8 +4867,7 @@
                             "ioValue": 0,
                             "currentEquation": null
                         }
-                    ],
-                    "description": "Moves a shape laterally in X, Y, Z."
+                    ]
                 },
                 {
                     "atomType": "Equation",
@@ -4996,7 +4882,6 @@
                             "currentEquation": null
                         }
                     ],
-                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "d/2"
                 },
                 {
@@ -5022,7 +4907,6 @@
                             "currentEquation": null
                         }
                     ],
-                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "(w / 2) - (t / 2) - s"
                 },
                 {
@@ -5047,8 +4931,7 @@
                             "ioValue": 0,
                             "currentEquation": null
                         }
-                    ],
-                    "description": "Moves a shape laterally in X, Y, Z."
+                    ]
                 },
                 {
                     "atomType": "Equation",
@@ -5068,7 +4951,6 @@
                             "currentEquation": null
                         }
                     ],
-                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "w - 2 * s"
                 },
                 {
@@ -5252,8 +5134,7 @@
                                 "dimension": "3D"
                             }
                         }
-                    ],
-                    "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
+                    ]
                 },
                 {
                     "atomType": "Molecule",
@@ -5278,7 +5159,6 @@
                             "currentEquation": null
                         }
                     ],
-                    "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
                     "topLevel": false,
                     "allAtoms": [
                         {
@@ -5287,8 +5167,7 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": "8ab7e5ba-6eaa-48b1-8a69-bebe741cc63e",
-                            "ioValues": [],
-                            "description": "Connect geometry here to make it available in the next level up. "
+                            "ioValues": []
                         },
                         {
                             "atomType": "Input",
@@ -5297,7 +5176,6 @@
                             "y": 0.4553571428571428,
                             "uniqueID": "41e51a0d-3f47-438f-b273-daffa4f86c41",
                             "ioValues": [],
-                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
                             "type": "number"
                         },
                         {
@@ -5307,7 +5185,6 @@
                             "y": 0.6130952380952381,
                             "uniqueID": "7e07dc12-b51b-4f13-8548-528bbe1ea06a",
                             "ioValues": [],
-                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
                             "type": "number"
                         },
                         {
@@ -5328,7 +5205,6 @@
                                     "currentEquation": null
                                 }
                             ],
-                            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                             "currentEquation": "w - t"
                         },
                         {
@@ -5349,7 +5225,6 @@
                                     "currentEquation": null
                                 }
                             ],
-                            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                             "currentEquation": "d - t"
                         },
                         {
@@ -5370,7 +5245,6 @@
                                     "currentEquation": null
                                 }
                             ],
-                            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                             "currentEquation": "d - (t * 2)"
                         },
                         {
@@ -5391,7 +5265,6 @@
                                     "currentEquation": null
                                 }
                             ],
-                            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                             "currentEquation": "w - (t * 2)"
                         },
                         {
@@ -5407,7 +5280,6 @@
                                     "currentEquation": null
                                 }
                             ],
-                            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                             "currentEquation": "t / 2"
                         },
                         {
@@ -5427,8 +5299,7 @@
                                     "ioValue": 18.5,
                                     "currentEquation": null
                                 }
-                            ],
-                            "description": "Creates a new rectangle."
+                            ]
                         },
                         {
                             "atomType": "Input",
@@ -5437,7 +5308,6 @@
                             "y": 0.7797619047619048,
                             "uniqueID": "475ea748-58bd-4f8d-879d-4e8bc8760280",
                             "ioValues": [],
-                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
                             "type": "number"
                         },
                         {
@@ -5457,8 +5327,7 @@
                                     "ioValue": 18,
                                     "currentEquation": null
                                 }
-                            ],
-                            "description": "Creates a new rectangle."
+                            ]
                         },
                         {
                             "atomType": "Move",
@@ -5482,8 +5351,7 @@
                                     "ioValue": 0.25,
                                     "currentEquation": null
                                 }
-                            ],
-                            "description": "Moves a shape laterally in X, Y, Z."
+                            ]
                         },
                         {
                             "atomType": "Extrude",
@@ -5497,8 +5365,7 @@
                                     "ioValue": 0.25,
                                     "currentEquation": null
                                 }
-                            ],
-                            "description": "Extrudes a 2D shape. Input can be negitive. "
+                            ]
                         },
                         {
                             "atomType": "Extrude",
@@ -5512,8 +5379,7 @@
                                     "ioValue": 0.25,
                                     "currentEquation": null
                                 }
-                            ],
-                            "description": "Extrudes a 2D shape. Input can be negitive. "
+                            ]
                         },
                         {
                             "atomType": "Fusion",
@@ -5577,7 +5443,6 @@
                                     }
                                 }
                             ],
-                            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
                             "unionType": "Fusion"
                         }
                     ],
@@ -6005,31 +5870,6 @@
             ],
             "fileTypeVersion": 1,
             "compiledBom": []
-        },
-        {
-            "atomType": "Move",
-            "name": "Move",
-            "x": 0.8450520833333333,
-            "y": 0.7261904761904762,
-            "uniqueID": "716bd42b-1165-4c12-a8c9-0568d4528fc0",
-            "ioValues": [
-                {
-                    "name": "xDist",
-                    "ioValue": 10,
-                    "currentEquation": "10"
-                },
-                {
-                    "name": "yDist",
-                    "ioValue": 0,
-                    "currentEquation": null
-                },
-                {
-                    "name": "zDist",
-                    "ioValue": 0,
-                    "currentEquation": null
-                }
-            ],
-            "description": "Moves a shape laterally in X, Y, Z."
         }
     ],
     "allConnectors": [
