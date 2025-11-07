@@ -535,7 +535,8 @@
       "fileName": "ExportTest(2).svg",
       "type": "SVG",
       "repoOwner": "tristan-huber",
-      "repoName": "cabinet"
+      "repoName": "cabinet",
+      "SVGwidth": 10
     },
     {
       "atomType": "Gcode",
